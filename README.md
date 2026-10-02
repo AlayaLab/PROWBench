@@ -1,4 +1,4 @@
-<h1 align="center">PROWBench: Do Video Models Render<br>What the Program Specifies?</h1>
+<h1 align="center">Do Video Models Render<br>What the Program Specifies?</h1>
 
 <p align="center"><a href="https://alayalab.ai/"><b>Alaya Lab</b></a></p>
 

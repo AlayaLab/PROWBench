@@ -2,11 +2,11 @@
 
 <p align="center"><a href="https://alayalab.ai/"><b>Alaya Lab</b></a></p>
 
-<p align="center">
+<!-- <p align="center">
   Zheng-Hui Huang<sup>*</sup>, Guixu Lin<sup>*</sup>, Yu-Ju Tsai, Jian-Kai Zhu, Fengbo Lan,<br>
   Yu-Lun Liu, Yung-Yu Chuang, Kaipeng Zhang<sup>†</sup>, Zhixiang Wang<sup>†</sup><br>
   <sub>* Equal contribution · † Correspondence</sub>
-</p>
+</p> -->
 
 
   <a href="https://alaya-lab.github.io/PROWBench/"><img src="https://img.shields.io/badge/Project-Page-blue"></a>

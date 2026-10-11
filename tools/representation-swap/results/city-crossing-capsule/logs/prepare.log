@@ -1,0 +1,40 @@
+{
+  "schema": "prowbench.representation-input.v1",
+  "source": "/mnt/workspace/hzh/PROWBench-run-20261009/dataset/episodes/verified_first_frame/city-crossing",
+  "prepared": "/mnt/workspace/hzh/prowbench-representation-demo/packaged-skill-check/replay-input",
+  "scene_id": "dv200-001-city-crossing",
+  "camera": "follow",
+  "entity": "player",
+  "fps": 30,
+  "frame_count": 150,
+  "width": 1280,
+  "height": 720,
+  "source_files": {
+    "manifest": {
+      "path": "/mnt/workspace/hzh/PROWBench-run-20261009/dataset/episodes/verified_first_frame/city-crossing/manifest.json",
+      "sha256": "59118ef07a405ae6cfce206802104bb89c31ceae7f6b9de7cb084d63da8f5162"
+    },
+    "states": {
+      "path": "/mnt/workspace/hzh/PROWBench-run-20261009/dataset/episodes/verified_first_frame/city-crossing/scene/frames.jsonl.gz",
+      "sha256": "480dfd714759c9719b18249f93eaca2b6739f90b1364cfcd6590182906b51592"
+    },
+    "geometry": {
+      "path": "/mnt/workspace/hzh/PROWBench-run-20261009/dataset/episodes/verified_first_frame/city-crossing/scene/scene.glb",
+      "sha256": "2ce4349d65d3ae95b86534eff9b26093aad9d59b0d92cd14fb658e585fae8dc8"
+    },
+    "camera_index": {
+      "path": "/mnt/workspace/hzh/PROWBench-run-20261009/dataset/episodes/verified_first_frame/city-crossing/cameras/cameras.json",
+      "sha256": "66e160be7d68e2ed00d50a0ffad274c964982f93eab7fe9f363b7e76718ce652"
+    },
+    "camera_track": {
+      "path": "/mnt/workspace/hzh/PROWBench-run-20261009/dataset/episodes/verified_first_frame/city-crossing/cameras/follow/camera.json",
+      "sha256": "511ef8fb06f7e02fe22290e5be1e447bf110c6268b3f431f8b223f2105328532"
+    }
+  },
+  "derived_changes": [
+    "Only assets/states/cameras path strings in the prepared manifest are changed.",
+    "The prepared camera index includes only the selected, actually released track.",
+    "GLB, state stream and selected camera file are symlinks to unchanged source bytes."
+  ],
+  "note": "Historical sourceHashes can refer to the pre-materialization recording. This record hashes the actual current input files."
+}

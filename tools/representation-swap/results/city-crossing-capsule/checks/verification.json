@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-10T01:32:22.013237+00:00",
+  "frame_pairs": 150,
+  "rendered_frames_total": 300,
+  "entity_matrix_checks": 4800,
+  "max_errors_against_original_recording": {
+    "camera_world": 0.0,
+    "camera_projection": 0.0,
+    "entity_world": 0.0,
+    "replacement_world": 0.0
+  },
+  "source_files_unchanged": true,
+  "source_sha256": {
+    "manifest": "59118ef07a405ae6cfce206802104bb89c31ceae7f6b9de7cb084d63da8f5162",
+    "states": "480dfd714759c9719b18249f93eaca2b6739f90b1364cfcd6590182906b51592",
+    "geometry": "2ce4349d65d3ae95b86534eff9b26093aad9d59b0d92cd14fb658e585fae8dc8",
+    "camera_index": "66e160be7d68e2ed00d50a0ffad274c964982f93eab7fe9f363b7e76718ce652",
+    "camera_track": "511ef8fb06f7e02fe22290e5be1e447bf110c6268b3f431f8b223f2105328532"
+  },
+  "source_state_unchanged_during_render": true,
+  "replacement_local_geometry_unchanged": true,
+  "media": {
+    "mixed": {
+      "width": 1280,
+      "height": 720,
+      "avg_frame_rate": "30/1",
+      "duration": "5.000000",
+      "nb_frames": "150",
+      "decoded_frames": 150,
+      "sha256": "d0806c9e399cbd170b550fe574a7ab0162d90d74976cd0637dbfac0a88032eb3",
+      "decoder_errors": ""
+    },
+    "capsule-example": {
+      "width": 1280,
+      "height": 720,
+      "avg_frame_rate": "30/1",
+      "duration": "5.000000",
+      "nb_frames": "150",
+      "decoded_frames": 150,
+      "sha256": "b3547d6ab46f8abc700d31ea48d23e7a7bdac596e5fa95e6c0e702618108cd0e",
+      "decoder_errors": ""
+    }
+  },
+  "decoded_frames_that_differ": 150,
+  "png_differences": [
+    {
+      "frame": 0,
+      "time": 0,
+      "changed_pixels": 21246,
+      "bbox_xyxy": [
+        598,
+        262,
+        683,
+        538
+      ]
+    },
+    {
+      "frame": 75,
+      "time": 2.5,
+      "changed_pixels": 19497,
+      "bbox_xyxy": [
+        608,
+        261,
+        690,
+        524
+      ]
+    },
+    {
+      "frame": 149,
+      "time": 4.966666666666667,
+      "changed_pixels": 21584,
+      "bbox_xyxy": [
+        597,
+        263,
+        683,
+        540
+      ]
+    }
+  ],
+  "comparison_command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-nostdin",
+    "-n",
+    "-i",
+    "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/results/city-crossing-capsule/render/mixed/video.mp4",
+    "-i",
+    "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/results/city-crossing-capsule/render/capsule-example/video.mp4",
+    "-filter_complex",
+    "[0:v]scale=960:540,pad=iw:ih+36:0:36:color=0x111827,drawtext=text=Mixed / before:x=16:y=7:fontsize=22:fontcolor=white[left];[1:v]scale=960:540,pad=iw:ih+36:0:36:color=0x111827,drawtext=text=Yellow capsule / after:x=16:y=7:fontsize=22:fontcolor=white[right];[left][right]hstack=inputs=2[v]",
+    "-map",
+    "[v]",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "fast",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-threads",
+    "2",
+    "-movflags",
+    "+faststart",
+    "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/results/city-crossing-capsule/checks/comparison.mp4"
+  ],
+  "renderer": {
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA H200 (0x00002335)), NVIDIA)",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "shadingLanguageVersion": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "contextAttributes": {
+      "alpha": true,
+      "antialias": true,
+      "depth": true,
+      "desynchronized": false,
+      "failIfMajorPerformanceCaveat": false,
+      "powerPreference": "high-performance",
+      "premultipliedAlpha": true,
+      "preserveDrawingBuffer": true,
+      "stencil": false,
+      "xrCompatible": false
+    },
+    "width": 1280,
+    "height": 720
+  },
+  "scope": "Same source state, camera, frame index and time; only the selected entity display adapter changes. No model inference or new depth/ID/normal annotations."
+}

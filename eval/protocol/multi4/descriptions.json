@@ -1,0 +1,906 @@
+{
+ "schema": "prowbench.protocol.descriptions.v1",
+ "dataset": "multi4",
+ "episodes": {
+  "multi4-001-forest-staggered-follow": {
+   "follow-a": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "staggered-follow",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk one behind the other along one side of the trail while participants B and D walk one behind the other along the other side, C ahead of A and D ahead of B, the two lines offset so that nobody moves directly abreast; everyone keeps the same steady pace."
+     },
+     {
+      "phase": "staggered-follow-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A wide, level earth trail through temperate woodland: tall broad-leaved trees with large trunks stand scattered on both sides, with fallen timber among them, and more trees recede along the trail under an open sky. The people walk along the open trail. Preserve the reference spacing, tree positions and open walking routes. Use packed earth, leaf litter, rough bark, moss and green foliage.\n\nProtagonist: The protagonist is participant A, an adult of medium build with short dark hair, wearing a zip-up hiking jacket in royal blue, grey hiking trousers and brown leather boots. The other participants of the same recording are participant B, a tall adult with cropped light-brown hair, wearing a hooded sweatshirt in bright lime green, khaki cargo trousers and grey trail shoes; participant C, a slim adult with long dark hair in a ponytail, wearing a fleece pullover in vivid magenta pink, black leggings and dark hiking boots and participant D, a stocky adult with short greying hair and a trimmed beard, wearing a windbreaker in bright turquoise, beige trousers and dark brown boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: an adult of medium build with short dark hair, wearing a zip-up hiking jacket in royal blue, grey hiking trousers and brown leather boots\nparticipant-b: a tall adult with cropped light-brown hair, wearing a hooded sweatshirt in bright lime green, khaki cargo trousers and grey trail shoes\nparticipant-c: a slim adult with long dark hair in a ponytail, wearing a fleece pullover in vivid magenta pink, black leggings and dark hiking boots\nparticipant-d: a stocky adult with short greying hair and a trimmed beard, wearing a windbreaker in bright turquoise, beige trousers and dark brown boots"
+   },
+   "follow-b": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "staggered-follow",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk one behind the other along one side of the trail while participants B and D walk one behind the other along the other side, C ahead of A and D ahead of B, the two lines offset so that nobody moves directly abreast; everyone keeps the same steady pace."
+     },
+     {
+      "phase": "staggered-follow-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A wide, level earth trail through temperate woodland: tall broad-leaved trees with large trunks stand scattered on both sides, with fallen timber among them, and more trees recede along the trail under an open sky. The people walk along the open trail. Preserve the reference spacing, tree positions and open walking routes. Use packed earth, leaf litter, rough bark, moss and green foliage.\n\nProtagonist: The protagonist is participant B, a tall adult with cropped light-brown hair, wearing a hooded sweatshirt in bright lime green, khaki cargo trousers and grey trail shoes. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nparticipant-b: a tall adult with cropped light-brown hair, wearing a hooded sweatshirt in bright lime green, khaki cargo trousers and grey trail shoes\nparticipant-c: a slim adult with long dark hair in a ponytail, wearing a fleece pullover in vivid magenta pink, black leggings and dark hiking boots\nparticipant-d: a stocky adult with short greying hair and a trimmed beard, wearing a windbreaker in bright turquoise, beige trousers and dark brown boots"
+   },
+   "follow-c": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "staggered-follow",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk one behind the other along one side of the trail while participants B and D walk one behind the other along the other side, C ahead of A and D ahead of B, the two lines offset so that nobody moves directly abreast; everyone keeps the same steady pace."
+     },
+     {
+      "phase": "staggered-follow-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A wide, level earth trail through temperate woodland: tall broad-leaved trees with large trunks stand scattered on both sides, with fallen timber among them, and more trees recede along the trail under an open sky. The people walk along the open trail. Preserve the reference spacing, tree positions and open walking routes. Use packed earth, leaf litter, rough bark, moss and green foliage.\n\nProtagonist: The protagonist is participant C, a slim adult with long dark hair in a ponytail, wearing a fleece pullover in vivid magenta pink, black leggings and dark hiking boots. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nparticipant-c: a slim adult with long dark hair in a ponytail, wearing a fleece pullover in vivid magenta pink, black leggings and dark hiking boots\nparticipant-d: a stocky adult with short greying hair and a trimmed beard, wearing a windbreaker in bright turquoise, beige trousers and dark brown boots"
+   },
+   "follow-d": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "staggered-follow",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk one behind the other along one side of the trail while participants B and D walk one behind the other along the other side, C ahead of A and D ahead of B, the two lines offset so that nobody moves directly abreast; everyone keeps the same steady pace."
+     },
+     {
+      "phase": "staggered-follow-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A wide, level earth trail through temperate woodland: tall broad-leaved trees with large trunks stand scattered on both sides, with fallen timber among them, and more trees recede along the trail under an open sky. The protagonist walks along the open trail. Preserve the reference spacing, tree positions and open walking routes. Use packed earth, leaf litter, rough bark, moss and green foliage.\n\nProtagonist: The protagonist is participant D, a stocky adult with short greying hair and a trimmed beard, wearing a windbreaker in bright turquoise, beige trousers and dark brown boots.\n\nPeople:\nparticipant-d: a stocky adult with short greying hair and a trimmed beard, wearing a windbreaker in bright turquoise, beige trousers and dark brown boots"
+   }
+  },
+  "multi4-002-jungle-opposing-pairs": {
+   "follow-a": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and B wade out of the shallow stream one behind the other, B ahead of A, and walk on along one lane while participants C and D walk the opposite way along a parallel lane, D ahead of C, so the two pairs close in on each other; B and D pass each other with lateral clearance near the end of this span."
+     },
+     {
+      "phase": "pass",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - while D steps down into the shallow stream as the pairs move apart."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A clearing in dense tropical jungle crossed by a shallow stream: tall thin-trunked trees with broad leafy crowns and hanging vines surround a level stretch of muddy ground, and the clear, shin-deep stream runs across one end of it. The people wade through the stream and walk on the open ground. Preserve the reference spacing, tree positions, the stream edge and open walking routes. Use wet mud, shallow clear water, smooth bark, broad glossy leaves and hanging vines.\n\nProtagonist: The protagonist is participant A, a lean adult with short black hair, wearing a lightweight rain jacket in royal blue, rolled-up grey trousers and black rubber boots. The other participants of the same recording are participant B, a broad-shouldered adult with a shaved head, wearing a short-sleeved field shirt in bright lime green, khaki shorts and brown sandals; participant C, an adult of average build with shoulder-length curly hair, wearing a sleeveless top in vivid magenta pink, beige cargo shorts and black water shoes and participant D, a tall slim adult with a short brown bob, wearing a long-sleeved sun shirt in bright turquoise, dark grey trousers and brown rubber boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a lean adult with short black hair, wearing a lightweight rain jacket in royal blue, rolled-up grey trousers and black rubber boots\nparticipant-b: a broad-shouldered adult with a shaved head, wearing a short-sleeved field shirt in bright lime green, khaki shorts and brown sandals\nparticipant-c: an adult of average build with shoulder-length curly hair, wearing a sleeveless top in vivid magenta pink, beige cargo shorts and black water shoes\nparticipant-d: a tall slim adult with a short brown bob, wearing a long-sleeved sun shirt in bright turquoise, dark grey trousers and brown rubber boots"
+   },
+   "follow-b": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and B wade out of the shallow stream one behind the other, B ahead of A, and walk on along one lane while participants C and D walk the opposite way along a parallel lane, D ahead of C, so the two pairs close in on each other; B and D pass each other with lateral clearance near the end of this span."
+     },
+     {
+      "phase": "pass",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - while D steps down into the shallow stream as the pairs move apart."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A clearing in dense tropical jungle crossed by a shallow stream: tall thin-trunked trees with broad leafy crowns and hanging vines surround a level stretch of muddy ground, and the clear, shin-deep stream runs across one end of it. The people wade through the stream and walk on the open ground. Preserve the reference spacing, tree positions, the stream edge and open walking routes. Use wet mud, shallow clear water, smooth bark, broad glossy leaves and hanging vines.\n\nProtagonist: The protagonist is participant B, a broad-shouldered adult with a shaved head, wearing a short-sleeved field shirt in bright lime green, khaki shorts and brown sandals. The other participants of the same recording are participant A, a lean adult with short black hair, wearing a lightweight rain jacket in royal blue, rolled-up grey trousers and black rubber boots; participant C, an adult of average build with shoulder-length curly hair, wearing a sleeveless top in vivid magenta pink, beige cargo shorts and black water shoes and participant D, a tall slim adult with a short brown bob, wearing a long-sleeved sun shirt in bright turquoise, dark grey trousers and brown rubber boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a lean adult with short black hair, wearing a lightweight rain jacket in royal blue, rolled-up grey trousers and black rubber boots\nparticipant-b: a broad-shouldered adult with a shaved head, wearing a short-sleeved field shirt in bright lime green, khaki shorts and brown sandals\nparticipant-c: an adult of average build with shoulder-length curly hair, wearing a sleeveless top in vivid magenta pink, beige cargo shorts and black water shoes\nparticipant-d: a tall slim adult with a short brown bob, wearing a long-sleeved sun shirt in bright turquoise, dark grey trousers and brown rubber boots"
+   },
+   "follow-c": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and B wade out of the shallow stream one behind the other, B ahead of A, and walk on along one lane while participants C and D walk the opposite way along a parallel lane, D ahead of C, so the two pairs close in on each other; B and D pass each other with lateral clearance near the end of this span."
+     },
+     {
+      "phase": "pass",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - while D steps down into the shallow stream as the pairs move apart."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A clearing in dense tropical jungle crossed by a shallow stream: tall thin-trunked trees with broad leafy crowns and hanging vines surround a level stretch of muddy ground, and the clear, shin-deep stream runs across one end of it. The people wade through the stream and walk on the open ground. Preserve the reference spacing, tree positions, the stream edge and open walking routes. Use wet mud, shallow clear water, smooth bark, broad glossy leaves and hanging vines.\n\nProtagonist: The protagonist is participant C, an adult of average build with shoulder-length curly hair, wearing a sleeveless top in vivid magenta pink, beige cargo shorts and black water shoes. The other participants of the same recording are participant A, a lean adult with short black hair, wearing a lightweight rain jacket in royal blue, rolled-up grey trousers and black rubber boots; participant B, a broad-shouldered adult with a shaved head, wearing a short-sleeved field shirt in bright lime green, khaki shorts and brown sandals and participant D, a tall slim adult with a short brown bob, wearing a long-sleeved sun shirt in bright turquoise, dark grey trousers and brown rubber boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a lean adult with short black hair, wearing a lightweight rain jacket in royal blue, rolled-up grey trousers and black rubber boots\nparticipant-b: a broad-shouldered adult with a shaved head, wearing a short-sleeved field shirt in bright lime green, khaki shorts and brown sandals\nparticipant-c: an adult of average build with shoulder-length curly hair, wearing a sleeveless top in vivid magenta pink, beige cargo shorts and black water shoes\nparticipant-d: a tall slim adult with a short brown bob, wearing a long-sleeved sun shirt in bright turquoise, dark grey trousers and brown rubber boots"
+   },
+   "follow-d": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and B wade out of the shallow stream one behind the other, B ahead of A, and walk on along one lane while participants C and D walk the opposite way along a parallel lane, D ahead of C, so the two pairs close in on each other; B and D pass each other with lateral clearance near the end of this span."
+     },
+     {
+      "phase": "pass",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - while D steps down into the shallow stream as the pairs move apart."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A clearing in dense tropical jungle crossed by a shallow stream: tall thin-trunked trees with broad leafy crowns and hanging vines surround a level stretch of muddy ground, and the clear, shin-deep stream runs across one end of it. The people wade through the stream and walk on the open ground. Preserve the reference spacing, tree positions, the stream edge and open walking routes. Use wet mud, shallow clear water, smooth bark, broad glossy leaves and hanging vines.\n\nProtagonist: The protagonist is participant D, a tall slim adult with a short brown bob, wearing a long-sleeved sun shirt in bright turquoise, dark grey trousers and brown rubber boots. The other participants of the same recording are participant A, a lean adult with short black hair, wearing a lightweight rain jacket in royal blue, rolled-up grey trousers and black rubber boots; participant B, a broad-shouldered adult with a shaved head, wearing a short-sleeved field shirt in bright lime green, khaki shorts and brown sandals and participant C, an adult of average build with shoulder-length curly hair, wearing a sleeveless top in vivid magenta pink, beige cargo shorts and black water shoes; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a lean adult with short black hair, wearing a lightweight rain jacket in royal blue, rolled-up grey trousers and black rubber boots\nparticipant-b: a broad-shouldered adult with a shaved head, wearing a short-sleeved field shirt in bright lime green, khaki shorts and brown sandals\nparticipant-c: an adult of average build with shoulder-length curly hair, wearing a sleeveless top in vivid magenta pink, beige cargo shorts and black water shoes\nparticipant-d: a tall slim adult with a short brown bob, wearing a long-sleeved sun shirt in bright turquoise, dark grey trousers and brown rubber boots"
+   }
+  },
+  "multi4-003-grassland-crossroads": {
+   "follow-a": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "The participants walk toward an open patch of pasture along offset straight routes from different directions - participant A heading north, B south, C east and D west - so their routes converge on the crossing."
+     },
+     {
+      "phase": "cross",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: Open, level grassland with fenced paddocks: long wooden rail fences run across the pasture, a large barn stands to one side, scattered trees dot the rolling ground and the grass stretches away to the horizon under an open sky. The people walk on the open grass between the fences. Preserve the reference spacing, fence lines, barn and tree positions and open walking routes. Use short green grass, weathered wooden rails, painted barn boards and leafy trees.\n\nProtagonist: The protagonist is participant A, a stocky adult with short sandy hair, wearing a plaid flannel shirt in royal blue and white, faded grey jeans and brown work boots. The other participants of the same recording are participant B, a slim adult with a long dark braid, wearing a knitted cardigan in bright lime green, a white T-shirt, beige trousers and tan ankle boots; participant C, a tall adult with short wavy auburn hair, wearing a quilted gilet in vivid magenta pink over a grey shirt, black trousers and dark rubber boots and participant D, an adult of medium build with closely cropped grey hair, wearing a cotton work shirt in bright turquoise, khaki trousers and brown leather boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a stocky adult with short sandy hair, wearing a plaid flannel shirt in royal blue and white, faded grey jeans and brown work boots\nparticipant-b: a slim adult with a long dark braid, wearing a knitted cardigan in bright lime green, a white T-shirt, beige trousers and tan ankle boots\nparticipant-c: a tall adult with short wavy auburn hair, wearing a quilted gilet in vivid magenta pink over a grey shirt, black trousers and dark rubber boots\nparticipant-d: an adult of medium build with closely cropped grey hair, wearing a cotton work shirt in bright turquoise, khaki trousers and brown leather boots"
+   },
+   "follow-b": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "The participants walk toward an open patch of pasture along offset straight routes from different directions - participant A heading north, B south, C east and D west - so their routes converge on the crossing."
+     },
+     {
+      "phase": "cross",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: Open, level grassland with fenced paddocks: long wooden rail fences run across the pasture, a large barn stands to one side, scattered trees dot the rolling ground and the grass stretches away to the horizon under an open sky. The people walk on the open grass between the fences. Preserve the reference spacing, fence lines, barn and tree positions and open walking routes. Use short green grass, weathered wooden rails, painted barn boards and leafy trees.\n\nProtagonist: The protagonist is participant B, a slim adult with a long dark braid, wearing a knitted cardigan in bright lime green, a white T-shirt, beige trousers and tan ankle boots. The other participants of the same recording are participant A, a stocky adult with short sandy hair, wearing a plaid flannel shirt in royal blue and white, faded grey jeans and brown work boots; participant C, a tall adult with short wavy auburn hair, wearing a quilted gilet in vivid magenta pink over a grey shirt, black trousers and dark rubber boots and participant D, an adult of medium build with closely cropped grey hair, wearing a cotton work shirt in bright turquoise, khaki trousers and brown leather boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a stocky adult with short sandy hair, wearing a plaid flannel shirt in royal blue and white, faded grey jeans and brown work boots\nparticipant-b: a slim adult with a long dark braid, wearing a knitted cardigan in bright lime green, a white T-shirt, beige trousers and tan ankle boots\nparticipant-c: a tall adult with short wavy auburn hair, wearing a quilted gilet in vivid magenta pink over a grey shirt, black trousers and dark rubber boots\nparticipant-d: an adult of medium build with closely cropped grey hair, wearing a cotton work shirt in bright turquoise, khaki trousers and brown leather boots"
+   },
+   "follow-c": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "The participants walk toward an open patch of pasture along offset straight routes from different directions - participant A heading north, B south, C east and D west - so their routes converge on the crossing."
+     },
+     {
+      "phase": "cross",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: Open, level grassland with fenced paddocks: long wooden rail fences run across the pasture, a large barn stands to one side, scattered trees dot the rolling ground and the grass stretches away to the horizon under an open sky. The people walk on the open grass between the fences. Preserve the reference spacing, fence lines, barn and tree positions and open walking routes. Use short green grass, weathered wooden rails, painted barn boards and leafy trees.\n\nProtagonist: The protagonist is participant C, a tall adult with short wavy auburn hair, wearing a quilted gilet in vivid magenta pink over a grey shirt, black trousers and dark rubber boots. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nparticipant-b: a slim adult with a long dark braid, wearing a knitted cardigan in bright lime green, a white T-shirt, beige trousers and tan ankle boots\nparticipant-c: a tall adult with short wavy auburn hair, wearing a quilted gilet in vivid magenta pink over a grey shirt, black trousers and dark rubber boots\nparticipant-d: an adult of medium build with closely cropped grey hair, wearing a cotton work shirt in bright turquoise, khaki trousers and brown leather boots"
+   },
+   "follow-d": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "The participants walk toward an open patch of pasture along offset straight routes from different directions - participant A heading north, B south, C east and D west - so their routes converge on the crossing."
+     },
+     {
+      "phase": "cross",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: Open, level grassland with fenced paddocks: long wooden rail fences run across the pasture, a large barn stands to one side, scattered trees dot the rolling ground and the grass stretches away to the horizon under an open sky. The people walk on the open grass between the fences. Preserve the reference spacing, fence lines, barn and tree positions and open walking routes. Use short green grass, weathered wooden rails, painted barn boards and leafy trees.\n\nProtagonist: The protagonist is participant D, an adult of medium build with closely cropped grey hair, wearing a cotton work shirt in bright turquoise, khaki trousers and brown leather boots. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a stocky adult with short sandy hair, wearing a plaid flannel shirt in royal blue and white, faded grey jeans and brown work boots\nparticipant-c: a tall adult with short wavy auburn hair, wearing a quilted gilet in vivid magenta pink over a grey shirt, black trousers and dark rubber boots\nparticipant-d: an adult of medium build with closely cropped grey hair, wearing a cotton work shirt in bright turquoise, khaki trousers and brown leather boots"
+   }
+  },
+  "multi4-006-snow-parallel-turn": {
+   "follow-a": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "parallel-turn",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "The participants walk downhill forward in two parallel lines along the snow slope, C ahead of A on one side and D ahead of B on the other, all angled slightly the same way at the same steady pace."
+     },
+     {
+      "phase": "parallel-straighten",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "Together they ease out of the slight turn and keep walking downhill straight ahead in parallel, holding their spacing."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A wide, gently falling snowfield: dark conifers stand in groups on both sides, faceted ice and dark rock formations break through the snow here and there, and a frozen open path runs down the middle under a pale sky. The people walk down the open snow. Preserve the reference spacing, conifer, rock and ice positions, the falling ground and open walking routes. Use fresh snow, packed snow, clear blue-white ice, dark rock and deep green conifer needles.\n\nProtagonist: The protagonist is participant A, an adult of medium build with short dark hair, wearing a padded ski jacket in royal blue, black snow trousers, grey gloves and black snow boots. The other participants of the same recording are participant B, a tall adult with a light-brown beard, wearing a hooded parka in bright lime green, grey snow trousers, a black beanie and brown winter boots; participant C, a slim adult with long copper hair, wearing a puffer jacket in vivid magenta pink, white snow trousers, a grey knitted hat and white snow boots and participant D, a broad adult with short black curly hair, wearing an insulated anorak in bright turquoise, charcoal trousers, black mittens and dark brown boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: an adult of medium build with short dark hair, wearing a padded ski jacket in royal blue, black snow trousers, grey gloves and black snow boots\nparticipant-b: a tall adult with a light-brown beard, wearing a hooded parka in bright lime green, grey snow trousers, a black beanie and brown winter boots\nparticipant-c: a slim adult with long copper hair, wearing a puffer jacket in vivid magenta pink, white snow trousers, a grey knitted hat and white snow boots\nparticipant-d: a broad adult with short black curly hair, wearing an insulated anorak in bright turquoise, charcoal trousers, black mittens and dark brown boots"
+   },
+   "follow-b": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "parallel-turn",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "The participants walk downhill forward in two parallel lines along the snow slope, C ahead of A on one side and D ahead of B on the other, all angled slightly the same way at the same steady pace."
+     },
+     {
+      "phase": "parallel-straighten",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "Together they ease out of the slight turn and keep walking downhill straight ahead in parallel, holding their spacing."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A wide, gently falling snowfield: dark conifers stand in groups on both sides, faceted ice and dark rock formations break through the snow here and there, and a frozen open path runs down the middle under a pale sky. The people walk down the open snow. Preserve the reference spacing, conifer, rock and ice positions, the falling ground and open walking routes. Use fresh snow, packed snow, clear blue-white ice, dark rock and deep green conifer needles.\n\nProtagonist: The protagonist is participant B, a tall adult with a light-brown beard, wearing a hooded parka in bright lime green, grey snow trousers, a black beanie and brown winter boots. The other participants of the same recording are participant A, an adult of medium build with short dark hair, wearing a padded ski jacket in royal blue, black snow trousers, grey gloves and black snow boots; participant C, a slim adult with long copper hair, wearing a puffer jacket in vivid magenta pink, white snow trousers, a grey knitted hat and white snow boots and participant D, a broad adult with short black curly hair, wearing an insulated anorak in bright turquoise, charcoal trousers, black mittens and dark brown boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: an adult of medium build with short dark hair, wearing a padded ski jacket in royal blue, black snow trousers, grey gloves and black snow boots\nparticipant-b: a tall adult with a light-brown beard, wearing a hooded parka in bright lime green, grey snow trousers, a black beanie and brown winter boots\nparticipant-c: a slim adult with long copper hair, wearing a puffer jacket in vivid magenta pink, white snow trousers, a grey knitted hat and white snow boots\nparticipant-d: a broad adult with short black curly hair, wearing an insulated anorak in bright turquoise, charcoal trousers, black mittens and dark brown boots"
+   },
+   "follow-c": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "parallel-turn",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "The participants walk downhill forward in two parallel lines along the snow slope, C ahead of A on one side and D ahead of B on the other, all angled slightly the same way at the same steady pace."
+     },
+     {
+      "phase": "parallel-straighten",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "Together they ease out of the slight turn and keep walking downhill straight ahead in parallel, holding their spacing."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A wide, gently falling snowfield: dark conifers stand in groups on both sides, faceted ice and dark rock formations break through the snow here and there, and a frozen open path runs down the middle under a pale sky. The people walk down the open snow. Preserve the reference spacing, conifer, rock and ice positions, the falling ground and open walking routes. Use fresh snow, packed snow, clear blue-white ice, dark rock and deep green conifer needles.\n\nProtagonist: The protagonist is participant C, a slim adult with long copper hair, wearing a puffer jacket in vivid magenta pink, white snow trousers, a grey knitted hat and white snow boots. The other participants of the same recording are participant A, an adult of medium build with short dark hair, wearing a padded ski jacket in royal blue, black snow trousers, grey gloves and black snow boots; participant B, a tall adult with a light-brown beard, wearing a hooded parka in bright lime green, grey snow trousers, a black beanie and brown winter boots and participant D, a broad adult with short black curly hair, wearing an insulated anorak in bright turquoise, charcoal trousers, black mittens and dark brown boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: an adult of medium build with short dark hair, wearing a padded ski jacket in royal blue, black snow trousers, grey gloves and black snow boots\nparticipant-b: a tall adult with a light-brown beard, wearing a hooded parka in bright lime green, grey snow trousers, a black beanie and brown winter boots\nparticipant-c: a slim adult with long copper hair, wearing a puffer jacket in vivid magenta pink, white snow trousers, a grey knitted hat and white snow boots\nparticipant-d: a broad adult with short black curly hair, wearing an insulated anorak in bright turquoise, charcoal trousers, black mittens and dark brown boots"
+   },
+   "follow-d": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "parallel-turn",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "The participants walk downhill forward in two parallel lines along the snow slope, C ahead of A on one side and D ahead of B on the other, all angled slightly the same way at the same steady pace."
+     },
+     {
+      "phase": "parallel-straighten",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "Together they ease out of the slight turn and keep walking downhill straight ahead in parallel, holding their spacing."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A wide, gently falling snowfield: dark conifers stand in groups on both sides, faceted ice and dark rock formations break through the snow here and there, and a frozen open path runs down the middle under a pale sky. The people walk down the open snow. Preserve the reference spacing, conifer, rock and ice positions, the falling ground and open walking routes. Use fresh snow, packed snow, clear blue-white ice, dark rock and deep green conifer needles.\n\nProtagonist: The protagonist is participant D, a broad adult with short black curly hair, wearing an insulated anorak in bright turquoise, charcoal trousers, black mittens and dark brown boots. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nparticipant-b: a tall adult with a light-brown beard, wearing a hooded parka in bright lime green, grey snow trousers, a black beanie and brown winter boots\nparticipant-c: a slim adult with long copper hair, wearing a puffer jacket in vivid magenta pink, white snow trousers, a grey knitted hat and white snow boots\nparticipant-d: a broad adult with short black curly hair, wearing an insulated anorak in bright turquoise, charcoal trousers, black mittens and dark brown boots"
+   }
+  },
+  "multi4-010-underwater-converge-turn": {
+   "follow-a": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "converge",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other."
+     },
+     {
+      "phase": "converge-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "A and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: An underwater reef seen below the surface: a sandy seabed with scattered dark rocks, clumps of branching coral and swaying sea plants, the rippling water surface overhead letting down soft light, and the blue water fading into haze in the distance. The people swim horizontally in open water above the seabed. Preserve the reference spacing, rock and coral positions and open swimming lanes. Use pale sand, dark volcanic rock, branching coral, green sea grass and clear blue water with light caustics.\n\nProtagonist: The protagonist is participant A, a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins. The other participants of the same recording are participant B, a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins; participant C, a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins and participant D, a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins\nparticipant-b: a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins\nparticipant-c: a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins\nparticipant-d: a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins"
+   },
+   "follow-b": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "converge",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other."
+     },
+     {
+      "phase": "converge-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "A and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: An underwater reef seen below the surface: a sandy seabed with scattered dark rocks, clumps of branching coral and swaying sea plants, the rippling water surface overhead letting down soft light, and the blue water fading into haze in the distance. The people swim horizontally in open water above the seabed. Preserve the reference spacing, rock and coral positions and open swimming lanes. Use pale sand, dark volcanic rock, branching coral, green sea grass and clear blue water with light caustics.\n\nProtagonist: The protagonist is participant B, a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins. The other participants of the same recording are participant A, a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins; participant C, a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins and participant D, a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins\nparticipant-b: a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins\nparticipant-c: a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins\nparticipant-d: a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins"
+   },
+   "follow-c": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "converge",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other."
+     },
+     {
+      "phase": "converge-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "A and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: An underwater reef seen below the surface: a sandy seabed with scattered dark rocks, clumps of branching coral and swaying sea plants, the rippling water surface overhead letting down soft light, and the blue water fading into haze in the distance. The people swim horizontally in open water above the seabed. Preserve the reference spacing, rock and coral positions and open swimming lanes. Use pale sand, dark volcanic rock, branching coral, green sea grass and clear blue water with light caustics.\n\nProtagonist: The protagonist is participant C, a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins. The other participants of the same recording are participant A, a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins; participant B, a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins and participant D, a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins\nparticipant-b: a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins\nparticipant-c: a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins\nparticipant-d: a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins"
+   },
+   "follow-d": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "converge",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other."
+     },
+     {
+      "phase": "converge-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "A and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: An underwater reef seen below the surface: a sandy seabed with scattered dark rocks, clumps of branching coral and swaying sea plants, the rippling water surface overhead letting down soft light, and the blue water fading into haze in the distance. The people swim horizontally in open water above the seabed. Preserve the reference spacing, rock and coral positions and open swimming lanes. Use pale sand, dark volcanic rock, branching coral, green sea grass and clear blue water with light caustics.\n\nProtagonist: The protagonist is participant D, a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins. The other participants of the same recording are participant A, a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins; participant B, a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins and participant C, a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a slim adult diver in a full wetsuit in royal blue with black side panels, a clear dive mask and black fins\nparticipant-b: a tall adult diver in a full wetsuit in bright lime green with black sleeves, a black dive mask and grey fins\nparticipant-c: a compact adult diver with long hair floating loose, in a full wetsuit in vivid magenta pink with grey panels, a clear dive mask and black fins\nparticipant-d: a broad-shouldered adult diver in a full wetsuit in bright turquoise with black shoulders, a dark dive mask and white fins"
+   }
+  },
+  "multi4-013-old-town-staggered-follow": {
+   "follow-a": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "staggered-follow",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk one behind the other along one side of the market lane while participants B and D walk one behind the other along the other side, C ahead of A and D ahead of B, the two lines offset so that nobody moves directly abreast; everyone keeps the same steady pace."
+     },
+     {
+      "phase": "staggered-follow-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A narrow old-town market street: old stone buildings stand close on both sides, wooden market stalls with fabric awnings and a few handcarts sit along the edges, and the paved lane runs on between more facades under an open sky. The people walk along the open middle of the lane. Preserve the reference spacing, building masses, stall positions and open walking routes. Use worn limestone, cobbles, weathered timber and faded canvas.\n\nProtagonist: The protagonist is participant A, an adult of medium build with short grey hair, wearing a cardigan in royal blue over a white shirt, dark brown trousers and brown shoes. The other participants of the same recording are participant B, a young adult with short spiky black hair, wearing an oversized T-shirt in bright lime green, black cargo trousers and white trainers; participant C, a tall slim adult with long straight dark hair, wearing a wrap blouse in vivid magenta pink, cream trousers and black flats and participant D, a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: an adult of medium build with short grey hair, wearing a cardigan in royal blue over a white shirt, dark brown trousers and brown shoes\nparticipant-b: a young adult with short spiky black hair, wearing an oversized T-shirt in bright lime green, black cargo trousers and white trainers\nparticipant-c: a tall slim adult with long straight dark hair, wearing a wrap blouse in vivid magenta pink, cream trousers and black flats\nparticipant-d: a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals"
+   },
+   "follow-b": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "staggered-follow",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk one behind the other along one side of the market lane while participants B and D walk one behind the other along the other side, C ahead of A and D ahead of B, the two lines offset so that nobody moves directly abreast; everyone keeps the same steady pace."
+     },
+     {
+      "phase": "staggered-follow-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A narrow old-town market street: old stone buildings stand close on both sides, wooden market stalls with fabric awnings and a few handcarts sit along the edges, and the paved lane runs on between more facades under an open sky. The people walk along the open middle of the lane. Preserve the reference spacing, building masses, stall positions and open walking routes. Use worn limestone, cobbles, weathered timber and faded canvas.\n\nProtagonist: The protagonist is participant B, a young adult with short spiky black hair, wearing an oversized T-shirt in bright lime green, black cargo trousers and white trainers. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nparticipant-b: a young adult with short spiky black hair, wearing an oversized T-shirt in bright lime green, black cargo trousers and white trainers\nparticipant-c: a tall slim adult with long straight dark hair, wearing a wrap blouse in vivid magenta pink, cream trousers and black flats\nparticipant-d: a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals"
+   },
+   "follow-c": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "staggered-follow",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk one behind the other along one side of the market lane while participants B and D walk one behind the other along the other side, C ahead of A and D ahead of B, the two lines offset so that nobody moves directly abreast; everyone keeps the same steady pace."
+     },
+     {
+      "phase": "staggered-follow-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A narrow old-town market street: old stone buildings stand close on both sides, wooden market stalls with fabric awnings and a few handcarts sit along the edges, and the paved lane runs on between more facades under an open sky. The people walk along the open middle of the lane. Preserve the reference spacing, building masses, stall positions and open walking routes. Use worn limestone, cobbles, weathered timber and faded canvas.\n\nProtagonist: The protagonist is participant C, a tall slim adult with long straight dark hair, wearing a wrap blouse in vivid magenta pink, cream trousers and black flats. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nparticipant-c: a tall slim adult with long straight dark hair, wearing a wrap blouse in vivid magenta pink, cream trousers and black flats\nparticipant-d: a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals"
+   },
+   "follow-d": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "staggered-follow",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk one behind the other along one side of the market lane while participants B and D walk one behind the other along the other side, C ahead of A and D ahead of B, the two lines offset so that nobody moves directly abreast; everyone keeps the same steady pace."
+     },
+     {
+      "phase": "staggered-follow-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: A narrow old-town market street: old stone buildings stand close on both sides, wooden market stalls with fabric awnings and a few handcarts sit along the edges, and the paved lane runs on between more facades under an open sky. The protagonist walks along the open middle of the lane. Preserve the reference spacing, building masses, stall positions and open walking routes. Use worn limestone, cobbles, weathered timber and faded canvas.\n\nProtagonist: The protagonist is participant D, a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals.\n\nPeople:\nparticipant-d: a heavy-set adult with a bald head and a grey moustache, wearing a button-up shirt in bright turquoise, beige trousers and dark leather sandals"
+   }
+  },
+  "multi4-017-home-overtake": {
+   "follow-a": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "overtake",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk forward slowly one behind the other along the rooms while participants B and D start level with them on a parallel lane - B beside A, D beside C - and walk much faster, pulling ahead of A and C."
+     },
+     {
+      "phase": "overtake-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: The interior of a roofed family home: connected rooms open into one another along a wide, straight route, with cabinets, shelves, chairs and dining tables standing along the walls, a flat ceiling overhead and warm indoor light. The people walk along the open floor between the furniture. Preserve the reference spacing, wall, cabinet, table and chair positions and open walking routes. Use polished wooden floorboards, painted plaster walls, varnished wood furniture and soft fabric.\n\nProtagonist: The protagonist is participant A, an older adult with short grey hair, wearing a cardigan in royal blue over a white T-shirt, beige trousers and soft grey slippers. The other participants of the same recording are participant B, a young adult with short messy brown hair, wearing a hoodie in bright lime green, black joggers and white socks; participant C, an adult of average build with a dark bob, wearing a long-sleeved T-shirt in vivid magenta pink, grey lounge trousers and black slippers and participant D, a tall adult with a short black beard, wearing a sweatshirt in bright turquoise, khaki shorts and white trainers; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: an older adult with short grey hair, wearing a cardigan in royal blue over a white T-shirt, beige trousers and soft grey slippers\nparticipant-b: a young adult with short messy brown hair, wearing a hoodie in bright lime green, black joggers and white socks\nparticipant-c: an adult of average build with a dark bob, wearing a long-sleeved T-shirt in vivid magenta pink, grey lounge trousers and black slippers\nparticipant-d: a tall adult with a short black beard, wearing a sweatshirt in bright turquoise, khaki shorts and white trainers"
+   },
+   "follow-b": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "overtake",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk forward slowly one behind the other along the rooms while participants B and D start level with them on a parallel lane - B beside A, D beside C - and walk much faster, pulling ahead of A and C."
+     },
+     {
+      "phase": "overtake-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: The interior of a roofed family home: connected rooms open into one another along a wide, straight route, with cabinets, shelves, chairs and dining tables standing along the walls, a flat ceiling overhead and warm indoor light. The people walk along the open floor between the furniture. Preserve the reference spacing, wall, cabinet, table and chair positions and open walking routes. Use polished wooden floorboards, painted plaster walls, varnished wood furniture and soft fabric.\n\nProtagonist: The protagonist is participant B, a young adult with short messy brown hair, wearing a hoodie in bright lime green, black joggers and white socks. The other participants of the same recording are participant A, an older adult with short grey hair, wearing a cardigan in royal blue over a white T-shirt, beige trousers and soft grey slippers; participant C, an adult of average build with a dark bob, wearing a long-sleeved T-shirt in vivid magenta pink, grey lounge trousers and black slippers and participant D, a tall adult with a short black beard, wearing a sweatshirt in bright turquoise, khaki shorts and white trainers; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: an older adult with short grey hair, wearing a cardigan in royal blue over a white T-shirt, beige trousers and soft grey slippers\nparticipant-b: a young adult with short messy brown hair, wearing a hoodie in bright lime green, black joggers and white socks\nparticipant-c: an adult of average build with a dark bob, wearing a long-sleeved T-shirt in vivid magenta pink, grey lounge trousers and black slippers\nparticipant-d: a tall adult with a short black beard, wearing a sweatshirt in bright turquoise, khaki shorts and white trainers"
+   },
+   "follow-c": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "overtake",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk forward slowly one behind the other along the rooms while participants B and D start level with them on a parallel lane - B beside A, D beside C - and walk much faster, pulling ahead of A and C."
+     },
+     {
+      "phase": "overtake-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: The interior of a roofed family home: connected rooms open into one another along a wide, straight route, with cabinets, shelves, chairs and dining tables standing along the walls, a flat ceiling overhead and warm indoor light. The people walk along the open floor between the furniture. Preserve the reference spacing, wall, cabinet, table and chair positions and open walking routes. Use polished wooden floorboards, painted plaster walls, varnished wood furniture and soft fabric.\n\nProtagonist: The protagonist is participant C, an adult of average build with a dark bob, wearing a long-sleeved T-shirt in vivid magenta pink, grey lounge trousers and black slippers. The other participants of the same recording are participant A, an older adult with short grey hair, wearing a cardigan in royal blue over a white T-shirt, beige trousers and soft grey slippers; participant B, a young adult with short messy brown hair, wearing a hoodie in bright lime green, black joggers and white socks and participant D, a tall adult with a short black beard, wearing a sweatshirt in bright turquoise, khaki shorts and white trainers; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: an older adult with short grey hair, wearing a cardigan in royal blue over a white T-shirt, beige trousers and soft grey slippers\nparticipant-b: a young adult with short messy brown hair, wearing a hoodie in bright lime green, black joggers and white socks\nparticipant-c: an adult of average build with a dark bob, wearing a long-sleeved T-shirt in vivid magenta pink, grey lounge trousers and black slippers\nparticipant-d: a tall adult with a short black beard, wearing a sweatshirt in bright turquoise, khaki shorts and white trainers"
+   },
+   "follow-d": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "overtake",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk forward slowly one behind the other along the rooms while participants B and D start level with them on a parallel lane - B beside A, D beside C - and walk much faster, pulling ahead of A and C."
+     },
+     {
+      "phase": "overtake-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: The interior of a roofed family home: connected rooms open into one another along a wide, straight route, with cabinets, shelves, chairs and dining tables standing along the walls, a flat ceiling overhead and warm indoor light. The people walk along the open floor between the furniture. Preserve the reference spacing, wall, cabinet, table and chair positions and open walking routes. Use polished wooden floorboards, painted plaster walls, varnished wood furniture and soft fabric.\n\nProtagonist: The protagonist is participant D, a tall adult with a short black beard, wearing a sweatshirt in bright turquoise, khaki shorts and white trainers. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nparticipant-b: a young adult with short messy brown hair, wearing a hoodie in bright lime green, black joggers and white socks\nparticipant-c: an adult of average build with a dark bob, wearing a long-sleeved T-shirt in vivid magenta pink, grey lounge trousers and black slippers\nparticipant-d: a tall adult with a short black beard, wearing a sweatshirt in bright turquoise, khaki shorts and white trainers"
+   }
+  },
+  "multi4-020-warehouse-opposing-pairs": {
+   "follow-a": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and B walk one way along one lane of the aisle, B ahead of A, while participants C and D walk the opposite way along a parallel lane, D ahead of C, so the two pairs close in on each other; B and D pass each other with lateral clearance near the end of this span."
+     },
+     {
+      "phase": "pass",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - before moving apart in their own directions."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: The inside of a roofed warehouse: tall steel racks stocked with boxes and crates line both sides of a wide aisle, a few handcarts stand at the rack ends, a high ceiling with hanging lights spans the hall, and the aisle runs on between more racks. The people walk along the open aisle. Preserve the reference spacing, rack and crate positions and open walking routes. Use sealed grey concrete, painted steel racking, cardboard boxes and raw timber crates.\n\nProtagonist: The protagonist is participant A, an adult of medium build with short black hair, wearing a work fleece in royal blue, grey cargo trousers and black safety boots. The other participants of the same recording are participant B, a tall adult with a light-brown ponytail, wearing a high-visibility vest in bright lime green over a white T-shirt, black trousers and grey safety shoes; participant C, a stocky adult with a shaved head, wearing a padded gilet in vivid magenta pink over a grey hoodie, khaki trousers and brown boots and participant D, a slim adult with short dark curls, wearing a work shirt in bright turquoise, black cargo trousers and black safety boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: an adult of medium build with short black hair, wearing a work fleece in royal blue, grey cargo trousers and black safety boots\nparticipant-b: a tall adult with a light-brown ponytail, wearing a high-visibility vest in bright lime green over a white T-shirt, black trousers and grey safety shoes\nparticipant-c: a stocky adult with a shaved head, wearing a padded gilet in vivid magenta pink over a grey hoodie, khaki trousers and brown boots\nparticipant-d: a slim adult with short dark curls, wearing a work shirt in bright turquoise, black cargo trousers and black safety boots"
+   },
+   "follow-b": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and B walk one way along one lane of the aisle, B ahead of A, while participants C and D walk the opposite way along a parallel lane, D ahead of C, so the two pairs close in on each other; B and D pass each other with lateral clearance near the end of this span."
+     },
+     {
+      "phase": "pass",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - before moving apart in their own directions."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: The inside of a roofed warehouse: tall steel racks stocked with boxes and crates line both sides of a wide aisle, a few handcarts stand at the rack ends, a high ceiling with hanging lights spans the hall, and the aisle runs on between more racks. The people walk along the open aisle. Preserve the reference spacing, rack and crate positions and open walking routes. Use sealed grey concrete, painted steel racking, cardboard boxes and raw timber crates.\n\nProtagonist: The protagonist is participant B, a tall adult with a light-brown ponytail, wearing a high-visibility vest in bright lime green over a white T-shirt, black trousers and grey safety shoes. The other participants of the same recording are participant A, an adult of medium build with short black hair, wearing a work fleece in royal blue, grey cargo trousers and black safety boots; participant C, a stocky adult with a shaved head, wearing a padded gilet in vivid magenta pink over a grey hoodie, khaki trousers and brown boots and participant D, a slim adult with short dark curls, wearing a work shirt in bright turquoise, black cargo trousers and black safety boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: an adult of medium build with short black hair, wearing a work fleece in royal blue, grey cargo trousers and black safety boots\nparticipant-b: a tall adult with a light-brown ponytail, wearing a high-visibility vest in bright lime green over a white T-shirt, black trousers and grey safety shoes\nparticipant-c: a stocky adult with a shaved head, wearing a padded gilet in vivid magenta pink over a grey hoodie, khaki trousers and brown boots\nparticipant-d: a slim adult with short dark curls, wearing a work shirt in bright turquoise, black cargo trousers and black safety boots"
+   },
+   "follow-c": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and B walk one way along one lane of the aisle, B ahead of A, while participants C and D walk the opposite way along a parallel lane, D ahead of C, so the two pairs close in on each other; B and D pass each other with lateral clearance near the end of this span."
+     },
+     {
+      "phase": "pass",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - before moving apart in their own directions."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: The inside of a roofed warehouse: tall steel racks stocked with boxes and crates line both sides of a wide aisle, a few handcarts stand at the rack ends, a high ceiling with hanging lights spans the hall, and the aisle runs on between more racks. The people walk along the open aisle. Preserve the reference spacing, rack and crate positions and open walking routes. Use sealed grey concrete, painted steel racking, cardboard boxes and raw timber crates.\n\nProtagonist: The protagonist is participant C, a stocky adult with a shaved head, wearing a padded gilet in vivid magenta pink over a grey hoodie, khaki trousers and brown boots. The other participants of the same recording are participant A, an adult of medium build with short black hair, wearing a work fleece in royal blue, grey cargo trousers and black safety boots; participant B, a tall adult with a light-brown ponytail, wearing a high-visibility vest in bright lime green over a white T-shirt, black trousers and grey safety shoes and participant D, a slim adult with short dark curls, wearing a work shirt in bright turquoise, black cargo trousers and black safety boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: an adult of medium build with short black hair, wearing a work fleece in royal blue, grey cargo trousers and black safety boots\nparticipant-b: a tall adult with a light-brown ponytail, wearing a high-visibility vest in bright lime green over a white T-shirt, black trousers and grey safety shoes\nparticipant-c: a stocky adult with a shaved head, wearing a padded gilet in vivid magenta pink over a grey hoodie, khaki trousers and brown boots\nparticipant-d: a slim adult with short dark curls, wearing a work shirt in bright turquoise, black cargo trousers and black safety boots"
+   },
+   "follow-d": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and B walk one way along one lane of the aisle, B ahead of A, while participants C and D walk the opposite way along a parallel lane, D ahead of C, so the two pairs close in on each other; B and D pass each other with lateral clearance near the end of this span."
+     },
+     {
+      "phase": "pass",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - before moving apart in their own directions."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: The inside of a roofed warehouse: tall steel racks stocked with boxes and crates line both sides of a wide aisle, a few handcarts stand at the rack ends, a high ceiling with hanging lights spans the hall, and the aisle runs on between more racks. The people walk along the open aisle. Preserve the reference spacing, rack and crate positions and open walking routes. Use sealed grey concrete, painted steel racking, cardboard boxes and raw timber crates.\n\nProtagonist: The protagonist is participant D, a slim adult with short dark curls, wearing a work shirt in bright turquoise, black cargo trousers and black safety boots. The other participants of the same recording are participant A, an adult of medium build with short black hair, wearing a work fleece in royal blue, grey cargo trousers and black safety boots; participant B, a tall adult with a light-brown ponytail, wearing a high-visibility vest in bright lime green over a white T-shirt, black trousers and grey safety shoes and participant C, a stocky adult with a shaved head, wearing a padded gilet in vivid magenta pink over a grey hoodie, khaki trousers and brown boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: an adult of medium build with short black hair, wearing a work fleece in royal blue, grey cargo trousers and black safety boots\nparticipant-b: a tall adult with a light-brown ponytail, wearing a high-visibility vest in bright lime green over a white T-shirt, black trousers and grey safety shoes\nparticipant-c: a stocky adult with a shaved head, wearing a padded gilet in vivid magenta pink over a grey hoodie, khaki trousers and brown boots\nparticipant-d: a slim adult with short dark curls, wearing a work shirt in bright turquoise, black cargo trousers and black safety boots"
+   }
+  },
+  "multi4-021-transit-crossroads": {
+   "follow-a": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "The participants walk toward the middle of the concourse along offset straight routes from different directions - participant A heading north, B south, C east and D west - so their routes converge on the crossing."
+     },
+     {
+      "phase": "cross",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: An open transit station concourse: a broad canopy roof on tall pillars shelters part of a wide, level paved floor, platforms, ticket gates and waiting benches stand along its edges, and the concourse opens toward the tracks and the sky. The people walk on the open floor. Preserve the reference spacing, pillar, platform and bench positions and open walking routes. Use polished stone paving, painted steel pillars, concrete platform edges and glass.\n\nProtagonist: The protagonist is participant A, a tall adult with short dark hair, wearing a wool overcoat in royal blue, grey trousers and black leather shoes. The other participants of the same recording are participant B, a young adult with a short blond crop, wearing a puffer jacket in bright lime green, black jeans and white sneakers; participant C, an adult of average build with long dark hair, wearing a raincoat in vivid magenta pink, beige trousers and black ankle boots and participant D, a stocky adult with a grey beard, wearing a zip-up fleece in bright turquoise, dark grey trousers and brown walking shoes; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a tall adult with short dark hair, wearing a wool overcoat in royal blue, grey trousers and black leather shoes\nparticipant-b: a young adult with a short blond crop, wearing a puffer jacket in bright lime green, black jeans and white sneakers\nparticipant-c: an adult of average build with long dark hair, wearing a raincoat in vivid magenta pink, beige trousers and black ankle boots\nparticipant-d: a stocky adult with a grey beard, wearing a zip-up fleece in bright turquoise, dark grey trousers and brown walking shoes"
+   },
+   "follow-b": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "The participants walk toward the middle of the concourse along offset straight routes from different directions - participant A heading north, B south, C east and D west - so their routes converge on the crossing."
+     },
+     {
+      "phase": "cross",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: An open transit station concourse: a broad canopy roof on tall pillars shelters part of a wide, level paved floor, platforms, ticket gates and waiting benches stand along its edges, and the concourse opens toward the tracks and the sky. The people walk on the open floor. Preserve the reference spacing, pillar, platform and bench positions and open walking routes. Use polished stone paving, painted steel pillars, concrete platform edges and glass.\n\nProtagonist: The protagonist is participant B, a young adult with a short blond crop, wearing a puffer jacket in bright lime green, black jeans and white sneakers. The other participants of the same recording are participant A, a tall adult with short dark hair, wearing a wool overcoat in royal blue, grey trousers and black leather shoes; participant C, an adult of average build with long dark hair, wearing a raincoat in vivid magenta pink, beige trousers and black ankle boots and participant D, a stocky adult with a grey beard, wearing a zip-up fleece in bright turquoise, dark grey trousers and brown walking shoes; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a tall adult with short dark hair, wearing a wool overcoat in royal blue, grey trousers and black leather shoes\nparticipant-b: a young adult with a short blond crop, wearing a puffer jacket in bright lime green, black jeans and white sneakers\nparticipant-c: an adult of average build with long dark hair, wearing a raincoat in vivid magenta pink, beige trousers and black ankle boots\nparticipant-d: a stocky adult with a grey beard, wearing a zip-up fleece in bright turquoise, dark grey trousers and brown walking shoes"
+   },
+   "follow-c": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "The participants walk toward the middle of the concourse along offset straight routes from different directions - participant A heading north, B south, C east and D west - so their routes converge on the crossing."
+     },
+     {
+      "phase": "cross",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: An open transit station concourse: a broad canopy roof on tall pillars shelters part of a wide, level paved floor, platforms, ticket gates and waiting benches stand along its edges, and the concourse opens toward the tracks and the sky. The people walk on the open floor. Preserve the reference spacing, pillar, platform and bench positions and open walking routes. Use polished stone paving, painted steel pillars, concrete platform edges and glass.\n\nProtagonist: The protagonist is participant C, an adult of average build with long dark hair, wearing a raincoat in vivid magenta pink, beige trousers and black ankle boots. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nparticipant-b: a young adult with a short blond crop, wearing a puffer jacket in bright lime green, black jeans and white sneakers\nparticipant-c: an adult of average build with long dark hair, wearing a raincoat in vivid magenta pink, beige trousers and black ankle boots\nparticipant-d: a stocky adult with a grey beard, wearing a zip-up fleece in bright turquoise, dark grey trousers and brown walking shoes"
+   },
+   "follow-d": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "The participants walk toward the middle of the concourse along offset straight routes from different directions - participant A heading north, B south, C east and D west - so their routes converge on the crossing."
+     },
+     {
+      "phase": "cross",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: An open transit station concourse: a broad canopy roof on tall pillars shelters part of a wide, level paved floor, platforms, ticket gates and waiting benches stand along its edges, and the concourse opens toward the tracks and the sky. The people walk on the open floor. Preserve the reference spacing, pillar, platform and bench positions and open walking routes. Use polished stone paving, painted steel pillars, concrete platform edges and glass.\n\nProtagonist: The protagonist is participant D, a stocky adult with a grey beard, wearing a zip-up fleece in bright turquoise, dark grey trousers and brown walking shoes. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a tall adult with short dark hair, wearing a wool overcoat in royal blue, grey trousers and black leather shoes\nparticipant-c: an adult of average build with long dark hair, wearing a raincoat in vivid magenta pink, beige trousers and black ankle boots\nparticipant-d: a stocky adult with a grey beard, wearing a zip-up fleece in bright turquoise, dark grey trousers and brown walking shoes"
+   }
+  },
+  "multi4-023-cave-overtake": {
+   "follow-a": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "overtake",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk uphill forward slowly one behind the other along the cave floor while participants B and D start level with them on a parallel lane - B beside A, D beside C - and walk uphill much faster, pulling ahead of A and C."
+     },
+     {
+      "phase": "overtake-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: The inside of a large natural cave: irregular rock walls and thick rock pillars rise on both sides, a low, uneven rock ceiling hangs overhead with an opening to daylight near the entrance, and the rocky floor rises steadily ahead. The people walk up the open cave floor. Preserve the reference spacing, wall and pillar positions, the rising ground and open walking routes. Use rough grey limestone, damp dark rock, loose gravel and dim natural light.\n\nProtagonist: The protagonist is participant A, a stocky adult with short dark hair, wearing a caving jacket in royal blue, grey trousers, a white helmet and black boots. The other participants of the same recording are participant B, a tall lean adult with a blond ponytail, wearing a long-sleeved base layer in bright lime green, black trousers, a black helmet and grey approach shoes; participant C, an adult of average build with short curly brown hair, wearing a fleece in vivid magenta pink, khaki trousers, a white helmet and brown boots and participant D, a wiry adult with a shaved head, wearing a softshell jacket in bright turquoise, charcoal trousers, a grey helmet and black boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a stocky adult with short dark hair, wearing a caving jacket in royal blue, grey trousers, a white helmet and black boots\nparticipant-b: a tall lean adult with a blond ponytail, wearing a long-sleeved base layer in bright lime green, black trousers, a black helmet and grey approach shoes\nparticipant-c: an adult of average build with short curly brown hair, wearing a fleece in vivid magenta pink, khaki trousers, a white helmet and brown boots\nparticipant-d: a wiry adult with a shaved head, wearing a softshell jacket in bright turquoise, charcoal trousers, a grey helmet and black boots"
+   },
+   "follow-b": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "overtake",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk uphill forward slowly one behind the other along the cave floor while participants B and D start level with them on a parallel lane - B beside A, D beside C - and walk uphill much faster, pulling ahead of A and C."
+     },
+     {
+      "phase": "overtake-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: The inside of a large natural cave: irregular rock walls and thick rock pillars rise on both sides, a low, uneven rock ceiling hangs overhead with an opening to daylight near the entrance, and the rocky floor rises steadily ahead. The people walk up the open cave floor. Preserve the reference spacing, wall and pillar positions, the rising ground and open walking routes. Use rough grey limestone, damp dark rock, loose gravel and dim natural light.\n\nProtagonist: The protagonist is participant B, a tall lean adult with a blond ponytail, wearing a long-sleeved base layer in bright lime green, black trousers, a black helmet and grey approach shoes. The other participants of the same recording are participant A, a stocky adult with short dark hair, wearing a caving jacket in royal blue, grey trousers, a white helmet and black boots; participant C, an adult of average build with short curly brown hair, wearing a fleece in vivid magenta pink, khaki trousers, a white helmet and brown boots and participant D, a wiry adult with a shaved head, wearing a softshell jacket in bright turquoise, charcoal trousers, a grey helmet and black boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a stocky adult with short dark hair, wearing a caving jacket in royal blue, grey trousers, a white helmet and black boots\nparticipant-b: a tall lean adult with a blond ponytail, wearing a long-sleeved base layer in bright lime green, black trousers, a black helmet and grey approach shoes\nparticipant-c: an adult of average build with short curly brown hair, wearing a fleece in vivid magenta pink, khaki trousers, a white helmet and brown boots\nparticipant-d: a wiry adult with a shaved head, wearing a softshell jacket in bright turquoise, charcoal trousers, a grey helmet and black boots"
+   },
+   "follow-c": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "overtake",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk uphill forward slowly one behind the other along the cave floor while participants B and D start level with them on a parallel lane - B beside A, D beside C - and walk uphill much faster, pulling ahead of A and C."
+     },
+     {
+      "phase": "overtake-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: The inside of a large natural cave: irregular rock walls and thick rock pillars rise on both sides, a low, uneven rock ceiling hangs overhead with an opening to daylight near the entrance, and the rocky floor rises steadily ahead. The people walk up the open cave floor. Preserve the reference spacing, wall and pillar positions, the rising ground and open walking routes. Use rough grey limestone, damp dark rock, loose gravel and dim natural light.\n\nProtagonist: The protagonist is participant C, an adult of average build with short curly brown hair, wearing a fleece in vivid magenta pink, khaki trousers, a white helmet and brown boots. The other participants of the same recording are participant A, a stocky adult with short dark hair, wearing a caving jacket in royal blue, grey trousers, a white helmet and black boots; participant B, a tall lean adult with a blond ponytail, wearing a long-sleeved base layer in bright lime green, black trousers, a black helmet and grey approach shoes and participant D, a wiry adult with a shaved head, wearing a softshell jacket in bright turquoise, charcoal trousers, a grey helmet and black boots; only those listed as subjects above appear in this view. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nplayer: a stocky adult with short dark hair, wearing a caving jacket in royal blue, grey trousers, a white helmet and black boots\nparticipant-b: a tall lean adult with a blond ponytail, wearing a long-sleeved base layer in bright lime green, black trousers, a black helmet and grey approach shoes\nparticipant-c: an adult of average build with short curly brown hair, wearing a fleece in vivid magenta pink, khaki trousers, a white helmet and brown boots\nparticipant-d: a wiry adult with a shaved head, wearing a softshell jacket in bright turquoise, charcoal trousers, a grey helmet and black boots"
+   },
+   "follow-d": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "overtake",
+      "startFrame": 0,
+      "endFrameExclusive": 75,
+      "startSeconds": 0.0,
+      "endSeconds": 2.5,
+      "description": "Participants A and C walk uphill forward slowly one behind the other along the cave floor while participants B and D start level with them on a parallel lane - B beside A, D beside C - and walk uphill much faster, pulling ahead of A and C."
+     },
+     {
+      "phase": "overtake-continued",
+      "startFrame": 75,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.5,
+      "endSeconds": 5.0,
+      "description": "B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace."
+     }
+    ],
+    "description": "Realistic live-action footage of the place described below in natural light suited to it, with natural human anatomy and motion, believable scale, detailed physical materials and consistent shadows.\n\nWorld: The inside of a large natural cave: irregular rock walls and thick rock pillars rise on both sides, a low, uneven rock ceiling hangs overhead with an opening to daylight near the entrance, and the rocky floor rises steadily ahead. The people walk up the open cave floor. Preserve the reference spacing, wall and pillar positions, the rising ground and open walking routes. Use rough grey limestone, damp dark rock, loose gravel and dim natural light.\n\nProtagonist: The protagonist is participant D, a wiry adult with a shaved head, wearing a softshell jacket in bright turquoise, charcoal trousers, a grey helmet and black boots. Each person keeps one consistent face, build and outfit for the whole clip, no two people share the same outfit and nobody carries anything.\n\nPeople:\nparticipant-b: a tall lean adult with a blond ponytail, wearing a long-sleeved base layer in bright lime green, black trousers, a black helmet and grey approach shoes\nparticipant-c: an adult of average build with short curly brown hair, wearing a fleece in vivid magenta pink, khaki trousers, a white helmet and brown boots\nparticipant-d: a wiry adult with a shaved head, wearing a softshell jacket in bright turquoise, charcoal trousers, a grey helmet and black boots"
+   }
+  }
+ }
+}

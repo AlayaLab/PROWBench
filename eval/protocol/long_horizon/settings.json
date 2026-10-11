@@ -1,0 +1,77 @@
+{
+  "dataset": "long_horizon",
+  "eval_duration_seconds": 30.0,
+  "files": {
+    "events": "events.json",
+    "descriptions": "descriptions.json"
+  },
+  "ground_truth": {
+    "entity_memory_state_camera": {
+      "first_person_filter": "off"
+    },
+    "interaction_alignment": {
+      "first_person_filter": "auto"
+    }
+  },
+  "judge": {
+    "model": "Qwen/Qwen3.6-27B",
+    "dtype": "bfloat16",
+    "device": "cuda:0",
+    "decoding": "greedy",
+    "max_new_tokens": 2048,
+    "enable_thinking": false
+  },
+  "interaction": {
+    "frames": 8,
+    "crop_margin": 0.35,
+    "prompt": "interaction_windowed.PROMPT"
+  },
+  "alignment": {
+    "frames": 12,
+    "window_pad": 0.3,
+    "crop_margin": 0.35,
+    "end_state_frames": 4,
+    "end_state_seconds": 0.5,
+    "static_frames": 12,
+    "max_static_facts": 8,
+    "seed": 0,
+    "foil": "distinct_timeline",
+    "foil_offset": 5,
+    "prompts": [
+      "alignment_windowed.DYNAMIC_PROMPT",
+      "alignment_windowed.END_STATE_PROMPT",
+      "alignment_windowed.STATIC_PROMPT"
+    ]
+  },
+  "detector": {
+    "tracker": "sam3",
+    "model": "facebook/sam3",
+    "sam3_score_thresh": 0.2,
+    "sam3_fallback": "none",
+    "grid_hz": 8
+  },
+  "memory": {
+    "min_absence": 1.0,
+    "window": 1.0,
+    "lenient": 1.0,
+    "min_post_visible": 0.5,
+    "min_gt_height": 16
+  },
+  "state_judge": {
+    "model": "Qwen/Qwen3.6-27B",
+    "frames": 6,
+    "window": 1.5,
+    "crop_margin": 0.35,
+    "speed_thresh": 0.2,
+    "max_new_tokens": 1024,
+    "enable_thinking": false
+  },
+  "camera": {
+    "estimator": "vipe",
+    "vipe_version": "1.2.0",
+    "vipe_pipeline": "pose_only",
+    "seed": 0,
+    "protocol": "cami2v",
+    "grid_hz": 8
+  }
+}

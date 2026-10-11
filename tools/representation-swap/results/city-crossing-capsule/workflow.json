@@ -1,0 +1,64 @@
+{
+  "cwd": "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap",
+  "environment_overrides": {
+    "PLAYWRIGHT_BROWSERS_PATH": "/mnt/workspace/hzh/.cache/ms-playwright"
+  },
+  "steps": [
+    {
+      "name": "prepare",
+      "argv": [
+        "python3",
+        "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/skill/prowbench-swap-representation/scripts/prepare_episode.py",
+        "--episode",
+        "/mnt/workspace/hzh/PROWBench-run-20261009/dataset/episodes/verified_first_frame/city-crossing",
+        "--camera",
+        "follow",
+        "--entity",
+        "player",
+        "--out",
+        "/mnt/workspace/hzh/prowbench-representation-demo/packaged-skill-check/replay-input"
+      ],
+      "started_at": "2026-10-10T01:32:03.949496+00:00",
+      "exit_code": 0,
+      "completed_at": "2026-10-10T01:32:04.400007+00:00"
+    },
+    {
+      "name": "render",
+      "argv": [
+        "/mnt/workspace/hzh/node/bin/node",
+        "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/skill/prowbench-swap-representation/scripts/render_pair.mjs",
+        "--input",
+        "/mnt/workspace/hzh/prowbench-representation-demo/packaged-skill-check/replay-input",
+        "--out",
+        "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/results/city-crossing-capsule/render",
+        "--entity",
+        "player",
+        "--color",
+        "#ffcc22",
+        "--height",
+        "1.78",
+        "--radius",
+        "0.26"
+      ],
+      "started_at": "2026-10-10T01:32:04.414531+00:00",
+      "exit_code": 0,
+      "completed_at": "2026-10-10T01:32:18.305749+00:00"
+    },
+    {
+      "name": "verify",
+      "argv": [
+        "/mnt/workspace/hzh/prowbench-run-audit-20261009/.venv/bin/python",
+        "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/skill/prowbench-swap-representation/scripts/verify_pair.py",
+        "--input",
+        "/mnt/workspace/hzh/prowbench-representation-demo/packaged-skill-check/replay-input",
+        "--render",
+        "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/results/city-crossing-capsule/render",
+        "--out",
+        "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/results/city-crossing-capsule/checks"
+      ],
+      "started_at": "2026-10-10T01:32:18.308544+00:00",
+      "exit_code": 0,
+      "completed_at": "2026-10-10T01:32:22.063696+00:00"
+    }
+  ]
+}

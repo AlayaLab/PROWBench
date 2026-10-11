@@ -1,0 +1,647 @@
+{
+ "schema": "prowbench.protocol.events.v1",
+ "dataset": "gunfight",
+ "window_pad_seconds": 0.15,
+ "episodes": {
+  "ndm-01-cam-dynamic_obj-static-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-02-cam-dynamic_obj-static-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-02-cam-static_obj-dynamic-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-02-cam-static_obj-enter-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they fire back while another armed person walks into view.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 3, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 3, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 3, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-03-cam-dynamic_obj-dynamic-death-composite-forward-turn-v1": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they move slowly across the open ground and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-03-cam-static_obj-dynamic-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they move slowly across the open ground and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-04-cam-dynamic_obj-static-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-05-cam-dynamic_obj-dynamic-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they move slowly across the open ground and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-05-cam-static_obj-dynamic-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they move slowly across the open ground and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-05-cam-static_obj-enter-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they fire back while another armed person walks into view.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 4, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 4, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 4, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-06-cam-static_obj-dynamic-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-06-cam-static_obj-static-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-07-cam-dynamic_obj-dynamic-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-08-cam-dynamic_obj-dynamic-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-08-cam-static_obj-dynamic-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-08-cam-static_obj-static-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-09-cam-dynamic_obj-dynamic-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-09-cam-static_obj-enter-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they fire back while another armed person walks into view.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 3, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 3, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 3, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-10-cam-dynamic_obj-dynamic-death-composite-forward-back-v1": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ],
+  "ndm-10-cam-static_obj-dynamic-death": [
+   {
+    "name": "source-motion",
+    "phases": [
+     "source-motion"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   },
+   {
+    "name": "death-and-persistence",
+    "phases": [
+     "death-and-persistence"
+    ],
+    "participants": [
+     "agent-player",
+     "enemy-01",
+     "enemy-02",
+     "enemy-03"
+    ],
+    "action": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back.",
+    "camera": "follow"
+   }
+  ]
+ }
+}

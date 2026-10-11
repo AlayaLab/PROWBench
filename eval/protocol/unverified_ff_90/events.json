@@ -1,0 +1,3079 @@
+{
+ "schema": "prowbench.protocol.events.v1",
+ "dataset": "unverified_ff_90",
+ "window_pad_seconds": 0.15,
+ "episodes": {
+  "dv200-003-city-traffic": [
+   {
+    "name": "traverse-finish",
+    "phases": [
+     "traverse",
+     "finish"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "traffic-1"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks forward along the street while the pedestrians and vehicles move through it. The protagonist comes to a stop and stands still while the traffic keeps moving.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist comes to a stop and stands still while the traffic keeps moving.",
+    "camera": "first-person"
+   }
+  ],
+  "dv200-004-city-stairs": [
+   {
+    "name": "climb-upper-landing",
+    "phases": [
+     "climb",
+     "upper-landing"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist climbs the stairs step by step. The protagonist reaches the upper landing and walks on.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist reaches the upper landing and walks on.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-007-city-stairsDown": [
+   {
+    "name": "descend-lower-landing",
+    "phases": [
+     "descend",
+     "lower-landing"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks down the stairs step by step. The protagonist reaches the lower landing and walks on.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist reaches the lower landing and walks on.",
+    "camera": "first-person"
+   }
+  ],
+  "dv200-011-city-handoff": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist carries the parcel toward the waiting companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "camera": "follow"
+   },
+   {
+    "name": "offer",
+    "phases": [
+     "offer"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "outcome": "at the end of the segment this has just happened or is happening: Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "camera": "follow"
+   },
+   {
+    "name": "transfer",
+    "phases": [
+     "transfer"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   },
+   {
+    "name": "received",
+    "phases": [
+     "received"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The companion holds the parcel and the protagonist lowers the empty hands.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-016-city-handoff": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist carries the parcel toward the waiting companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "camera": "follow"
+   },
+   {
+    "name": "offer",
+    "phases": [
+     "offer"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "outcome": "at the end of the segment this has just happened or is happening: Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "camera": "follow"
+   },
+   {
+    "name": "transfer",
+    "phases": [
+     "transfer"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   },
+   {
+    "name": "received",
+    "phases": [
+     "received"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The companion holds the parcel and the protagonist lowers the empty hands.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-017-city-combat": [
+   {
+    "name": "aiming-exchange-move-to-cover",
+    "phases": [
+     "aiming",
+     "exchange",
+     "move-to-cover"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist raises the training firearm and aims at the moving training opponent. The protagonist fires at the training opponents while they move and return fire. The protagonist runs to the nearby cover.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist crouches behind the cover and reloads the training firearm.",
+    "camera": "follow"
+   },
+   {
+    "name": "cover-reload-leave-cover",
+    "phases": [
+     "cover-reload",
+     "leave-cover"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist crouches behind the cover and reloads the training firearm. The protagonist rises from behind the cover and steps back out.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist fires at the training opponents again while they keep moving and returning fire.",
+    "camera": "follow"
+   },
+   {
+    "name": "second-exchange-finish",
+    "phases": [
+     "second-exchange",
+     "finish"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist fires at the training opponents again while they keep moving and returning fire. The protagonist lowers the training firearm and stands still.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lowers the training firearm and stands still.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-018-city-combat": [
+   {
+    "name": "aiming-exchange-move-to-cover",
+    "phases": [
+     "aiming",
+     "exchange",
+     "move-to-cover"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist raises the training firearm and aims at the moving training opponent. The protagonist fires at the training opponents while they move and return fire. The protagonist runs to the nearby cover.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist crouches behind the cover and reloads the training firearm.",
+    "camera": "follow"
+   },
+   {
+    "name": "cover-reload-leave-cover",
+    "phases": [
+     "cover-reload",
+     "leave-cover"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist crouches behind the cover and reloads the training firearm. The protagonist rises from behind the cover and steps back out.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist fires at the training opponents again while they keep moving and returning fire.",
+    "camera": "follow"
+   },
+   {
+    "name": "second-exchange-finish",
+    "phases": [
+     "second-exchange",
+     "finish"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist fires at the training opponents again while they keep moving and returning fire. The protagonist lowers the training firearm and stands still.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lowers the training firearm and stands still.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-022-indoor-place": [
+   {
+    "name": "reach",
+    "phases": [
+     "reach"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist bends toward the parcel and takes hold of it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lifts the parcel off its stand.",
+    "camera": "follow"
+   },
+   {
+    "name": "lift",
+    "phases": [
+     "lift"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist lifts the parcel off its stand.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist carries the parcel forward.",
+    "camera": "follow"
+   },
+   {
+    "name": "carry-place-placed",
+    "phases": [
+     "carry",
+     "place",
+     "placed"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist carries the parcel forward. The protagonist lowers the parcel onto the table. The parcel rests on the table and the protagonist lets go of it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The parcel rests on the table and the protagonist lets go of it.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-025-indoor-walk": [
+   {
+    "name": "traverse-finish",
+    "phases": [
+     "traverse",
+     "finish"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks forward along the trail and around its bend. The protagonist continues walking slowly.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist continues walking slowly.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-026-indoor-stairs": [
+   {
+    "name": "climb-upper-landing",
+    "phases": [
+     "climb",
+     "upper-landing"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist climbs the stairs step by step. The protagonist reaches the upper landing and walks on.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist reaches the upper landing and walks on.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-034-indoor-push": [
+   {
+    "name": "reach",
+    "phases": [
+     "reach"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "crate",
+     "npc-01"
+    ],
+    "action": "The protagonist steps up to the crate and places both hands on it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist pushes the crate forward.",
+    "camera": "follow"
+   },
+   {
+    "name": "push",
+    "phases": [
+     "push"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "crate",
+     "npc-01"
+    ],
+    "action": "The protagonist pushes the crate forward.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lets go of the crate and it stays where it stopped.",
+    "camera": "follow"
+   },
+   {
+    "name": "released",
+    "phases": [
+     "released"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "crate",
+     "npc-01"
+    ],
+    "action": "The protagonist lets go of the crate and it stays where it stopped.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lets go of the crate and it stays where it stopped.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-035-indoor-busBoard": [
+   {
+    "name": "boarding",
+    "phases": [
+     "boarding"
+    ],
+    "participants": [
+     "player",
+     "bus",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks up the entry steps of the stationary bus.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist moves along the aisle inside the bus.",
+    "camera": "follow"
+   },
+   {
+    "name": "inside-bus",
+    "phases": [
+     "inside-bus"
+    ],
+    "participants": [
+     "player",
+     "bus",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist moves along the aisle inside the bus.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist moves along the aisle inside the bus.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-037-indoor-stairsDown": [
+   {
+    "name": "descend-lower-landing",
+    "phases": [
+     "descend",
+     "lower-landing"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks down the stairs step by step. The protagonist reaches the lower landing and walks on.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist reaches the lower landing and walks on.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-038-indoor-carryChair": [
+   {
+    "name": "reach",
+    "phases": [
+     "reach"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist bends toward the chair and takes hold of it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lifts the chair off the ground.",
+    "camera": "follow"
+   },
+   {
+    "name": "lift",
+    "phases": [
+     "lift"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist lifts the chair off the ground.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist carries the chair forward.",
+    "camera": "follow"
+   },
+   {
+    "name": "carry-place-placed",
+    "phases": [
+     "carry",
+     "place",
+     "placed"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist carries the chair forward. The protagonist lowers the chair to the ground. The chair rests on the ground and the protagonist lets go of it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The chair rests on the ground and the protagonist lets go of it.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-039-indoor-combat": [
+   {
+    "name": "aiming-exchange-move-to-cover",
+    "phases": [
+     "aiming",
+     "exchange",
+     "move-to-cover"
+    ],
+    "participants": [
+     "player",
+     "opponent-a",
+     "opponent-a-weapon",
+     "opponent-b"
+    ],
+    "action": "The protagonist raises the training firearm and aims at the moving training opponent. The protagonist fires at the training opponents while they move and return fire. The protagonist runs to the nearby cover.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist crouches behind the cover and reloads the training firearm.",
+    "camera": "follow"
+   },
+   {
+    "name": "cover-reload-leave-cover",
+    "phases": [
+     "cover-reload",
+     "leave-cover"
+    ],
+    "participants": [
+     "player",
+     "opponent-a",
+     "opponent-a-weapon",
+     "opponent-b"
+    ],
+    "action": "The protagonist crouches behind the cover and reloads the training firearm. The protagonist rises from behind the cover and steps back out.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist fires at the training opponents again while they keep moving and returning fire.",
+    "camera": "follow"
+   },
+   {
+    "name": "second-exchange-finish",
+    "phases": [
+     "second-exchange",
+     "finish"
+    ],
+    "participants": [
+     "player",
+     "opponent-a",
+     "opponent-a-weapon",
+     "opponent-b"
+    ],
+    "action": "The protagonist fires at the training opponents again while they keep moving and returning fire. The protagonist lowers the training firearm and stands still.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lowers the training firearm and stands still.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-041-nature-jump": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist moves toward the fallen log.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist leaps over the log.",
+    "camera": "follow"
+   },
+   {
+    "name": "jump",
+    "phases": [
+     "jump"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist leaps over the log.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lands beyond the log and continues forward.",
+    "camera": "follow"
+   },
+   {
+    "name": "landed",
+    "phases": [
+     "landed"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist lands beyond the log and continues forward.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lands beyond the log and continues forward.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-042-nature-handoff": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist carries the parcel toward the waiting companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "camera": "follow"
+   },
+   {
+    "name": "offer",
+    "phases": [
+     "offer"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "outcome": "at the end of the segment this has just happened or is happening: Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "camera": "follow"
+   },
+   {
+    "name": "transfer",
+    "phases": [
+     "transfer"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   },
+   {
+    "name": "received",
+    "phases": [
+     "received"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The companion holds the parcel and the protagonist lowers the empty hands.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-043-nature-walk": [
+   {
+    "name": "traverse-finish",
+    "phases": [
+     "traverse",
+     "finish"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist walks forward along the trail and around its bend. The protagonist continues walking slowly.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist continues walking slowly.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-044-nature-camera": [
+   {
+    "name": "establish",
+    "phases": [
+     "establish"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist stands on the trail and takes in the surroundings.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks along the trail while looking around at the surroundings.",
+    "camera": "first-person"
+   },
+   {
+    "name": "camera-exploration",
+    "phases": [
+     "camera-exploration"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks along the trail while looking around at the surroundings.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist turns back to face forward along the trail.",
+    "camera": "first-person"
+   },
+   {
+    "name": "recentre-finish",
+    "phases": [
+     "recentre",
+     "finish"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist turns back to face forward along the trail. The protagonist continues walking slowly along the trail.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist continues walking slowly along the trail.",
+    "camera": "first-person"
+   }
+  ],
+  "dv200-048-nature-ride": [
+   {
+    "name": "riding",
+    "phases": [
+     "riding"
+    ],
+    "participants": [
+     "player",
+     "horse",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist rides the horse forward past the other horses.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist keeps riding forward past the other horses.",
+    "camera": "follow"
+   },
+   {
+    "name": "riding-continued",
+    "phases": [
+     "riding-continued"
+    ],
+    "participants": [
+     "player",
+     "horse",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist keeps riding forward past the other horses.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist keeps riding forward past the other horses.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-050-nature-herd": [
+   {
+    "name": "riding",
+    "phases": [
+     "riding"
+    ],
+    "participants": [
+     "player",
+     "horse",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist rides the horse forward while the other horses and the pedestrians move nearby.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist keeps riding forward among the moving horses and pedestrians.",
+    "camera": "follow"
+   },
+   {
+    "name": "riding-continued",
+    "phases": [
+     "riding-continued"
+    ],
+    "participants": [
+     "player",
+     "horse",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist keeps riding forward among the moving horses and pedestrians.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist keeps riding forward among the moving horses and pedestrians.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-052-nature-lift": [
+   {
+    "name": "press-button",
+    "phases": [
+     "press-button"
+    ],
+    "participants": [
+     "lift",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist presses the control on the lift platform.",
+    "outcome": "at the end of the segment this has just happened or is happening: The lift platform rises with the protagonist standing on it.",
+    "camera": "first-person"
+   },
+   {
+    "name": "ascend",
+    "phases": [
+     "ascend"
+    ],
+    "participants": [
+     "lift",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The lift platform rises with the protagonist standing on it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist steps off the platform onto the upper landing.",
+    "camera": "first-person"
+   },
+   {
+    "name": "upper-landing",
+    "phases": [
+     "upper-landing"
+    ],
+    "participants": [
+     "lift",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist steps off the platform onto the upper landing.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist steps off the platform onto the upper landing.",
+    "camera": "first-person"
+   }
+  ],
+  "dv200-059-underwater-hatch": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist swims up to the submerged hatch.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist works the hatch open while treading water.",
+    "camera": "follow"
+   },
+   {
+    "name": "opening",
+    "phases": [
+     "opening"
+    ],
+    "participants": [
+     "player",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist works the hatch open while treading water.",
+    "outcome": "at the end of the segment this has just happened or is happening: The hatch stands open and the protagonist swims on.",
+    "camera": "follow"
+   },
+   {
+    "name": "hatch-open",
+    "phases": [
+     "hatch-open"
+    ],
+    "participants": [
+     "player",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The hatch stands open and the protagonist swims on.",
+    "outcome": "at the end of the segment this has just happened or is happening: The hatch stands open and the protagonist swims on.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-064-underwater-swimTunnel": [
+   {
+    "name": "swimming",
+    "phases": [
+     "swimming"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist swims toward the opening of the shipwreck.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist swims on inside the enclosed shipwreck.",
+    "camera": "follow"
+   },
+   {
+    "name": "inside-wreck",
+    "phases": [
+     "inside-wreck"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist swims on inside the enclosed shipwreck.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist swims on inside the enclosed shipwreck.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-065-underwater-fish": [
+   {
+    "name": "reeling",
+    "phases": [
+     "reeling"
+    ],
+    "participants": [
+     "player",
+     "fishing-rod",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist reels in the fishing line with the rod.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lifts the hooked fish out of the water on the line.",
+    "camera": "follow"
+   },
+   {
+    "name": "fish-lifted",
+    "phases": [
+     "fish-lifted"
+    ],
+    "participants": [
+     "player",
+     "fishing-rod",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist lifts the hooked fish out of the water on the line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lifts the hooked fish out of the water on the line.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-066-underwater-crowdWater": [
+   {
+    "name": "swimming",
+    "phases": [
+     "swimming"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "passing-boat-0"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist swims forward near the passing boats and the other swimmers.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist keeps swimming forward among the boats and swimmers.",
+    "camera": "first-person"
+   },
+   {
+    "name": "swimming-continued",
+    "phases": [
+     "swimming-continued"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "passing-boat-0"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist keeps swimming forward among the boats and swimmers.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist keeps swimming forward among the boats and swimmers.",
+    "camera": "first-person"
+   }
+  ],
+  "dv200-067-sky-plane": [
+   {
+    "name": "banking-cruising",
+    "phases": [
+     "banking",
+     "cruising"
+    ],
+    "participants": [
+     "player",
+     "aircraft",
+     "escort-aircraft"
+    ],
+    "action": "The protagonist's propeller aircraft banks into a turn, rolling and changing heading and altitude, while the companion aircraft holds formation nearby. The protagonist's propeller aircraft continues forward through the air while the companion aircraft holds formation nearby.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's propeller aircraft continues forward through the air while the companion aircraft holds formation nearby.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-068-sky-plane": [
+   {
+    "name": "banking-cruising",
+    "phases": [
+     "banking",
+     "cruising"
+    ],
+    "participants": [
+     "player",
+     "aircraft",
+     "escort-aircraft"
+    ],
+    "action": "The protagonist's propeller aircraft banks into a turn, rolling and changing heading and altitude, while the companion aircraft holds formation nearby. The protagonist's propeller aircraft continues forward through the air while the companion aircraft holds formation nearby.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's propeller aircraft continues forward through the air while the companion aircraft holds formation nearby.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-069-sky-plane": [
+   {
+    "name": "banking-cruising",
+    "phases": [
+     "banking",
+     "cruising"
+    ],
+    "participants": [
+     "player",
+     "aircraft",
+     "escort-aircraft"
+    ],
+    "action": "The protagonist's propeller aircraft banks into a turn, rolling and changing heading and altitude, while the companion aircraft holds formation nearby. The protagonist's propeller aircraft continues forward through the air while the companion aircraft holds formation nearby.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's propeller aircraft continues forward through the air while the companion aircraft holds formation nearby.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-073-sky-helicopter": [
+   {
+    "name": "ascending",
+    "phases": [
+     "ascending"
+    ],
+    "participants": [
+     "escort-aircraft"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist's helicopter climbs vertically while the companion aircraft holds position nearby.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's helicopter flies forward and yaws through the air while the companion aircraft keeps station nearby.",
+    "camera": "first-person"
+   },
+   {
+    "name": "translating",
+    "phases": [
+     "translating"
+    ],
+    "participants": [
+     "escort-aircraft"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist's helicopter flies forward and yaws through the air while the companion aircraft keeps station nearby.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's helicopter eases off the controls, slows its horizontal motion and continues a controlled descent while the companion aircraft holds position nearby.",
+    "camera": "first-person"
+   },
+   {
+    "name": "descending",
+    "phases": [
+     "descending"
+    ],
+    "participants": [
+     "escort-aircraft"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist's helicopter eases off the controls, slows its horizontal motion and continues a controlled descent while the companion aircraft holds position nearby.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's helicopter eases off the controls, slows its horizontal motion and continues a controlled descent while the companion aircraft holds position nearby.",
+    "camera": "first-person"
+   }
+  ],
+  "dv200-075-sky-jetpack": [
+   {
+    "name": "ignite-ascend",
+    "phases": [
+     "ignite",
+     "ascend"
+    ],
+    "participants": [
+     "player",
+     "jetpack",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist ignites the jetpack. The protagonist rises off the ground on the thrust of the jetpack.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist moves horizontally through the air at a steady height with the other flying companions.",
+    "camera": "follow"
+   },
+   {
+    "name": "hover",
+    "phases": [
+     "hover"
+    ],
+    "participants": [
+     "player",
+     "jetpack",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist moves horizontally through the air at a steady height with the other flying companions.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist moves horizontally through the air at a steady height with the other flying companions.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-076-sky-jetpack": [
+   {
+    "name": "ignite-ascend",
+    "phases": [
+     "ignite",
+     "ascend"
+    ],
+    "participants": [
+     "player",
+     "jetpack",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist ignites the jetpack. The protagonist rises off the ground on the thrust of the jetpack.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist moves horizontally through the air at a steady height with the other flying companions.",
+    "camera": "follow"
+   },
+   {
+    "name": "hover",
+    "phases": [
+     "hover"
+    ],
+    "participants": [
+     "player",
+     "jetpack",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist moves horizontally through the air at a steady height with the other flying companions.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist moves horizontally through the air at a steady height with the other flying companions.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-078-racing-racing": [
+   {
+    "name": "overtaking-follow",
+    "phases": [
+     "overtaking",
+     "follow"
+    ],
+    "participants": [
+     "driver-1",
+     "driver-2",
+     "driver-3",
+     "rival-1"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist's sedan pulls out alongside a rival sedan and tries to pass while the other rival sedan keeps racing on its own line. The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line.",
+    "camera": "first-person"
+   }
+  ],
+  "dv200-080-racing-racing": [
+   {
+    "name": "follow",
+    "phases": [
+     "follow"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "driver-1",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan keeps following the rival sedan ahead along the track while the other rival sedan keeps racing on its own line.",
+    "camera": "follow"
+   },
+   {
+    "name": "follow-continued",
+    "phases": [
+     "follow-continued"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "driver-1",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan keeps following the rival sedan ahead along the track while the other rival sedan keeps racing on its own line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan keeps following the rival sedan ahead along the track while the other rival sedan keeps racing on its own line.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-081-racing-racing": [
+   {
+    "name": "follow",
+    "phases": [
+     "follow"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "driver-1",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan pulls out and passes a rival sedan while the other rival sedan keeps racing on its own line.",
+    "camera": "follow"
+   },
+   {
+    "name": "overtaking-cruise",
+    "phases": [
+     "overtaking",
+     "cruise"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "driver-1",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan pulls out and passes a rival sedan while the other rival sedan keeps racing on its own line. The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-082-racing-racing": [
+   {
+    "name": "follow",
+    "phases": [
+     "follow"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "driver-1",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "camera": "follow"
+   },
+   {
+    "name": "cruise",
+    "phases": [
+     "cruise"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "driver-1",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-083-racing-racing": [
+   {
+    "name": "cruise",
+    "phases": [
+     "cruise"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "driver-1",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line.",
+    "camera": "follow"
+   },
+   {
+    "name": "follow-overtaking",
+    "phases": [
+     "follow",
+     "overtaking"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "driver-1",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. The protagonist's sedan pulls out alongside a rival sedan and tries to pass while the other rival sedan keeps racing on its own line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan pulls out alongside a rival sedan and tries to pass while the other rival sedan keeps racing on its own line.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-087-racing-racing": [
+   {
+    "name": "follow",
+    "phases": [
+     "follow"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "driver-1",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan pulls out and passes a rival sedan while the other rival sedan keeps racing on its own line.",
+    "camera": "follow"
+   },
+   {
+    "name": "overtaking-cruise",
+    "phases": [
+     "overtaking",
+     "cruise"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "driver-1",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan pulls out and passes a rival sedan while the other rival sedan keeps racing on its own line. The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-088-racing-racing": [
+   {
+    "name": "follow",
+    "phases": [
+     "follow"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "driver-1",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "camera": "follow"
+   },
+   {
+    "name": "cruise",
+    "phases": [
+     "cruise"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "driver-1",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-089-fantasy-gate": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks up to the sliding gate and its control.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist presses the control and the gate slides open.",
+    "camera": "follow"
+   },
+   {
+    "name": "opening",
+    "phases": [
+     "opening"
+    ],
+    "participants": [
+     "player",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist presses the control and the gate slides open.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks through the open gate and continues beyond it.",
+    "camera": "follow"
+   },
+   {
+    "name": "passed-through",
+    "phases": [
+     "passed-through"
+    ],
+    "participants": [
+     "player",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks through the open gate and continues beyond it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks through the open gate and continues beyond it.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-090-fantasy-handoff": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist carries the parcel toward the waiting companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "camera": "follow"
+   },
+   {
+    "name": "offer",
+    "phases": [
+     "offer"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "outcome": "at the end of the segment this has just happened or is happening: Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "camera": "follow"
+   },
+   {
+    "name": "transfer",
+    "phases": [
+     "transfer"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   },
+   {
+    "name": "received",
+    "phases": [
+     "received"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The companion holds the parcel and the protagonist lowers the empty hands.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-092-fantasy-throw": [
+   {
+    "name": "wind-up",
+    "phases": [
+     "wind-up"
+    ],
+    "participants": [
+     "player",
+     "ball",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist winds up and throws the ball toward the second person.",
+    "outcome": "at the end of the segment this has just happened or is happening: The ball flies through the air toward the second person.",
+    "camera": "follow"
+   },
+   {
+    "name": "flight",
+    "phases": [
+     "flight"
+    ],
+    "participants": [
+     "player",
+     "ball",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The ball flies through the air toward the second person.",
+    "outcome": "at the end of the segment this has just happened or is happening: The second person catches the ball and holds it.",
+    "camera": "follow"
+   },
+   {
+    "name": "caught",
+    "phases": [
+     "caught"
+    ],
+    "participants": [
+     "player",
+     "ball",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The second person catches the ball and holds it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The second person catches the ball and holds it.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-097-fantasy-herd": [
+   {
+    "name": "riding",
+    "phases": [
+     "riding"
+    ],
+    "participants": [
+     "player",
+     "horse",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist rides the horse forward while the other horses and the pedestrians move nearby.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist keeps riding forward among the moving horses and pedestrians.",
+    "camera": "follow"
+   },
+   {
+    "name": "riding-continued",
+    "phases": [
+     "riding-continued"
+    ],
+    "participants": [
+     "player",
+     "horse",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist keeps riding forward among the moving horses and pedestrians.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist keeps riding forward among the moving horses and pedestrians.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-098-fantasy-gate": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks up to the sliding gate and its control.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist presses the control and the gate slides open.",
+    "camera": "follow"
+   },
+   {
+    "name": "opening",
+    "phases": [
+     "opening"
+    ],
+    "participants": [
+     "player",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist presses the control and the gate slides open.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks through the open gate and continues beyond it.",
+    "camera": "follow"
+   },
+   {
+    "name": "passed-through",
+    "phases": [
+     "passed-through"
+    ],
+    "participants": [
+     "player",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks through the open gate and continues beyond it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks through the open gate and continues beyond it.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-101-city-crossing": [
+   {
+    "name": "crossing-opposite-side",
+    "phases": [
+     "crossing",
+     "opposite-side"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "traffic-0"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks across the road while the approaching vehicles brake and yield. The protagonist reaches the far side of the road and keeps walking.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist reaches the far side of the road and keeps walking.",
+    "camera": "first-person"
+   }
+  ],
+  "dv200-102-city-drive": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist walks up to the parked car.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist opens the car door and ducks inside.",
+    "camera": "follow"
+   },
+   {
+    "name": "enter-vehicle-entered-vehicle",
+    "phases": [
+     "enter-vehicle",
+     "entered-vehicle"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist opens the car door and ducks inside. The protagonist gets into the car and takes the driving seat.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist drives the car forward.",
+    "camera": "follow"
+   },
+   {
+    "name": "driving",
+    "phases": [
+     "driving"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist drives the car forward.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist drives the car forward.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-104-city-stairs": [
+   {
+    "name": "climb-upper-landing",
+    "phases": [
+     "climb",
+     "upper-landing"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist climbs the stairs step by step. The protagonist reaches the upper landing and walks on.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist reaches the upper landing and walks on.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-105-city-door": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks up to the hinged door.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist swings the door open.",
+    "camera": "follow"
+   },
+   {
+    "name": "opening",
+    "phases": [
+     "opening"
+    ],
+    "participants": [
+     "player",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist swings the door open.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks through the open doorway and continues beyond it.",
+    "camera": "follow"
+   },
+   {
+    "name": "passed-through",
+    "phases": [
+     "passed-through"
+    ],
+    "participants": [
+     "player",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks through the open doorway and continues beyond it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks through the open doorway and continues beyond it.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-106-city-handoff": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "parcel"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist carries the parcel toward the waiting companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "camera": "first-person"
+   },
+   {
+    "name": "offer",
+    "phases": [
+     "offer"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "parcel"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "outcome": "at the end of the segment this has just happened or is happening: Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "camera": "first-person"
+   },
+   {
+    "name": "transfer",
+    "phases": [
+     "transfer"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "parcel"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "first-person"
+   },
+   {
+    "name": "received",
+    "phases": [
+     "received"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "parcel"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The companion holds the parcel and the protagonist lowers the empty hands.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "first-person"
+   }
+  ],
+  "dv200-108-city-cart": [
+   {
+    "name": "reach",
+    "phases": [
+     "reach"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "cart",
+     "npc-01"
+    ],
+    "action": "The protagonist steps up to the handcart and takes hold of its handle.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist pushes the handcart forward around the gentle bend.",
+    "camera": "follow"
+   },
+   {
+    "name": "push",
+    "phases": [
+     "push"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "cart",
+     "npc-01"
+    ],
+    "action": "The protagonist pushes the handcart forward around the gentle bend.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lets go of the handle and the handcart stays where it stopped.",
+    "camera": "follow"
+   },
+   {
+    "name": "released",
+    "phases": [
+     "released"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "cart",
+     "npc-01"
+    ],
+    "action": "The protagonist lets go of the handle and the handcart stays where it stopped.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lets go of the handle and the handcart stays where it stopped.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-109-city-carry": [
+   {
+    "name": "reach",
+    "phases": [
+     "reach"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist bends toward the parcel and takes hold of it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lifts the parcel off its stand.",
+    "camera": "follow"
+   },
+   {
+    "name": "lift",
+    "phases": [
+     "lift"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist lifts the parcel off its stand.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist carries the parcel forward.",
+    "camera": "follow"
+   },
+   {
+    "name": "carry-place-placed",
+    "phases": [
+     "carry",
+     "place",
+     "placed"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist carries the parcel forward. The protagonist lowers the parcel onto the table. The parcel rests on the table and the protagonist lets go of it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The parcel rests on the table and the protagonist lets go of it.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-110-city-throw": [
+   {
+    "name": "wind-up",
+    "phases": [
+     "wind-up"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "ball",
+     "npc-01"
+    ],
+    "action": "The protagonist winds up and throws the ball toward the second person.",
+    "outcome": "at the end of the segment this has just happened or is happening: The ball flies through the air toward the second person.",
+    "camera": "follow"
+   },
+   {
+    "name": "flight",
+    "phases": [
+     "flight"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "ball",
+     "npc-01"
+    ],
+    "action": "The ball flies through the air toward the second person.",
+    "outcome": "at the end of the segment this has just happened or is happening: The second person catches the ball and holds it.",
+    "camera": "follow"
+   },
+   {
+    "name": "caught",
+    "phases": [
+     "caught"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "ball",
+     "npc-01"
+    ],
+    "action": "The second person catches the ball and holds it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The second person catches the ball and holds it.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-111-city-handoff": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist carries the parcel toward the waiting companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "camera": "follow"
+   },
+   {
+    "name": "offer",
+    "phases": [
+     "offer"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "outcome": "at the end of the segment this has just happened or is happening: Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "camera": "follow"
+   },
+   {
+    "name": "transfer",
+    "phases": [
+     "transfer"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   },
+   {
+    "name": "received",
+    "phases": [
+     "received"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The companion holds the parcel and the protagonist lowers the empty hands.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-113-city-tow": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist walks up to the parked tow vehicle.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist opens the tow vehicle's door and ducks inside.",
+    "camera": "follow"
+   },
+   {
+    "name": "enter-vehicle-entered-vehicle-hitched",
+    "phases": [
+     "enter-vehicle",
+     "entered-vehicle",
+     "hitched"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist opens the tow vehicle's door and ducks inside. The protagonist gets into the tow vehicle. The tow connection links the tow vehicle to the second car.",
+    "outcome": "at the end of the segment this has just happened or is happening: The tow vehicle pulls the second car forward with the protagonist at the wheel.",
+    "camera": "follow"
+   },
+   {
+    "name": "towing",
+    "phases": [
+     "towing"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The tow vehicle pulls the second car forward with the protagonist at the wheel.",
+    "outcome": "at the end of the segment this has just happened or is happening: The tow vehicle pulls the second car forward with the protagonist at the wheel.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-116-city-handoff": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist carries the parcel toward the waiting companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "camera": "follow"
+   },
+   {
+    "name": "offer",
+    "phases": [
+     "offer"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "outcome": "at the end of the segment this has just happened or is happening: Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "camera": "follow"
+   },
+   {
+    "name": "transfer",
+    "phases": [
+     "transfer"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   },
+   {
+    "name": "received",
+    "phases": [
+     "received"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The companion holds the parcel and the protagonist lowers the empty hands.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-117-city-combat": [
+   {
+    "name": "aiming-exchange-move-to-cover",
+    "phases": [
+     "aiming",
+     "exchange",
+     "move-to-cover"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist raises the training firearm and aims at the moving training opponent. The protagonist fires at the training opponents while they move and return fire. The protagonist runs to the nearby cover.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist crouches behind the cover and reloads the training firearm.",
+    "camera": "follow"
+   },
+   {
+    "name": "cover-reload-leave-cover",
+    "phases": [
+     "cover-reload",
+     "leave-cover"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist crouches behind the cover and reloads the training firearm. The protagonist rises from behind the cover and steps back out.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist fires at the training opponents again while they keep moving and returning fire.",
+    "camera": "follow"
+   },
+   {
+    "name": "second-exchange-finish",
+    "phases": [
+     "second-exchange",
+     "finish"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist fires at the training opponents again while they keep moving and returning fire. The protagonist lowers the training firearm and stands still.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lowers the training firearm and stands still.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-118-city-combat": [
+   {
+    "name": "aiming-exchange-move-to-cover",
+    "phases": [
+     "aiming",
+     "exchange",
+     "move-to-cover"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist raises the training firearm and aims at the moving training opponent. The protagonist fires at the training opponents while they move and return fire. The protagonist runs to the nearby cover.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist crouches behind the cover and reloads the training firearm.",
+    "camera": "follow"
+   },
+   {
+    "name": "cover-reload-leave-cover",
+    "phases": [
+     "cover-reload",
+     "leave-cover"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist crouches behind the cover and reloads the training firearm. The protagonist rises from behind the cover and steps back out.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist fires at the training opponents again while they keep moving and returning fire.",
+    "camera": "follow"
+   },
+   {
+    "name": "second-exchange-finish",
+    "phases": [
+     "second-exchange",
+     "finish"
+    ],
+    "participants": [
+     "player",
+     "npc-01",
+     "npc-02",
+     "npc-03"
+    ],
+    "action": "The protagonist fires at the training opponents again while they keep moving and returning fire. The protagonist lowers the training firearm and stands still.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lowers the training firearm and stands still.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-120-city-revisit": [
+   {
+    "name": "observe-landmark",
+    "phases": [
+     "observe-landmark"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "revisit-landmark"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist stands and looks at the nearby landmark.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks away from the landmark.",
+    "camera": "first-person"
+   },
+   {
+    "name": "depart",
+    "phases": [
+     "depart"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "revisit-landmark"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks away from the landmark.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist pauses at a distance and scans the surroundings.",
+    "camera": "first-person"
+   },
+   {
+    "name": "away-scan",
+    "phases": [
+     "away-scan"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "traffic-0"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist pauses at a distance and scans the surroundings.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks back toward the landmark.",
+    "camera": "first-person"
+   },
+   {
+    "name": "return-revisited",
+    "phases": [
+     "return",
+     "revisited"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "traffic-0"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks back toward the landmark. The protagonist arrives back at the landmark and looks at it again.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist arrives back at the landmark and looks at it again.",
+    "camera": "first-person"
+   }
+  ],
+  "dv200-121-indoor-cabinet": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "ambient-cart",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks up to the cabinet.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist swings the cabinet door open.",
+    "camera": "first-person"
+   },
+   {
+    "name": "opening",
+    "phases": [
+     "opening"
+    ],
+    "participants": [
+     "ambient-cart",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist swings the cabinet door open.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist reaches into the open cabinet and takes hold of the parcel.",
+    "camera": "first-person"
+   },
+   {
+    "name": "taking-object",
+    "phases": [
+     "taking-object"
+    ],
+    "participants": [
+     "ambient-cart",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist reaches into the open cabinet and takes hold of the parcel.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist takes the parcel out of the cabinet and holds it.",
+    "camera": "first-person"
+   },
+   {
+    "name": "object-held",
+    "phases": [
+     "object-held"
+    ],
+    "participants": [
+     "ambient-cart",
+     "door",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist takes the parcel out of the cabinet and holds it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist takes the parcel out of the cabinet and holds it.",
+    "camera": "first-person"
+   }
+  ],
+  "dv200-122-indoor-place": [
+   {
+    "name": "reach",
+    "phases": [
+     "reach"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist bends toward the parcel and takes hold of it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lifts the parcel off its stand.",
+    "camera": "follow"
+   },
+   {
+    "name": "lift",
+    "phases": [
+     "lift"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist lifts the parcel off its stand.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist carries the parcel forward.",
+    "camera": "follow"
+   },
+   {
+    "name": "carry-place-placed",
+    "phases": [
+     "carry",
+     "place",
+     "placed"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist carries the parcel forward. The protagonist lowers the parcel onto the table. The parcel rests on the table and the protagonist lets go of it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The parcel rests on the table and the protagonist lets go of it.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-124-indoor-handoff": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist carries the parcel toward the waiting companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "camera": "follow"
+   },
+   {
+    "name": "offer",
+    "phases": [
+     "offer"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "outcome": "at the end of the segment this has just happened or is happening: Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "camera": "follow"
+   },
+   {
+    "name": "transfer",
+    "phases": [
+     "transfer"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   },
+   {
+    "name": "received",
+    "phases": [
+     "received"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The companion holds the parcel and the protagonist lowers the empty hands.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-125-indoor-walk": [
+   {
+    "name": "traverse-finish",
+    "phases": [
+     "traverse",
+     "finish"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks forward along the trail and around its bend. The protagonist continues walking slowly.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist continues walking slowly.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-128-indoor-crowd": [
+   {
+    "name": "traverse-finish",
+    "phases": [
+     "traverse",
+     "finish"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks forward through the moving pedestrians while the handcart is pushed along nearby. The protagonist comes to a stop and stands still while the others keep moving.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist comes to a stop and stands still while the others keep moving.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-129-indoor-handoff": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist carries the parcel toward the waiting companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "camera": "follow"
+   },
+   {
+    "name": "offer",
+    "phases": [
+     "offer"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist extends the parcel toward the companion, who reaches out for it.",
+    "outcome": "at the end of the segment this has just happened or is happening: Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "camera": "follow"
+   },
+   {
+    "name": "transfer",
+    "phases": [
+     "transfer"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "Both hold the parcel briefly as the grip passes from the protagonist to the companion.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   },
+   {
+    "name": "received",
+    "phases": [
+     "received"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The companion holds the parcel and the protagonist lowers the empty hands.",
+    "outcome": "at the end of the segment this has just happened or is happening: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-131-indoor-crowd": [
+   {
+    "name": "traverse-finish",
+    "phases": [
+     "traverse",
+     "finish"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks forward through the moving pedestrians while the handcart is pushed along nearby. The protagonist comes to a stop and stands still while the others keep moving.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist comes to a stop and stands still while the others keep moving.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-133-indoor-carryStairs": [
+   {
+    "name": "reach",
+    "phases": [
+     "reach"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist bends toward the parcel and takes hold of it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lifts the parcel off its stand.",
+    "camera": "follow"
+   },
+   {
+    "name": "lift",
+    "phases": [
+     "lift"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist lifts the parcel off its stand.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist carries the parcel up the steps.",
+    "camera": "follow"
+   },
+   {
+    "name": "carry-place-placed",
+    "phases": [
+     "carry",
+     "place",
+     "placed"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist carries the parcel up the steps. The protagonist lowers the parcel onto the raised table. The parcel rests on the raised table and the protagonist lets go of it.",
+    "outcome": "at the end of the segment this has just happened or is happening: The parcel rests on the raised table and the protagonist lets go of it.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-135-indoor-busBoard": [
+   {
+    "name": "boarding",
+    "phases": [
+     "boarding"
+    ],
+    "participants": [
+     "player",
+     "bus",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks up the entry steps of the stationary bus.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist moves along the aisle inside the bus.",
+    "camera": "follow"
+   },
+   {
+    "name": "inside-bus",
+    "phases": [
+     "inside-bus"
+    ],
+    "participants": [
+     "player",
+     "bus",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist moves along the aisle inside the bus.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist moves along the aisle inside the bus.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-136-indoor-busInside": [
+   {
+    "name": "traverse-finish",
+    "phases": [
+     "traverse",
+     "finish"
+    ],
+    "participants": [
+     "npc-01",
+     "npc-02",
+     "npc-03",
+     "traffic-0"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks along the enclosed aisle of the bus past the rows of seats. The protagonist comes to a stop in the aisle and stands still.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist comes to a stop in the aisle and stands still.",
+    "camera": "first-person"
+   }
+  ],
+  "dv200-137-indoor-stairsDown": [
+   {
+    "name": "descend-lower-landing",
+    "phases": [
+     "descend",
+     "lower-landing"
+    ],
+    "participants": [
+     "player",
+     "ambient-cart",
+     "npc-01",
+     "npc-02"
+    ],
+    "action": "The protagonist walks down the stairs step by step. The protagonist reaches the lower landing and walks on.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist reaches the lower landing and walks on.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-139-indoor-combat": [
+   {
+    "name": "aiming-exchange-move-to-cover",
+    "phases": [
+     "aiming",
+     "exchange",
+     "move-to-cover"
+    ],
+    "participants": [
+     "player",
+     "opponent-a",
+     "opponent-a-weapon",
+     "opponent-b"
+    ],
+    "action": "The protagonist raises the training firearm and aims at the moving training opponent. The protagonist fires at the training opponents while they move and return fire. The protagonist runs to the nearby cover.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist crouches behind the cover and reloads the training firearm.",
+    "camera": "follow"
+   },
+   {
+    "name": "cover-reload-leave-cover",
+    "phases": [
+     "cover-reload",
+     "leave-cover"
+    ],
+    "participants": [
+     "player",
+     "opponent-a",
+     "opponent-a-weapon",
+     "opponent-b"
+    ],
+    "action": "The protagonist crouches behind the cover and reloads the training firearm. The protagonist rises from behind the cover and steps back out.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist fires at the training opponents again while they keep moving and returning fire.",
+    "camera": "follow"
+   },
+   {
+    "name": "second-exchange-finish",
+    "phases": [
+     "second-exchange",
+     "finish"
+    ],
+    "participants": [
+     "player",
+     "opponent-a",
+     "opponent-a-weapon",
+     "opponent-b"
+    ],
+    "action": "The protagonist fires at the training opponents again while they keep moving and returning fire. The protagonist lowers the training firearm and stands still.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist lowers the training firearm and stands still.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-143-nature-dog-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "dog-0",
+     "dog-1"
+    ],
+    "action": "The protagonist walks along the route while the dogs trot alongside and turn with it. The protagonist slows down and watches the dogs as they stop and look around.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the dogs as they stop and look around.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-145-nature-dog-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "dog-0",
+     "dog-1"
+    ],
+    "action": "The protagonist walks along the route while the dogs trot alongside and turn with it. The protagonist slows down and watches the dogs as they stop and look around.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the dogs as they stop and look around.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-146-city-dog-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "dog-0",
+     "dog-1",
+     "dog-2"
+    ],
+    "action": "The protagonist walks along the route while the dogs trot alongside and turn with it. The protagonist slows down and watches the dogs as they stop and look around.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the dogs as they stop and look around.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-147-city-dog-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "dog-0",
+     "dog-1"
+    ],
+    "action": "The protagonist walks along the route while the dogs trot alongside and turn with it. The protagonist slows down and watches the dogs as they stop and look around.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the dogs as they stop and look around.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-154-nature-cat-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "cat-0",
+     "cat-1",
+     "cat-2"
+    ],
+    "action": "The protagonist walks along the route while the cats weave across it and circle round. The protagonist slows down and watches the cats as they pause and look back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the cats as they pause and look back.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-155-indoor-cat-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "cat-0",
+     "cat-1"
+    ],
+    "action": "The protagonist walks along the route while the cats weave across it and circle round. The protagonist slows down and watches the cats as they pause and look back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the cats as they pause and look back.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-156-indoor-cat-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "cat-0",
+     "cat-1",
+     "cat-2"
+    ],
+    "action": "The protagonist walks along the route while the cats weave across it and circle round. The protagonist slows down and watches the cats as they pause and look back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the cats as they pause and look back.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-158-city-cat-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "cat-0",
+     "cat-1",
+     "cat-2"
+    ],
+    "action": "The protagonist walks along the route while the cats weave across it and circle round. The protagonist slows down and watches the cats as they pause and look back.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the cats as they pause and look back.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-162-nature-rabbit-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "rabbit-0",
+     "rabbit-1",
+     "rabbit-2"
+    ],
+    "action": "The protagonist walks along the route while the rabbits hop alongside in short bounds. The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-163-city-rabbit-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "rabbit-0",
+     "rabbit-1"
+    ],
+    "action": "The protagonist walks along the route while the rabbits hop alongside in short bounds. The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-165-city-rabbit-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "rabbit-0",
+     "rabbit-1"
+    ],
+    "action": "The protagonist walks along the route while the rabbits hop alongside in short bounds. The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-166-nature-rabbit-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "rabbit-0",
+     "rabbit-1",
+     "rabbit-2"
+    ],
+    "action": "The protagonist walks along the route while the rabbits hop alongside in short bounds. The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-172-city-bird-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "bird-0",
+     "bird-1",
+     "bird-2"
+    ],
+    "action": "The protagonist walks along the route while the birds flap past low overhead in a loose group. The protagonist slows down and watches the birds as they wheel round and skim past again.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the birds as they wheel round and skim past again.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-175-nature-bird-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "bird-0",
+     "bird-1"
+    ],
+    "action": "The protagonist walks along the route while the birds flap past low overhead in a loose group. The protagonist slows down and watches the birds as they wheel round and skim past again.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the birds as they wheel round and skim past again.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-176-nature-bird-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "bird-0",
+     "bird-1",
+     "bird-2"
+    ],
+    "action": "The protagonist walks along the route while the birds flap past low overhead in a loose group. The protagonist slows down and watches the birds as they wheel round and skim past again.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the birds as they wheel round and skim past again.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-182-nature-duck-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "duck-0",
+     "duck-1",
+     "duck-2"
+    ],
+    "action": "The protagonist walks along the route while the ducks waddle alongside in a line. The protagonist slows down and watches the ducks as they turn together and waddle on.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the ducks as they turn together and waddle on.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-189-city-duck-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "duck-0",
+     "duck-1"
+    ],
+    "action": "The protagonist walks along the route while the ducks waddle alongside in a line. The protagonist slows down and watches the ducks as they turn together and waddle on.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the ducks as they turn together and waddle on.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-192-underwater-fish-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "fish-0",
+     "fish-1",
+     "fish-2"
+    ],
+    "action": "The protagonist swims forward along the route while the fish swim alongside with beating tails. The protagonist slows down and watches the fish as the shoal turns together.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the fish as the shoal turns together.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-194-underwater-fish-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "fish-0",
+     "fish-1",
+     "fish-2"
+    ],
+    "action": "The protagonist swims forward along the route while the fish swim alongside with beating tails. The protagonist slows down and watches the fish as the shoal turns together.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the fish as the shoal turns together.",
+    "camera": "follow"
+   }
+  ],
+  "dv200-195-underwater-fish-encounter": [
+   {
+    "name": "accompany-observe",
+    "phases": [
+     "accompany",
+     "observe"
+    ],
+    "participants": [
+     "player",
+     "fish-0",
+     "fish-1"
+    ],
+    "action": "The protagonist swims forward along the route while the fish swim alongside with beating tails. The protagonist slows down and watches the fish as the shoal turns together.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist slows down and watches the fish as the shoal turns together.",
+    "camera": "follow"
+   }
+  ]
+ }
+}

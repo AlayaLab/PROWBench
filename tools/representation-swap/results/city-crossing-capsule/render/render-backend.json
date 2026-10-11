@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "render-backend.v1",
+  "requested": "gpu",
+  "actual": "gpu",
+  "browserEngine": "chromium-headless-shell",
+  "browserVersion": "141.0.7390.37",
+  "launchArgs": [
+    "--no-sandbox",
+    "--disable-dev-shm-usage",
+    "--enable-gpu",
+    "--use-angle=vulkan",
+    "--enable-features=Vulkan",
+    "--disable-vulkan-surface",
+    "--ignore-gpu-blocklist",
+    "--disable-software-rasterizer"
+  ],
+  "driverManifests": {
+    "VK_DRIVER_FILES": [
+      {
+        "path": "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/skill/prowbench-swap-representation/assets/gpu/nvidia-vulkan.json",
+        "sha256": "8f6f48d52498df82f34deb586cf2846ebd3d190550a1c146293e39680f694af2"
+      }
+    ],
+    "VK_ICD_FILENAMES": [
+      {
+        "path": "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/skill/prowbench-swap-representation/assets/gpu/nvidia-vulkan.json",
+        "sha256": "8f6f48d52498df82f34deb586cf2846ebd3d190550a1c146293e39680f694af2"
+      }
+    ],
+    "__EGL_VENDOR_LIBRARY_FILENAMES": [
+      {
+        "path": "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/skill/prowbench-swap-representation/assets/gpu/nvidia-egl.json",
+        "sha256": "b007d23230b6289d28445a0047301101c21ba735b58ad8b2409504639b3fd535"
+      }
+    ]
+  },
+  "webgl": {
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA H200 (0x00002335)), NVIDIA)",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "shadingLanguageVersion": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "contextAttributes": {
+      "alpha": true,
+      "antialias": true,
+      "depth": true,
+      "desynchronized": false,
+      "failIfMajorPerformanceCaveat": false,
+      "powerPreference": "high-performance",
+      "premultipliedAlpha": true,
+      "preserveDrawingBuffer": true,
+      "stencil": false,
+      "xrCompatible": false
+    },
+    "width": 1280,
+    "height": 720
+  },
+  "devices": [
+    {
+      "vendorId": 0,
+      "deviceId": 0,
+      "vendorString": "Google Inc. (NVIDIA)",
+      "deviceString": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA H200 (0x00002335)), NVIDIA-570.133.20.0)",
+      "driverVendor": "NVIDIA",
+      "driverVersion": "570.133.20.0"
+    }
+  ],
+  "featureStatus": {
+    "2d_canvas": "enabled",
+    "direct_rendering_display_compositor": "disabled_off_ok",
+    "gpu_compositing": "enabled",
+    "multiple_raster_threads": "enabled_on",
+    "opengl": "enabled_on",
+    "rasterization": "enabled",
+    "raw_draw": "disabled_off_ok",
+    "skia_graphite": "disabled_off",
+    "trees_in_viz": "disabled_off",
+    "video_decode": "enabled",
+    "video_encode": "disabled_software",
+    "vulkan": "enabled_on",
+    "webgl": "enabled",
+    "webgl2": "enabled",
+    "webgpu": "disabled_off",
+    "webnn": "disabled_off"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "command": [
+    "/mnt/workspace/hzh/node/bin/node",
+    "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/skill/prowbench-swap-representation/scripts/render_pair.mjs",
+    "--input",
+    "/mnt/workspace/hzh/prowbench-representation-demo/packaged-skill-check/replay-input",
+    "--out",
+    "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/results/city-crossing-capsule/render",
+    "--entity",
+    "player",
+    "--color",
+    "#ffcc22",
+    "--height",
+    "1.78",
+    "--radius",
+    "0.26"
+  ],
+  "cwd": "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap",
+  "startedAt": "2026-10-10T01:32:04.947Z",
+  "input": "/mnt/workspace/hzh/prowbench-representation-demo/packaged-skill-check/replay-input",
+  "out": "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/results/city-crossing-capsule/render",
+  "config": {
+    "camera": "follow",
+    "entity": "player",
+    "color": "#ffcc22",
+    "height": 1.78,
+    "radius": 0.26
+  },
+  "implementation": {
+    "assets/replacement.js": "d8f8ce786c38f3b8b9de59b2fef755baacb24ec0a36245ba07c38d0fbd8fa60f",
+    "assets/viewer.js": "58c55f13b112d4dcc0c424b44175a053920f18b9a3f4093f1f91af3431ed33be",
+    "assets/runtime/replay.js": "5622d1bc23d61d9c2dd897a38d11ca78370ea737ae1391e0f062fb8e023b963f",
+    "assets/runtime/reference-style.js": "edca00c89b7c78775f4d2f137b216d998a4eb3c0f1338e4841ceaf7c804766a7",
+    "assets/runtime/camera-restore.js": "d3ca7cef6d6d791a80becec357cb01857b77433a634720428022631dda8f6d64",
+    "scripts/render_pair.mjs": "92436a622cb36c4b975a546bd852221c27da3ab9471003f2039cd238b43072c2",
+    "scripts/render-backend.mjs": "c2f110feb5a161c305e05a46f08acdcb55b572f535388175d63537b54ba7e56d"
+  }
+}

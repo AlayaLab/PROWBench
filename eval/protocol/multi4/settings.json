@@ -1,0 +1,91 @@
+{
+  "dataset": "multi4",
+  "views": [
+    "follow-a",
+    "follow-b",
+    "follow-c",
+    "follow-d"
+  ],
+  "files": {
+    "events": "events.json",
+    "descriptions": "descriptions.json"
+  },
+  "ground_truth": {
+    "first_person_filter": "off"
+  },
+  "judge": {
+    "model": "Qwen/Qwen3.6-27B",
+    "dtype": "bfloat16",
+    "device": "cuda:0",
+    "decoding": "greedy",
+    "max_new_tokens": 2048,
+    "enable_thinking": false
+  },
+  "interaction": {
+    "frames": 8,
+    "crop_margin": 0.35,
+    "prompt": "interaction_windowed.PROMPT"
+  },
+  "alignment": {
+    "frames": 12,
+    "window_pad": 0.3,
+    "crop_margin": 0.35,
+    "end_state_frames": 4,
+    "end_state_seconds": 0.5,
+    "static_frames": 12,
+    "max_static_facts": 8,
+    "seed": 0,
+    "foil": "distinct_timeline",
+    "foil_offset": 5,
+    "prompts": [
+      "alignment_windowed.DYNAMIC_PROMPT",
+      "alignment_windowed.END_STATE_PROMPT",
+      "alignment_windowed.STATIC_PROMPT"
+    ]
+  },
+  "detector": {
+    "tracker": "sam3",
+    "model": "facebook/sam3",
+    "sam3_score_thresh": 0.2,
+    "sam3_fallback": "sam2",
+    "sam2_model": "facebook/sam2.1-hiera-large",
+    "grid_hz": 8
+  },
+  "camera": {
+    "estimator": "vipe",
+    "vipe_version": "1.2.0",
+    "vipe_pipeline": "pose_only",
+    "seed": 0,
+    "protocol": "cami2v",
+    "grid_hz": 8,
+    "zoom_views": "rectify to a constant maximum focal length before estimation (camera_rectify)"
+  },
+  "appearance": {
+    "times": [
+      0.5,
+      2.5,
+      4.5
+    ],
+    "min_pix": 2500,
+    "judge_max_new_tokens": 2400,
+    "enable_thinking": false
+  },
+  "met3r": {
+    "input_wh": [
+      336,
+      192
+    ],
+    "times": [
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5
+    ],
+    "pairs": "all six pairs of the four views, both directions averaged"
+  }
+}

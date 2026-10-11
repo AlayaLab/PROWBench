@@ -1,0 +1,15 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+
+# Evaluation outputs and generated videos
+eval/results/*
+!eval/results/.gitkeep
+model_output_video/
+
+# Dataset download and data prepared for evaluation (README Quick start)
+/PROWBench/
+/prowbench-eval-data/

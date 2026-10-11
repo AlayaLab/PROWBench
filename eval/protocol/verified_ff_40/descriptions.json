@@ -1,0 +1,2286 @@
+{
+ "schema": "prowbench.protocol.descriptions.v1",
+ "dataset": "verified_ff_40",
+ "episodes": {
+  "dv200-001-city-crossing": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "crossing",
+      "startFrame": 0,
+      "endFrameExclusive": 140,
+      "startSeconds": 0.0,
+      "endSeconds": 4.666666666666667,
+      "description": "The protagonist walks across the road while the approaching vehicles brake and yield. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "opposite-side",
+      "startFrame": 140,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.666666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist reaches the far side of the road and keeps walking. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A city street with tall buildings, sidewalks, parked cars and crossing traffic. A wide urban street paved with asphalt and marked with white lane lines, flanked by sidewalks with moss-toned metal railings. Tall modern office buildings with glass windows line both sides of the street, receding into the distance. Green trees are planted along the sidewalks. The sky is a soft gradient of blue and white, suggesting a clear day.\nCompanions: A young man with dark hair, wearing a mustard hooded jacket, dark shorts, and white sneakers, standing on the left sidewalk facing the street. A person with short blonde hair, wearing a maroon hoodie and blue jeans, standing on the right sidewalk facing the street. A man with dark hair, wearing a white t-shirt under dark blue overalls and brown shoes, standing on the left sidewalk near the black car.\nObjects: A classic black sedan with chrome bumpers and round headlights, positioned on the left side of the street facing the camera. A classic red sedan with a white license plate, positioned on the right side of the street facing away from the camera.\nAction timeline: From 0.00 to 4.67 s: The protagonist walks across the road while the approaching vehicles brake and yield. From 4.67 to 5.00 s: The protagonist reaches the far side of the road and keeps walking.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "crossing",
+      "startFrame": 0,
+      "endFrameExclusive": 140,
+      "startSeconds": 0.0,
+      "endSeconds": 4.666666666666667,
+      "description": "The protagonist walks across the road while the approaching vehicles brake and yield."
+     },
+     {
+      "phase": "opposite-side",
+      "startFrame": 140,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.666666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist reaches the far side of the road and keeps walking."
+     }
+    ],
+    "description": "World: A city street with tall buildings, sidewalks, parked cars and crossing traffic. A wide urban street paved with asphalt and marked with white lane lines, flanked by sidewalks with moss-toned metal railings. Tall modern office buildings with glass windows line both sides of the street, receding into the distance. Green trees are planted along the sidewalks. The sky is a soft gradient of blue and white, suggesting a clear day.\nProtagonist: A man with short brown hair, wearing a dark charcoal suit and black shoes, walking away from the camera down the center of the road.\nCompanions: A young man with dark hair, wearing a mustard hooded jacket, dark shorts, and white sneakers, standing on the left sidewalk facing the street. A person with short blonde hair, wearing a maroon hoodie and blue jeans, standing on the right sidewalk facing the street. A man with dark hair, wearing a white t-shirt under dark blue overalls and brown shoes, standing on the left sidewalk near the black car.\nObjects: A classic black sedan with chrome bumpers and round headlights, positioned on the left side of the street facing the camera. A classic red sedan with a white license plate, positioned on the right side of the street facing away from the camera.\nAction timeline: From 0.00 to 4.67 s: The protagonist walks across the road while the approaching vehicles brake and yield. From 4.67 to 5.00 s: The protagonist reaches the far side of the road and keeps walking."
+   }
+  },
+  "dv200-002-city-drive": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 32,
+      "startSeconds": 0.0,
+      "endSeconds": 1.0666666666666667,
+      "description": "The protagonist walks up to the parked car. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "enter-vehicle",
+      "startFrame": 32,
+      "endFrameExclusive": 65,
+      "startSeconds": 1.0666666666666667,
+      "endSeconds": 2.1666666666666665,
+      "description": "The protagonist opens the car door and ducks inside. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "entered-vehicle",
+      "startFrame": 65,
+      "endFrameExclusive": 79,
+      "startSeconds": 2.1666666666666665,
+      "endSeconds": 2.6333333333333333,
+      "description": "The protagonist gets into the car and takes the driving seat. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "driving",
+      "startFrame": 79,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.6333333333333333,
+      "endSeconds": 5.0,
+      "description": "The protagonist drives the car forward. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A city street with tall buildings, sidewalks, parked cars and crossing traffic. A wide urban street paved with asphalt, flanked by concrete sidewalks and lined with green deciduous trees. The background features tall brick buildings and distant skyscrapers under a hazy, bright sky. The surfaces are rendered with visible brushstrokes and painterly textures.\nCompanions: A man walking on the left sidewalk wearing a mustard jacket, grey shorts, and white sneakers. A man walking on the right sidewalk wearing a salmon patterned shirt, beige trousers, and a straw hat. A woman walking on the left sidewalk wearing a maroon long-sleeved top and blue jeans.\nObjects: A vintage maroon sedan positioned on the right side of the street, featuring chrome bumpers, a black rear panel, and a visible license plate. A dark blue vintage sedan positioned on the right side of the street, positioned in front of the maroon car.\nAction timeline: From 0.00 to 1.07 s: The protagonist walks up to the parked car. From 1.07 to 2.17 s: The protagonist opens the car door and ducks inside. From 2.17 to 2.63 s: The protagonist gets into the car and takes the driving seat. From 2.63 to 5.00 s: The protagonist drives the car forward.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 32,
+      "startSeconds": 0.0,
+      "endSeconds": 1.0666666666666667,
+      "description": "The protagonist walks up to the parked car."
+     },
+     {
+      "phase": "enter-vehicle",
+      "startFrame": 32,
+      "endFrameExclusive": 65,
+      "startSeconds": 1.0666666666666667,
+      "endSeconds": 2.1666666666666665,
+      "description": "The protagonist opens the car door and ducks inside."
+     },
+     {
+      "phase": "entered-vehicle",
+      "startFrame": 65,
+      "endFrameExclusive": 79,
+      "startSeconds": 2.1666666666666665,
+      "endSeconds": 2.6333333333333333,
+      "description": "The protagonist gets into the car and takes the driving seat."
+     },
+     {
+      "phase": "driving",
+      "startFrame": 79,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.6333333333333333,
+      "endSeconds": 5.0,
+      "description": "The protagonist drives the car forward."
+     }
+    ],
+    "description": "World: A city street with tall buildings, sidewalks, parked cars and crossing traffic. A wide urban street paved with asphalt, flanked by concrete sidewalks and lined with green deciduous trees. The background features tall brick buildings and distant skyscrapers under a hazy, bright sky. The surfaces are rendered with visible brushstrokes and painterly textures.\nProtagonist: A man with short brown hair, wearing a dark charcoal suit and black shoes, standing in the center of the road with his back to the camera.\nCompanions: A man walking on the left sidewalk wearing a mustard jacket, grey shorts, and white sneakers. A man walking on the right sidewalk wearing a salmon patterned shirt, beige trousers, and a straw hat. A woman walking on the left sidewalk wearing a maroon long-sleeved top and blue jeans.\nObjects: A vintage maroon sedan positioned on the right side of the street, featuring chrome bumpers, a black rear panel, and a visible license plate. A dark blue vintage sedan positioned on the right side of the street, positioned in front of the maroon car.\nAction timeline: From 0.00 to 1.07 s: The protagonist walks up to the parked car. From 1.07 to 2.17 s: The protagonist opens the car door and ducks inside. From 2.17 to 2.63 s: The protagonist gets into the car and takes the driving seat. From 2.63 to 5.00 s: The protagonist drives the car forward."
+   }
+  },
+  "dv200-006-city-handoff": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 35,
+      "startSeconds": 0.0,
+      "endSeconds": 1.1666666666666667,
+      "description": "The protagonist carries the parcel toward the waiting companion. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "offer",
+      "startFrame": 35,
+      "endFrameExclusive": 74,
+      "startSeconds": 1.1666666666666667,
+      "endSeconds": 2.466666666666667,
+      "description": "The protagonist extends the parcel toward the companion, who reaches out for it. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "transfer",
+      "startFrame": 74,
+      "endFrameExclusive": 98,
+      "startSeconds": 2.466666666666667,
+      "endSeconds": 3.2666666666666666,
+      "description": "Both hold the parcel briefly as the grip passes from the protagonist to the companion. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "received",
+      "startFrame": 98,
+      "endFrameExclusive": 150,
+      "startSeconds": 3.2666666666666666,
+      "endSeconds": 5.0,
+      "description": "The companion holds the parcel and the protagonist lowers the empty hands. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A residential street with enclosed courtyards, low houses, front steps and parked cars. A wet, glossy asphalt road reflecting the overcast sky, flanked by manicured green hedges and tall trees. In the background, beige residential buildings with dark windows are softened by a thick, cool-toned mist. A grey pickup truck is parked on the left side of the frame.\nCompanions: A man with short brown hair, wearing a white dress shirt, a maroon tie, dark grey trousers and black dress shoes, standing with arms at his sides. A man with dark skin and a black cap, wearing a mustard jacket, grey shorts and white sneakers, walking towards the camera. A woman with long brown hair, wearing a maroon long-sleeved top, blue jeans and white shoes, walking towards the camera. A person wearing a straw hat, a floral patterned shirt and tan shorts, walking away from the camera on the right side.\nObjects: A small, rectangular wooden crate with visible grain and metal corner brackets. A dark grey pickup truck with a visible rear license plate reading '5Z52 1005', positioned on the left.\nAction timeline: From 0.00 to 1.17 s: The protagonist carries the parcel toward the waiting companion. From 1.17 to 2.47 s: The protagonist extends the parcel toward the companion, who reaches out for it. From 2.47 to 3.27 s: Both hold the parcel briefly as the grip passes from the protagonist to the companion. From 3.27 to 5.00 s: The companion holds the parcel and the protagonist lowers the empty hands.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 35,
+      "startSeconds": 0.0,
+      "endSeconds": 1.1666666666666667,
+      "description": "The protagonist carries the parcel toward the waiting companion."
+     },
+     {
+      "phase": "offer",
+      "startFrame": 35,
+      "endFrameExclusive": 74,
+      "startSeconds": 1.1666666666666667,
+      "endSeconds": 2.466666666666667,
+      "description": "The protagonist extends the parcel toward the companion, who reaches out for it."
+     },
+     {
+      "phase": "transfer",
+      "startFrame": 74,
+      "endFrameExclusive": 98,
+      "startSeconds": 2.466666666666667,
+      "endSeconds": 3.2666666666666666,
+      "description": "Both hold the parcel briefly as the grip passes from the protagonist to the companion."
+     },
+     {
+      "phase": "received",
+      "startFrame": 98,
+      "endFrameExclusive": 150,
+      "startSeconds": 3.2666666666666666,
+      "endSeconds": 5.0,
+      "description": "The companion holds the parcel and the protagonist lowers the empty hands."
+     }
+    ],
+    "description": "World: A residential street with enclosed courtyards, low houses, front steps and parked cars. A wet, glossy asphalt road reflecting the overcast sky, flanked by manicured green hedges and tall trees. In the background, beige residential buildings with dark windows are softened by a thick, cool-toned mist. A grey pickup truck is parked on the left side of the frame.\nProtagonist: A woman with reddish-brown hair tied back, wearing navy blue overalls over a cream t-shirt and dark boots, holding a wooden crate with both hands.\nCompanions: A man with short brown hair, wearing a white dress shirt, a maroon tie, dark grey trousers and black dress shoes, standing with arms at his sides. A man with dark skin and a black cap, wearing a mustard jacket, grey shorts and white sneakers, walking towards the camera. A woman with long brown hair, wearing a maroon long-sleeved top, blue jeans and white shoes, walking towards the camera. A person wearing a straw hat, a floral patterned shirt and tan shorts, walking away from the camera on the right side.\nObjects: A small, rectangular wooden crate with visible grain and metal corner brackets. A dark grey pickup truck with a visible rear license plate reading '5Z52 1005', positioned on the left.\nAction timeline: From 0.00 to 1.17 s: The protagonist carries the parcel toward the waiting companion. From 1.17 to 2.47 s: The protagonist extends the parcel toward the companion, who reaches out for it. From 2.47 to 3.27 s: Both hold the parcel briefly as the grip passes from the protagonist to the companion. From 3.27 to 5.00 s: The companion holds the parcel and the protagonist lowers the empty hands."
+   }
+  },
+  "dv200-008-city-cart": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 29,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9666666666666667,
+      "description": "The protagonist steps up to the handcart and takes hold of its handle. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "push",
+      "startFrame": 29,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.9666666666666667,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist pushes the handcart forward around the gentle bend. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "released",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist lets go of the handle and the handcart stays where it stopped. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A narrow old-town market with stone facades, stalls, awnings and handcarts. A narrow cobblestone street glistening with rain and puddles, flanked by grassy verges and large leafy trees. On the left, a wooden market stall with a flat roof stands near a stone wall. On the right, a black iron streetlamp stands near a large tree trunk. In the background, ochre and beige stone buildings with tiled roofs fade into a thick, cool-toned mist. The sky is a pale, overcast grey-blue.\nCompanions: A man with dark hair and a beard, wearing a sage green t-shirt, a tan apron, and tan trousers, walking forward on the left side of the street. A woman with dark hair, wearing a navy long-sleeved top and white trousers, pushing a wooden handcart in the center of the street. A man wearing a straw hat, a salmon pink patterned short-sleeved shirt, and beige shorts, walking away from the camera on the right side of the street.\nObjects: A wooden handcart with a slatted box bed and four spoked wheels, positioned in the immediate foreground, viewed from behind. A wooden handcart with a slatted box bed and spoked wheels, being pushed by the woman in the center of the street.\nAction timeline: From 0.00 to 0.97 s: The protagonist steps up to the handcart and takes hold of its handle. From 0.97 to 4.07 s: The protagonist pushes the handcart forward around the gentle bend. From 4.07 to 5.00 s: The protagonist lets go of the handle and the handcart stays where it stopped."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 29,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9666666666666667,
+      "description": "The protagonist steps up to the handcart and takes hold of its handle."
+     },
+     {
+      "phase": "push",
+      "startFrame": 29,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.9666666666666667,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist pushes the handcart forward around the gentle bend."
+     },
+     {
+      "phase": "released",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist lets go of the handle and the handcart stays where it stopped."
+     }
+    ],
+    "description": "World: A narrow old-town market with stone facades, stalls, awnings and handcarts. A narrow cobblestone street glistening with rain and puddles, flanked by grassy verges and large leafy trees. On the left, a wooden market stall with a flat roof stands near a stone wall. On the right, a black iron streetlamp stands near a large tree trunk. In the background, ochre and beige stone buildings with tiled roofs fade into a thick, cool-toned mist. The sky is a pale, overcast grey-blue.\nCompanions: A man with dark hair and a beard, wearing a sage green t-shirt, a tan apron, and tan trousers, walking forward on the left side of the street. A woman with dark hair, wearing a navy long-sleeved top and white trousers, pushing a wooden handcart in the center of the street. A man wearing a straw hat, a salmon pink patterned short-sleeved shirt, and beige shorts, walking away from the camera on the right side of the street.\nObjects: A wooden handcart with a slatted box bed and four spoked wheels, positioned in the immediate foreground, viewed from behind. A wooden handcart with a slatted box bed and spoked wheels, being pushed by the woman in the center of the street.\nAction timeline: From 0.00 to 0.97 s: The protagonist steps up to the handcart and takes hold of its handle. From 0.97 to 4.07 s: The protagonist pushes the handcart forward around the gentle bend. From 4.07 to 5.00 s: The protagonist lets go of the handle and the handcart stays where it stopped.",
+    "view_in_dataset": false
+   }
+  },
+  "dv200-014-city-push": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 29,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9666666666666667,
+      "description": "The protagonist steps up to the crate and places both hands on it. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "push",
+      "startFrame": 29,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.9666666666666667,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist pushes the crate forward. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "released",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist lets go of the crate and it stays where it stopped. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: An industrial work yard with steel gantries, scaffolding, cargo, platforms and vehicles. A paved concrete road with visible cracks and tufts of grass growing through the seams, leading towards a large steel gantry frame. The background features industrial silos and factory structures in the distance. To the left and right are corrugated metal fences and green trees. The lighting suggests a clear day with soft shadows.\nCompanions: A male character standing on the right side of the path, wearing a light navy short-sleeved shirt and dark navy trousers, facing towards the center. A male character standing on the left side of the path, wearing a mustard jacket, a white shirt, and blue shorts. A male character standing on the left side of the path, wearing dark blue overalls over a white shirt and a red cap.\nObjects: A large, light-brown wooden shipping crate with visible wood grain and metal corner reinforcements. A silver utility pickup truck with a flatbed, positioned on the right side of the path facing away from the camera.\nAction timeline: From 0.00 to 0.97 s: The protagonist steps up to the crate and places both hands on it. From 0.97 to 4.07 s: The protagonist pushes the crate forward. From 4.07 to 5.00 s: The protagonist lets go of the crate and it stays where it stopped.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 29,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9666666666666667,
+      "description": "The protagonist steps up to the crate and places both hands on it."
+     },
+     {
+      "phase": "push",
+      "startFrame": 29,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.9666666666666667,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist pushes the crate forward."
+     },
+     {
+      "phase": "released",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist lets go of the crate and it stays where it stopped."
+     }
+    ],
+    "description": "World: An industrial work yard with steel gantries, scaffolding, cargo, platforms and vehicles. A paved concrete road with visible cracks and tufts of grass growing through the seams, leading towards a large steel gantry frame. The background features industrial silos and factory structures in the distance. To the left and right are corrugated metal fences and green trees. The lighting suggests a clear day with soft shadows.\nProtagonist: A male character viewed from behind, wearing a yellow hard hat, an amber high-visibility vest over a beige shirt, and tan trousers. He stands behind a wooden crate.\nCompanions: A male character standing on the right side of the path, wearing a light navy short-sleeved shirt and dark navy trousers, facing towards the center. A male character standing on the left side of the path, wearing a mustard jacket, a white shirt, and blue shorts. A male character standing on the left side of the path, wearing dark blue overalls over a white shirt and a red cap.\nObjects: A large, light-brown wooden shipping crate with visible wood grain and metal corner reinforcements. A silver utility pickup truck with a flatbed, positioned on the right side of the path facing away from the camera.\nAction timeline: From 0.00 to 0.97 s: The protagonist steps up to the crate and places both hands on it. From 0.97 to 4.07 s: The protagonist pushes the crate forward. From 4.07 to 5.00 s: The protagonist lets go of the crate and it stays where it stopped."
+   }
+  },
+  "dv200-023-indoor-sit": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 17,
+      "startSeconds": 0.0,
+      "endSeconds": 0.5666666666666667,
+      "description": "The protagonist walks up to the chair. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "sit-down",
+      "startFrame": 17,
+      "endFrameExclusive": 44,
+      "startSeconds": 0.5666666666666667,
+      "endSeconds": 1.4666666666666666,
+      "description": "The protagonist lowers onto the seat of the chair. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "seated",
+      "startFrame": 44,
+      "endFrameExclusive": 89,
+      "startSeconds": 1.4666666666666666,
+      "endSeconds": 2.966666666666667,
+      "description": "The protagonist sits on the chair. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "stand-up",
+      "startFrame": 89,
+      "endFrameExclusive": 116,
+      "startSeconds": 2.966666666666667,
+      "endSeconds": 3.8666666666666667,
+      "description": "The protagonist rises from the chair. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "standing",
+      "startFrame": 116,
+      "endFrameExclusive": 150,
+      "startSeconds": 3.8666666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist stands and steps away from the chair. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A fully roofed furnished home with connected rooms, cabinets, chairs and tables. A spacious interior room with light-coloured wooden plank flooring and white vertical panelled walls. On the left, a television sits on a low cabinet next to a floor lamp and a cluster of rocks. On the right, a large potted tree stands near a window with curtains, accompanied by more rocks. In the background, a sofa and coffee table are visible in a connected area.\nCompanions: A man with short hair, wearing a light-coloured button-down shirt, a tie, and dark trousers, standing with arms at his sides. A woman with hair tied back, wearing a light shirt under dark overalls, standing with her back to the viewer. A person wearing a white chef's uniform and hat, standing behind a wheeled cart.\nObjects: A simple empty chair with a backrest and four legs, standing between the viewer and the protagonist. A metal utility cart with a flat top and four wheels, positioned in front of the chef.\nAction timeline: From 0.00 to 0.57 s: The protagonist walks up to the chair. From 0.57 to 1.47 s: The protagonist lowers onto the seat of the chair. From 1.47 to 2.97 s: The protagonist sits on the chair. From 2.97 to 3.87 s: The protagonist rises from the chair. From 3.87 to 5.00 s: The protagonist stands and steps away from the chair.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 17,
+      "startSeconds": 0.0,
+      "endSeconds": 0.5666666666666667,
+      "description": "The protagonist walks up to the chair."
+     },
+     {
+      "phase": "sit-down",
+      "startFrame": 17,
+      "endFrameExclusive": 44,
+      "startSeconds": 0.5666666666666667,
+      "endSeconds": 1.4666666666666666,
+      "description": "The protagonist lowers onto the seat of the chair."
+     },
+     {
+      "phase": "seated",
+      "startFrame": 44,
+      "endFrameExclusive": 89,
+      "startSeconds": 1.4666666666666666,
+      "endSeconds": 2.966666666666667,
+      "description": "The protagonist sits on the chair."
+     },
+     {
+      "phase": "stand-up",
+      "startFrame": 89,
+      "endFrameExclusive": 116,
+      "startSeconds": 2.966666666666667,
+      "endSeconds": 3.8666666666666667,
+      "description": "The protagonist rises from the chair."
+     },
+     {
+      "phase": "standing",
+      "startFrame": 116,
+      "endFrameExclusive": 150,
+      "startSeconds": 3.8666666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist stands and steps away from the chair."
+     }
+    ],
+    "description": "World: A fully roofed furnished home with connected rooms, cabinets, chairs and tables. A spacious interior room with light-coloured wooden plank flooring and white vertical panelled walls. On the left, a television sits on a low cabinet next to a floor lamp and a cluster of rocks. On the right, a large potted tree stands near a window with curtains, accompanied by more rocks. In the background, a sofa and coffee table are visible in a connected area.\nProtagonist: A person with shoulder-length hair, wearing a maroon hooded sweatshirt and blue jeans, standing with their back to the viewer just beyond an empty chair.\nCompanions: A man with short hair, wearing a light-coloured button-down shirt, a tie, and dark trousers, standing with arms at his sides. A woman with hair tied back, wearing a light shirt under dark overalls, standing with her back to the viewer. A person wearing a white chef's uniform and hat, standing behind a wheeled cart.\nObjects: A simple empty chair with a backrest and four legs, standing between the viewer and the protagonist. A metal utility cart with a flat top and four wheels, positioned in front of the chef.\nAction timeline: From 0.00 to 0.57 s: The protagonist walks up to the chair. From 0.57 to 1.47 s: The protagonist lowers onto the seat of the chair. From 1.47 to 2.97 s: The protagonist sits on the chair. From 2.97 to 3.87 s: The protagonist rises from the chair. From 3.87 to 5.00 s: The protagonist stands and steps away from the chair."
+   }
+  },
+  "dv200-028-indoor-crowd": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 143,
+      "startSeconds": 0.0,
+      "endSeconds": 4.766666666666667,
+      "description": "The protagonist walks forward through the moving pedestrians while the handcart is pushed along nearby. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "finish",
+      "startFrame": 143,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.766666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist comes to a stop and stands still while the others keep moving. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: An enclosed office with corridors, sliding doors, desks and stairs between floors. A spacious, industrial-style office interior with polished concrete floors that reflect the overhead lighting. The space features large glass partitions with black frames, exposed concrete pillars, and a ceiling with visible ductwork and track lighting. Large windows on the left let in natural light. The room is decorated with large decorative rocks and potted trees, including a tall palm-like plant on the right and a leafy tree on the left.\nCompanions: A man with short brown hair, wearing a white button-down shirt, a dark purple tie, dark grey trousers, and brown shoes, standing and facing the camera. A woman with dark hair tied back, wearing a light aqua scrub top and matching trousers, pushing a metal utility cart. A woman with blonde hair, seen from behind, wearing a maroon hoodie, blue jeans, and white sneakers, walking away.\nObjects: A silver metal utility cart with four wheels, being pushed by the woman in scrubs.\nAction timeline: From 0.00 to 4.77 s: The protagonist walks forward through the moving pedestrians while the handcart is pushed along nearby. From 4.77 to 5.00 s: The protagonist comes to a stop and stands still while the others keep moving.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 143,
+      "startSeconds": 0.0,
+      "endSeconds": 4.766666666666667,
+      "description": "The protagonist walks forward through the moving pedestrians while the handcart is pushed along nearby."
+     },
+     {
+      "phase": "finish",
+      "startFrame": 143,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.766666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist comes to a stop and stands still while the others keep moving."
+     }
+    ],
+    "description": "World: An enclosed office with corridors, sliding doors, desks and stairs between floors. A spacious, industrial-style office interior with polished concrete floors that reflect the overhead lighting. The space features large glass partitions with black frames, exposed concrete pillars, and a ceiling with visible ductwork and track lighting. Large windows on the left let in natural light. The room is decorated with large decorative rocks and potted trees, including a tall palm-like plant on the right and a leafy tree on the left.\nProtagonist: A man with dark curly hair, seen from behind, wearing a navy blue sweater, grey trousers, and brown shoes, walking forward.\nCompanions: A man with short brown hair, wearing a white button-down shirt, a dark purple tie, dark grey trousers, and brown shoes, standing and facing the camera. A woman with dark hair tied back, wearing a light aqua scrub top and matching trousers, pushing a metal utility cart. A woman with blonde hair, seen from behind, wearing a maroon hoodie, blue jeans, and white sneakers, walking away.\nObjects: A silver metal utility cart with four wheels, being pushed by the woman in scrubs.\nAction timeline: From 0.00 to 4.77 s: The protagonist walks forward through the moving pedestrians while the handcart is pushed along nearby. From 4.77 to 5.00 s: The protagonist comes to a stop and stands still while the others keep moving."
+   }
+  },
+  "dv200-030-indoor-cart": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 29,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9666666666666667,
+      "description": "The protagonist steps up to the handcart and takes hold of its handle. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "push",
+      "startFrame": 29,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.9666666666666667,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist pushes the handcart forward around the gentle bend. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "released",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist lets go of the handle and the handcart stays where it stopped. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A fully enclosed shop with stocked shelves, shopping carts, a counter and automatic doors. A modern supermarket interior with a highly polished, reflective grey floor. The walls are clad in white square tiles. A large indoor tree with dark green leaves is planted in a rock-lined bed in the right foreground. The background features aisles of shelves stocked with various products, illuminated by overhead fluorescent strip lighting.\nCompanions: A woman with dark hair tied back, wearing a sage short-sleeved top and matching trousers, walking towards the camera. A woman with short grey hair, wearing a maroon long-sleeved top and dark trousers, pushing a shopping cart. A man with dark skin, wearing a mustard jacket, light blue shorts, and white sneakers, walking away from the camera.\nObjects: A standard metal wire shopping trolley with a red plastic handle grip and black wheels. A metal wire shopping trolley with a red handle, being pushed by the woman in maroon.\nAction timeline: From 0.00 to 0.97 s: The protagonist steps up to the handcart and takes hold of its handle. From 0.97 to 4.07 s: The protagonist pushes the handcart forward around the gentle bend. From 4.07 to 5.00 s: The protagonist lets go of the handle and the handcart stays where it stopped.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 29,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9666666666666667,
+      "description": "The protagonist steps up to the handcart and takes hold of its handle."
+     },
+     {
+      "phase": "push",
+      "startFrame": 29,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.9666666666666667,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist pushes the handcart forward around the gentle bend."
+     },
+     {
+      "phase": "released",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist lets go of the handle and the handcart stays where it stopped."
+     }
+    ],
+    "description": "World: A fully enclosed shop with stocked shelves, shopping carts, a counter and automatic doors. A modern supermarket interior with a highly polished, reflective grey floor. The walls are clad in white square tiles. A large indoor tree with dark green leaves is planted in a rock-lined bed in the right foreground. The background features aisles of shelves stocked with various products, illuminated by overhead fluorescent strip lighting.\nProtagonist: A woman with voluminous curly reddish-brown hair, wearing a wide-brimmed straw hat, a salmon-pink floral short-sleeved blouse, beige shorts, and brown sandals. She is facing away from the camera, pushing a shopping cart.\nCompanions: A woman with dark hair tied back, wearing a sage short-sleeved top and matching trousers, walking towards the camera. A woman with short grey hair, wearing a maroon long-sleeved top and dark trousers, pushing a shopping cart. A man with dark skin, wearing a mustard jacket, light blue shorts, and white sneakers, walking away from the camera.\nObjects: A standard metal wire shopping trolley with a red plastic handle grip and black wheels. A metal wire shopping trolley with a red handle, being pushed by the woman in maroon.\nAction timeline: From 0.00 to 0.97 s: The protagonist steps up to the handcart and takes hold of its handle. From 0.97 to 4.07 s: The protagonist pushes the handcart forward around the gentle bend. From 4.07 to 5.00 s: The protagonist lets go of the handle and the handcart stays where it stopped."
+   }
+  },
+  "dv200-033-indoor-carryStairs": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 22,
+      "startSeconds": 0.0,
+      "endSeconds": 0.7333333333333333,
+      "description": "The protagonist bends toward the parcel and takes hold of it. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "lift",
+      "startFrame": 22,
+      "endFrameExclusive": 44,
+      "startSeconds": 0.7333333333333333,
+      "endSeconds": 1.4666666666666666,
+      "description": "The protagonist lifts the parcel off its stand. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "carry",
+      "startFrame": 44,
+      "endFrameExclusive": 119,
+      "startSeconds": 1.4666666666666666,
+      "endSeconds": 3.966666666666667,
+      "description": "The protagonist carries the parcel up the steps. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "place",
+      "startFrame": 119,
+      "endFrameExclusive": 137,
+      "startSeconds": 3.966666666666667,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist lowers the parcel onto the raised table. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "placed",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The parcel rests on the raised table and the protagonist lets go of it. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A roofed warehouse with tall stocked racks, wide cross aisles, crates and handcarts. A large, industrial warehouse interior with concrete floors marked by white painted lines. The space is flanked by tall metal shelving units stacked with numerous boxes. The background features a high wall with large, bright rectangular windows allowing shafts of light to beam down onto the floor. A raised concrete platform with stairs sits in the center of the room.\nCompanions: A man with short dark hair, wearing a light cream button-down shirt, a dark tie, dark trousers, and dark shoes, standing on the left side of the aisle facing the center. A person with shoulder-length hair, wearing a maroon hoodie and blue jeans, standing on the raised platform in the background facing away from the camera.\nObjects: A rectangular wooden crate with visible cross-bracing and metal corner reinforcements, positioned just in front of the protagonist.\nAction timeline: From 0.00 to 0.73 s: The protagonist bends toward the parcel and takes hold of it. From 0.73 to 1.47 s: The protagonist lifts the parcel off its stand. From 1.47 to 3.97 s: The protagonist carries the parcel up the steps. From 3.97 to 4.57 s: The protagonist lowers the parcel onto the raised table. From 4.57 to 5.00 s: The parcel rests on the raised table and the protagonist lets go of it.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 22,
+      "startSeconds": 0.0,
+      "endSeconds": 0.7333333333333333,
+      "description": "The protagonist bends toward the parcel and takes hold of it."
+     },
+     {
+      "phase": "lift",
+      "startFrame": 22,
+      "endFrameExclusive": 44,
+      "startSeconds": 0.7333333333333333,
+      "endSeconds": 1.4666666666666666,
+      "description": "The protagonist lifts the parcel off its stand."
+     },
+     {
+      "phase": "carry",
+      "startFrame": 44,
+      "endFrameExclusive": 119,
+      "startSeconds": 1.4666666666666666,
+      "endSeconds": 3.966666666666667,
+      "description": "The protagonist carries the parcel up the steps."
+     },
+     {
+      "phase": "place",
+      "startFrame": 119,
+      "endFrameExclusive": 137,
+      "startSeconds": 3.966666666666667,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist lowers the parcel onto the raised table."
+     },
+     {
+      "phase": "placed",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The parcel rests on the raised table and the protagonist lets go of it."
+     }
+    ],
+    "description": "World: A roofed warehouse with tall stocked racks, wide cross aisles, crates and handcarts. A large, industrial warehouse interior with concrete floors marked by white painted lines. The space is flanked by tall metal shelving units stacked with numerous boxes. The background features a high wall with large, bright rectangular windows allowing shafts of light to beam down onto the floor. A raised concrete platform with stairs sits in the center of the room.\nProtagonist: A person with reddish-brown hair tied in a low ponytail, wearing a dark navy jumpsuit and dark shoes, standing with their back to the camera behind a wooden crate.\nCompanions: A man with short dark hair, wearing a light cream button-down shirt, a dark tie, dark trousers, and dark shoes, standing on the left side of the aisle facing the center. A person with shoulder-length hair, wearing a maroon hoodie and blue jeans, standing on the raised platform in the background facing away from the camera.\nObjects: A rectangular wooden crate with visible cross-bracing and metal corner reinforcements, positioned just in front of the protagonist.\nAction timeline: From 0.00 to 0.73 s: The protagonist bends toward the parcel and takes hold of it. From 0.73 to 1.47 s: The protagonist lifts the parcel off its stand. From 1.47 to 3.97 s: The protagonist carries the parcel up the steps. From 3.97 to 4.57 s: The protagonist lowers the parcel onto the raised table. From 4.57 to 5.00 s: The parcel rests on the raised table and the protagonist lets go of it."
+   }
+  },
+  "dv200-051-nature-slope": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 143,
+      "startSeconds": 0.0,
+      "endSeconds": 4.766666666666667,
+      "description": "The protagonist walks forward over ground that rises and falls. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "finish",
+      "startFrame": 143,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.766666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist comes to a stop and stands still. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. A rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. The ground is a pale, misty expanse scattered with large, dark grey boulders rendered with heavy ink strokes. Tall pine trees with dark foliage stand on the left and right edges. The sky is a pale, washed-out blue-grey, blending into the misty horizon.\nCompanions: A person wearing a khaki uniform shirt, a wide-brimmed hat, tan trousers, and dark boots, standing with hands at sides. A person with short dark hair, wearing a maroon jacket, blue jeans, and white shoes, facing forward. A person with short dark hair, wearing an olive hooded jacket, dark grey trousers, and tan boots, facing away from the camera.\nAction timeline: From 0.00 to 4.77 s: The protagonist walks forward over ground that rises and falls. From 4.77 to 5.00 s: The protagonist comes to a stop and stands still.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 143,
+      "startSeconds": 0.0,
+      "endSeconds": 4.766666666666667,
+      "description": "The protagonist walks forward over ground that rises and falls."
+     },
+     {
+      "phase": "finish",
+      "startFrame": 143,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.766666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist comes to a stop and stands still."
+     }
+    ],
+    "description": "World: A rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. A rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. The ground is a pale, misty expanse scattered with large, dark grey boulders rendered with heavy ink strokes. Tall pine trees with dark foliage stand on the left and right edges. The sky is a pale, washed-out blue-grey, blending into the misty horizon.\nProtagonist: A person with dark hair in a long braid, wearing a tan shirt with rolled sleeves, olive trousers, and brown boots, facing away from the camera.\nCompanions: A person wearing a khaki uniform shirt, a wide-brimmed hat, tan trousers, and dark boots, standing with hands at sides. A person with short dark hair, wearing a maroon jacket, blue jeans, and white shoes, facing forward. A person with short dark hair, wearing an olive hooded jacket, dark grey trousers, and tan boots, facing away from the camera.\nAction timeline: From 0.00 to 4.77 s: The protagonist walks forward over ground that rises and falls. From 4.77 to 5.00 s: The protagonist comes to a stop and stands still."
+   }
+  },
+  "dv200-056-nature-slide": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "slide",
+      "startFrame": 0,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.0,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist slides forward across the ice. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "stopped",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows to a stop on the ice. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Snow banks, conifers, faceted ice formations and a frozen open path. A snowy winter landscape at night under a dark teal sky with faint stars. The ground is covered in white snow, featuring a central frozen path with a highly reflective, glassy surface that mirrors the scene. Large, snow-laden coniferous trees frame the left and right sides of the path. Faceted, glowing blue ice formations are scattered near the trees. The lighting is cool and atmospheric, with warm orange glows from the vehicle's taillights reflecting on the ice.\nCompanions: A woman with long dark hair, wearing a tan utility jacket, olive trousers, and dark boots. She stands on the left side of the path, facing the knight. A man wearing a wide-brimmed hat, a khaki shirt, and tan trousers. He stands to the left of the center, facing the knight. A person wearing a bright lime-green high-visibility jacket with reflective stripes and dark trousers. They stand on the right side of the path, facing the knight.\nObjects: A grey station wagon with a roof rack, positioned on the right side of the path. The rear lights are glowing bright orange, and the license plate is illuminated.\nAction timeline: From 0.00 to 4.07 s: The protagonist slides forward across the ice. From 4.07 to 5.00 s: The protagonist slows to a stop on the ice.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "slide",
+      "startFrame": 0,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.0,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist slides forward across the ice."
+     },
+     {
+      "phase": "stopped",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows to a stop on the ice."
+     }
+    ],
+    "description": "World: Snow banks, conifers, faceted ice formations and a frozen open path. A snowy winter landscape at night under a dark teal sky with faint stars. The ground is covered in white snow, featuring a central frozen path with a highly reflective, glassy surface that mirrors the scene. Large, snow-laden coniferous trees frame the left and right sides of the path. Faceted, glowing blue ice formations are scattered near the trees. The lighting is cool and atmospheric, with warm orange glows from the vehicle's taillights reflecting on the ice.\nProtagonist: A figure in full medieval plate armor with a silver helmet, a maroon tabard over the chest, and silver greaves. The character is walking away from the camera, with glowing orange magical embers floating around their boots.\nCompanions: A woman with long dark hair, wearing a tan utility jacket, olive trousers, and dark boots. She stands on the left side of the path, facing the knight. A man wearing a wide-brimmed hat, a khaki shirt, and tan trousers. He stands to the left of the center, facing the knight. A person wearing a bright lime-green high-visibility jacket with reflective stripes and dark trousers. They stand on the right side of the path, facing the knight.\nObjects: A grey station wagon with a roof rack, positioned on the right side of the path. The rear lights are glowing bright orange, and the license plate is illuminated.\nAction timeline: From 0.00 to 4.07 s: The protagonist slides forward across the ice. From 4.07 to 5.00 s: The protagonist slows to a stop on the ice."
+   }
+  },
+  "dv200-074-sky-helicopter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "ascending",
+      "startFrame": 0,
+      "endFrameExclusive": 69,
+      "startSeconds": 0.0,
+      "endSeconds": 2.3,
+      "description": "The protagonist's helicopter climbs vertically while the companion aircraft holds position nearby. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "translating",
+      "startFrame": 69,
+      "endFrameExclusive": 123,
+      "startSeconds": 2.3,
+      "endSeconds": 4.1,
+      "description": "The protagonist's helicopter flies forward and yaws through the air while the companion aircraft keeps station nearby. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "descending",
+      "startFrame": 123,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.1,
+      "endSeconds": 5.0,
+      "description": "The protagonist's helicopter eases off the controls, slows its horizontal motion and continues a controlled descent while the companion aircraft holds position nearby. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: The scene is viewed through the glass windows of a cockpit, framed by dark structural pillars and a dashboard filled with analog gauges and illuminated switches. Outside, a coastal town with beige and ochre buildings featuring terracotta roofs lines a paved waterfront promenade. To the right, a vast expanse of blue-grey water stretches to the horizon under a pale sky with soft clouds.\nObjects: A small, white single-engine propeller plane with red tips on its wings and tail, flying in the air to the right of the viewer.\nAction timeline: From 0.00 to 2.30 s: The protagonist's helicopter climbs vertically while the companion aircraft holds position nearby. From 2.30 to 4.10 s: The protagonist's helicopter flies forward and yaws through the air while the companion aircraft keeps station nearby. From 4.10 to 5.00 s: The protagonist's helicopter eases off the controls, slows its horizontal motion and continues a controlled descent while the companion aircraft holds position nearby."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "ascending",
+      "startFrame": 0,
+      "endFrameExclusive": 69,
+      "startSeconds": 0.0,
+      "endSeconds": 2.3,
+      "description": "The protagonist's helicopter climbs vertically while the companion aircraft holds position nearby."
+     },
+     {
+      "phase": "translating",
+      "startFrame": 69,
+      "endFrameExclusive": 123,
+      "startSeconds": 2.3,
+      "endSeconds": 4.1,
+      "description": "The protagonist's helicopter flies forward and yaws through the air while the companion aircraft keeps station nearby."
+     },
+     {
+      "phase": "descending",
+      "startFrame": 123,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.1,
+      "endSeconds": 5.0,
+      "description": "The protagonist's helicopter eases off the controls, slows its horizontal motion and continues a controlled descent while the companion aircraft holds position nearby."
+     }
+    ],
+    "description": "World: The scene is viewed through the glass windows of a cockpit, framed by dark structural pillars and a dashboard filled with analog gauges and illuminated switches. Outside, a coastal town with beige and ochre buildings featuring terracotta roofs lines a paved waterfront promenade. To the right, a vast expanse of blue-grey water stretches to the horizon under a pale sky with soft clouds.\nObjects: A small, white single-engine propeller plane with red tips on its wings and tail, flying in the air to the right of the viewer.\nAction timeline: From 0.00 to 2.30 s: The protagonist's helicopter climbs vertically while the companion aircraft holds position nearby. From 2.30 to 4.10 s: The protagonist's helicopter flies forward and yaws through the air while the companion aircraft keeps station nearby. From 4.10 to 5.00 s: The protagonist's helicopter eases off the controls, slows its horizontal motion and continues a controlled descent while the companion aircraft holds position nearby.",
+    "view_in_dataset": false
+   }
+  },
+  "dv200-079-racing-racing": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "follow",
+      "startFrame": 0,
+      "endFrameExclusive": 142,
+      "startSeconds": 0.0,
+      "endSeconds": 4.733333333333333,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "cruise",
+      "startFrame": 142,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.733333333333333,
+      "endSeconds": 5.0,
+      "description": "The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Winding temperate forest trails, large trunks, fallen timber and a woodland camp. A winding dirt road with exposed tree roots and scattered white debris, flanked by tall pine trees and large grey rocks. A large wooden beam structure spans the road overhead. The background features a misty, desaturated forest with a pale sky.\nObjects: A large, rustic wooden gantry structure spanning the width of the road, constructed of thick timber beams. A silver four-door racing sedan with a large rear spoiler, visible taillights, and a license plate, driving away from the camera. A yellow racing sedan driving ahead on the track, further down the road. A dark grey racing sedan driving ahead of the yellow car, further down the road.\nAction timeline: From 0.00 to 4.73 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. From 4.73 to 5.00 s: The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "follow",
+      "startFrame": 0,
+      "endFrameExclusive": 142,
+      "startSeconds": 0.0,
+      "endSeconds": 4.733333333333333,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line."
+     },
+     {
+      "phase": "cruise",
+      "startFrame": 142,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.733333333333333,
+      "endSeconds": 5.0,
+      "description": "The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines."
+     }
+    ],
+    "description": "World: Winding temperate forest trails, large trunks, fallen timber and a woodland camp. A winding dirt road with exposed tree roots and scattered white debris, flanked by tall pine trees and large grey rocks. A large wooden beam structure spans the road overhead. The background features a misty, desaturated forest with a pale sky.\nObjects: A large, rustic wooden gantry structure spanning the width of the road, constructed of thick timber beams. A silver four-door racing sedan with a large rear spoiler, visible taillights, and a license plate, driving away from the camera. A yellow racing sedan driving ahead on the track, further down the road. A dark grey racing sedan driving ahead of the yellow car, further down the road.\nAction timeline: From 0.00 to 4.73 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. From 4.73 to 5.00 s: The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines."
+   }
+  },
+  "dv200-084-racing-racing": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "follow",
+      "startFrame": 0,
+      "endFrameExclusive": 78,
+      "startSeconds": 0.0,
+      "endSeconds": 2.6,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "overtaking",
+      "startFrame": 78,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.6,
+      "endSeconds": 5.0,
+      "description": "The protagonist's sedan pulls out alongside a rival sedan and tries to pass while the other rival sedan keeps racing on its own line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A coastal beach with sloping sand, large shoreline rocks, a pier and small boats. A coastal beach setting with wet, reflective sand in the foreground that transitions to dry, sloping dunes. Large, dark grey rocks are scattered along the sides of the track. Tall, dry marram grass grows on the dunes. The sky is a hazy, bright white-blue, suggesting a misty or overcast day. A large, white, industrial-style metal gantry spans the width of the frame in the foreground.\nObjects: A large, white, rectangular metal gantry structure spanning the width of the road, featuring a horizontal beam with evenly spaced rectangular supports underneath. A white racing sedan with a prominent rear spoiler, visible taillights, and a rear license plate area, driving centrally on the wet sand. A crimson racing sedan driving to the right of the central car, angled slightly towards the right side of the frame. A dark grey racing sedan driving further ahead in the distance, positioned centrally in the lane.\nAction timeline: From 0.00 to 2.60 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. From 2.60 to 5.00 s: The protagonist's sedan pulls out alongside a rival sedan and tries to pass while the other rival sedan keeps racing on its own line.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "follow",
+      "startFrame": 0,
+      "endFrameExclusive": 78,
+      "startSeconds": 0.0,
+      "endSeconds": 2.6,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line."
+     },
+     {
+      "phase": "overtaking",
+      "startFrame": 78,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.6,
+      "endSeconds": 5.0,
+      "description": "The protagonist's sedan pulls out alongside a rival sedan and tries to pass while the other rival sedan keeps racing on its own line."
+     }
+    ],
+    "description": "World: A coastal beach with sloping sand, large shoreline rocks, a pier and small boats. A coastal beach setting with wet, reflective sand in the foreground that transitions to dry, sloping dunes. Large, dark grey rocks are scattered along the sides of the track. Tall, dry marram grass grows on the dunes. The sky is a hazy, bright white-blue, suggesting a misty or overcast day. A large, white, industrial-style metal gantry spans the width of the frame in the foreground.\nObjects: A large, white, rectangular metal gantry structure spanning the width of the road, featuring a horizontal beam with evenly spaced rectangular supports underneath. A white racing sedan with a prominent rear spoiler, visible taillights, and a rear license plate area, driving centrally on the wet sand. A crimson racing sedan driving to the right of the central car, angled slightly towards the right side of the frame. A dark grey racing sedan driving further ahead in the distance, positioned centrally in the lane.\nAction timeline: From 0.00 to 2.60 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. From 2.60 to 5.00 s: The protagonist's sedan pulls out alongside a rival sedan and tries to pass while the other rival sedan keeps racing on its own line."
+   }
+  },
+  "dv200-085-racing-racing": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "follow",
+      "startFrame": 0,
+      "endFrameExclusive": 59,
+      "startSeconds": 0.0,
+      "endSeconds": 1.9666666666666666,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "cruise",
+      "startFrame": 59,
+      "endFrameExclusive": 66,
+      "startSeconds": 1.9666666666666666,
+      "endSeconds": 2.2,
+      "description": "The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "follow",
+      "startFrame": 66,
+      "endFrameExclusive": 147,
+      "startSeconds": 2.2,
+      "endSeconds": 4.9,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "cruise",
+      "startFrame": 147,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.9,
+      "endSeconds": 5.0,
+      "description": "The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Winding temperate forest trails, large trunks, fallen timber and a woodland camp. A paved asphalt road with white lane markings curves through a dense temperate forest of tall pine trees. The ground is covered in grass and fallen timber logs. A large, futuristic white gantry with glowing cyan light strips spans the road. The sky is a muted, overcast grey-blue, suggesting dusk or dawn.\nObjects: A large, white, geometric archway structure spanning the road, featuring glowing cyan light strips along the vertical pillars and horizontal beams. A white sports sedan with a rear spoiler, red taillights, and cyan glowing accents on the rear bumper, driving away from the camera. A white sedan driving ahead of the main car on the road. A white sedan driving further ahead in the distance on the road.\nAction timeline: From 0.00 to 1.97 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. From 1.97 to 2.20 s: The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines. From 2.20 to 4.90 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. From 4.90 to 5.00 s: The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "follow",
+      "startFrame": 0,
+      "endFrameExclusive": 59,
+      "startSeconds": 0.0,
+      "endSeconds": 1.9666666666666666,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line."
+     },
+     {
+      "phase": "cruise",
+      "startFrame": 59,
+      "endFrameExclusive": 66,
+      "startSeconds": 1.9666666666666666,
+      "endSeconds": 2.2,
+      "description": "The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines."
+     },
+     {
+      "phase": "follow",
+      "startFrame": 66,
+      "endFrameExclusive": 147,
+      "startSeconds": 2.2,
+      "endSeconds": 4.9,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line."
+     },
+     {
+      "phase": "cruise",
+      "startFrame": 147,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.9,
+      "endSeconds": 5.0,
+      "description": "The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines."
+     }
+    ],
+    "description": "World: Winding temperate forest trails, large trunks, fallen timber and a woodland camp. A paved asphalt road with white lane markings curves through a dense temperate forest of tall pine trees. The ground is covered in grass and fallen timber logs. A large, futuristic white gantry with glowing cyan light strips spans the road. The sky is a muted, overcast grey-blue, suggesting dusk or dawn.\nObjects: A large, white, geometric archway structure spanning the road, featuring glowing cyan light strips along the vertical pillars and horizontal beams. A white sports sedan with a rear spoiler, red taillights, and cyan glowing accents on the rear bumper, driving away from the camera. A white sedan driving ahead of the main car on the road. A white sedan driving further ahead in the distance on the road.\nAction timeline: From 0.00 to 1.97 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. From 1.97 to 2.20 s: The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines. From 2.20 to 4.90 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line, while the other rival sedan keeps racing on its own line. From 4.90 to 5.00 s: The protagonist's sedan cruises along the track at steady speed while the two rival sedans keep racing on their own lines."
+   }
+  },
+  "dv200-091-fantasy-walk": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 143,
+      "startSeconds": 0.0,
+      "endSeconds": 4.766666666666667,
+      "description": "The protagonist walks forward along the trail and around its bend. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "finish",
+      "startFrame": 143,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.766666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist continues walking slowly. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A rocky cave with irregular walls, sloping ground, pillars, low ceilings and an entrance platform. A rocky cave with irregular walls, sloping ground, pillars, low ceilings and an entrance platform. The ground is rendered in dark charcoal washes with rough textures, intersected by a glowing, pale stream of water. Large, angular rock pillars and overhangs frame the scene, painted with heavy black ink strokes and accented with faint gold speckles. In the distance, a circular ring structure stands at the end of the path.\nCompanions: A person with brown hair tied back, wearing a cream t-shirt under dark navy overalls and dark shoes, standing in the foreground facing forward. A person with short hair wearing a salmon-coloured jacket, a straw hat, and beige shorts, standing in the middle ground facing forward. A person with shoulder-length hair wearing a maroon hoodie and blue jeans, standing in the middle ground facing away from the camera.\nAction timeline: From 0.00 to 4.77 s: The protagonist walks forward along the trail and around its bend. From 4.77 to 5.00 s: The protagonist continues walking slowly."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 143,
+      "startSeconds": 0.0,
+      "endSeconds": 4.766666666666667,
+      "description": "The protagonist walks forward along the trail and around its bend."
+     },
+     {
+      "phase": "finish",
+      "startFrame": 143,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.766666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist continues walking slowly."
+     }
+    ],
+    "description": "World: A rocky cave with irregular walls, sloping ground, pillars, low ceilings and an entrance platform. A rocky cave with irregular walls, sloping ground, pillars, low ceilings and an entrance platform. The ground is rendered in dark charcoal washes with rough textures, intersected by a glowing, pale stream of water. Large, angular rock pillars and overhangs frame the scene, painted with heavy black ink strokes and accented with faint gold speckles. In the distance, a circular ring structure stands at the end of the path.\nCompanions: A person with brown hair tied back, wearing a cream t-shirt under dark navy overalls and dark shoes, standing in the foreground facing forward. A person with short hair wearing a salmon-coloured jacket, a straw hat, and beige shorts, standing in the middle ground facing forward. A person with shoulder-length hair wearing a maroon hoodie and blue jeans, standing in the middle ground facing away from the camera.\nAction timeline: From 0.00 to 4.77 s: The protagonist walks forward along the trail and around its bend. From 4.77 to 5.00 s: The protagonist continues walking slowly.",
+    "view_in_dataset": false
+   }
+  },
+  "dv200-094-fantasy-walk": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 143,
+      "startSeconds": 0.0,
+      "endSeconds": 4.766666666666667,
+      "description": "The protagonist walks forward along the trail and around its bend. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "finish",
+      "startFrame": 143,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.766666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist continues walking slowly. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Winding temperate forest trails, large trunks, fallen timber and a woodland camp. A dense temperate forest with towering pine trees draped in hanging moss. The ground is a dirt path with puddles reflecting the sky, surrounded by ferns, fallen timber, and moss-covered rocks. The background fades into a thick, sunlit mist.\nCompanions: A park ranger wearing a khaki uniform shirt, matching trousers, and a wide-brimmed hat, standing facing the group. A woman with shoulder-length brown hair, wearing a maroon sweater and blue jeans, standing facing the camera. A person wearing a dark moss-toned jacket and dark trousers, standing in the background facing the group.\nAction timeline: From 0.00 to 4.77 s: The protagonist walks forward along the trail and around its bend. From 4.77 to 5.00 s: The protagonist continues walking slowly.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 143,
+      "startSeconds": 0.0,
+      "endSeconds": 4.766666666666667,
+      "description": "The protagonist walks forward along the trail and around its bend."
+     },
+     {
+      "phase": "finish",
+      "startFrame": 143,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.766666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist continues walking slowly."
+     }
+    ],
+    "description": "World: Winding temperate forest trails, large trunks, fallen timber and a woodland camp. A dense temperate forest with towering pine trees draped in hanging moss. The ground is a dirt path with puddles reflecting the sky, surrounded by ferns, fallen timber, and moss-covered rocks. The background fades into a thick, sunlit mist.\nProtagonist: A woman with long dark hair tied in a low ponytail, wearing a beige button-down shirt, olive trousers, and dark boots, walking away from the camera.\nCompanions: A park ranger wearing a khaki uniform shirt, matching trousers, and a wide-brimmed hat, standing facing the group. A woman with shoulder-length brown hair, wearing a maroon sweater and blue jeans, standing facing the camera. A person wearing a dark moss-toned jacket and dark trousers, standing in the background facing the group.\nAction timeline: From 0.00 to 4.77 s: The protagonist walks forward along the trail and around its bend. From 4.77 to 5.00 s: The protagonist continues walking slowly."
+   }
+  },
+  "dv200-100-fantasy-walk": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 143,
+      "startSeconds": 0.0,
+      "endSeconds": 4.766666666666667,
+      "description": "The protagonist walks forward along the trail and around its bend. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "finish",
+      "startFrame": 143,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.766666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist continues walking slowly. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. A rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. The ground is paved with large, irregular flagstones. A calm body of water stretches across the mid-ground. The sky is pale blue with fluffy white clouds and large, floating rock islands suspended in the air. Large trees with hanging vines frame the left and right edges of the scene. The surfaces are rendered with a painterly, textured look.\nCompanions: A person with short brown hair, wearing a maroon hoodie, denim jeans, and white sneakers, standing on the left side of the path. A person with a wide-brimmed hat, wearing a sage shirt, khaki trousers, and dark boots, standing in the center-left. A person with reddish hair, wearing a white t-shirt and denim overalls, standing on the right side of the path.\nAction timeline: From 0.00 to 4.77 s: The protagonist walks forward along the trail and around its bend. From 4.77 to 5.00 s: The protagonist continues walking slowly.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 143,
+      "startSeconds": 0.0,
+      "endSeconds": 4.766666666666667,
+      "description": "The protagonist walks forward along the trail and around its bend."
+     },
+     {
+      "phase": "finish",
+      "startFrame": 143,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.766666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist continues walking slowly."
+     }
+    ],
+    "description": "World: A rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. A rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. The ground is paved with large, irregular flagstones. A calm body of water stretches across the mid-ground. The sky is pale blue with fluffy white clouds and large, floating rock islands suspended in the air. Large trees with hanging vines frame the left and right edges of the scene. The surfaces are rendered with a painterly, textured look.\nProtagonist: A person with long black hair, wearing a beige long-sleeved shirt, olive trousers, and brown boots, walking away from the camera.\nCompanions: A person with short brown hair, wearing a maroon hoodie, denim jeans, and white sneakers, standing on the left side of the path. A person with a wide-brimmed hat, wearing a sage shirt, khaki trousers, and dark boots, standing in the center-left. A person with reddish hair, wearing a white t-shirt and denim overalls, standing on the right side of the path.\nAction timeline: From 0.00 to 4.77 s: The protagonist walks forward along the trail and around its bend. From 4.77 to 5.00 s: The protagonist continues walking slowly."
+   }
+  },
+  "dv200-103-city-traffic": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 143,
+      "startSeconds": 0.0,
+      "endSeconds": 4.766666666666667,
+      "description": "The protagonist walks forward along the street while the pedestrians and vehicles move through it. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "finish",
+      "startFrame": 143,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.766666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist comes to a stop and stands still while the traffic keeps moving. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A city street with tall buildings, sidewalks, parked cars and crossing traffic. A wide, paved city street composed of large, light-grey stone slabs that stretch toward a vanishing point. The ground is bathed in bright sunlight with soft, painterly shadows. On the left and right sidewalks, rows of leafy green trees line the path. Tall, rectangular buildings with muted grey and beige facades and grid-like windows rise on both sides, receding into a thick, luminous atmospheric haze. The sky is a soft, glowing white-yellow, suggesting a bright, hazy morning.\nCompanions: A man with dark skin and short dark hair, wearing a mustard zip-up jacket, dark shorts, and white sneakers, walking on the left sidewalk. A woman with shoulder-length brown hair, wearing a maroon long-sleeved top and blue jeans, walking on the left sidewalk. A man wearing a straw hat, a salmon-pink patterned short-sleeved shirt, and beige shorts, standing on the right sidewalk.\nObjects: A cream-colored vintage sedan positioned on the right side of the street, facing away from the camera, with visible red taillights and chrome trim. A white vintage sedan driving on the left side of the street, facing toward the camera, with a visible grille and headlights.\nAction timeline: From 0.00 to 4.77 s: The protagonist walks forward along the street while the pedestrians and vehicles move through it. From 4.77 to 5.00 s: The protagonist comes to a stop and stands still while the traffic keeps moving.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 143,
+      "startSeconds": 0.0,
+      "endSeconds": 4.766666666666667,
+      "description": "The protagonist walks forward along the street while the pedestrians and vehicles move through it."
+     },
+     {
+      "phase": "finish",
+      "startFrame": 143,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.766666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist comes to a stop and stands still while the traffic keeps moving."
+     }
+    ],
+    "description": "World: A city street with tall buildings, sidewalks, parked cars and crossing traffic. A wide, paved city street composed of large, light-grey stone slabs that stretch toward a vanishing point. The ground is bathed in bright sunlight with soft, painterly shadows. On the left and right sidewalks, rows of leafy green trees line the path. Tall, rectangular buildings with muted grey and beige facades and grid-like windows rise on both sides, receding into a thick, luminous atmospheric haze. The sky is a soft, glowing white-yellow, suggesting a bright, hazy morning.\nProtagonist: A man with short brown hair, seen from behind, wearing a dark charcoal suit jacket and matching trousers, walking away from the camera down the center of the road.\nCompanions: A man with dark skin and short dark hair, wearing a mustard zip-up jacket, dark shorts, and white sneakers, walking on the left sidewalk. A woman with shoulder-length brown hair, wearing a maroon long-sleeved top and blue jeans, walking on the left sidewalk. A man wearing a straw hat, a salmon-pink patterned short-sleeved shirt, and beige shorts, standing on the right sidewalk.\nObjects: A cream-colored vintage sedan positioned on the right side of the street, facing away from the camera, with visible red taillights and chrome trim. A white vintage sedan driving on the left side of the street, facing toward the camera, with a visible grille and headlights.\nAction timeline: From 0.00 to 4.77 s: The protagonist walks forward along the street while the pedestrians and vehicles move through it. From 4.77 to 5.00 s: The protagonist comes to a stop and stands still while the traffic keeps moving."
+   }
+  },
+  "dv200-107-city-stairsDown": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "descend",
+      "startFrame": 0,
+      "endFrameExclusive": 140,
+      "startSeconds": 0.0,
+      "endSeconds": 4.666666666666667,
+      "description": "The protagonist walks down the stairs step by step. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "lower-landing",
+      "startFrame": 140,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.666666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist reaches the lower landing and walks on. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A residential street with enclosed courtyards, low houses, front steps and parked cars. A suburban street scene with a wet, glossy asphalt road reflecting the sky. The foreground features a concrete ramp or driveway entrance flanked by low concrete walls. On the left, a tall, dense green hedge runs along the property line. In the background, there are residential houses, including a prominent white two-story house with a dark roof and a grey brick house to the left. Trees with green foliage are visible on the right and left sides. The sky is bright and hazy, suggesting early morning or late afternoon light.\nAction timeline: From 0.00 to 4.67 s: The protagonist walks down the stairs step by step. From 4.67 to 5.00 s: The protagonist reaches the lower landing and walks on.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "descend",
+      "startFrame": 0,
+      "endFrameExclusive": 140,
+      "startSeconds": 0.0,
+      "endSeconds": 4.666666666666667,
+      "description": "The protagonist walks down the stairs step by step."
+     },
+     {
+      "phase": "lower-landing",
+      "startFrame": 140,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.666666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist reaches the lower landing and walks on."
+     }
+    ],
+    "description": "World: A residential street with enclosed courtyards, low houses, front steps and parked cars. A suburban street scene with a wet, glossy asphalt road reflecting the sky. The foreground features a concrete ramp or driveway entrance flanked by low concrete walls. On the left, a tall, dense green hedge runs along the property line. In the background, there are residential houses, including a prominent white two-story house with a dark roof and a grey brick house to the left. Trees with green foliage are visible on the right and left sides. The sky is bright and hazy, suggesting early morning or late afternoon light.\nProtagonist: A person with shoulder-length blonde hair, wearing a maroon hooded sweatshirt, blue denim jeans, and white sneakers, walking away from the camera.\nAction timeline: From 0.00 to 4.67 s: The protagonist walks down the stairs step by step. From 4.67 to 5.00 s: The protagonist reaches the lower landing and walks on."
+   }
+  },
+  "dv200-114-city-push": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 29,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9666666666666667,
+      "description": "The protagonist steps up to the crate and places both hands on it. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "push",
+      "startFrame": 29,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.9666666666666667,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist pushes the crate forward. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "released",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist lets go of the crate and it stays where it stopped. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: An industrial work yard with steel gantries, scaffolding, cargo, platforms and vehicles. A paved concrete yard with cracks and tufts of grass growing through the seams. The background features large grey corrugated metal warehouse buildings and a steel gantry structure. There are stylized trees with rounded green foliage on the right side and wooden pallets stacked on the left. The sky is a soft, hazy blue.\nCompanions: A character wearing a yellow hard hat, a high-visibility orange vest over a navy shirt, khaki trousers, and mustard boots, facing the camera. A character with dark hair, wearing a mustard yellow hoodie, grey shorts, and white sneakers, facing away from the camera. A character with dark hair, wearing a white shirt under a dark vest and dark trousers, standing in the background facing the camera.\nObjects: A light brown wooden box with visible wood grain texture and corner reinforcements. A grey utility pickup truck with a flatbed, facing away from the camera.\nAction timeline: From 0.00 to 0.97 s: The protagonist steps up to the crate and places both hands on it. From 0.97 to 4.07 s: The protagonist pushes the crate forward. From 4.07 to 5.00 s: The protagonist lets go of the crate and it stays where it stopped.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 29,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9666666666666667,
+      "description": "The protagonist steps up to the crate and places both hands on it."
+     },
+     {
+      "phase": "push",
+      "startFrame": 29,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.9666666666666667,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist pushes the crate forward."
+     },
+     {
+      "phase": "released",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist lets go of the crate and it stays where it stopped."
+     }
+    ],
+    "description": "World: An industrial work yard with steel gantries, scaffolding, cargo, platforms and vehicles. A paved concrete yard with cracks and tufts of grass growing through the seams. The background features large grey corrugated metal warehouse buildings and a steel gantry structure. There are stylized trees with rounded green foliage on the right side and wooden pallets stacked on the left. The sky is a soft, hazy blue.\nProtagonist: A character with reddish-brown hair tied in a ponytail, wearing a cream long-sleeved shirt under denim blue overalls and black shoes, facing away from the camera with a wooden crate just in front.\nCompanions: A character wearing a yellow hard hat, a high-visibility orange vest over a navy shirt, khaki trousers, and mustard boots, facing the camera. A character with dark hair, wearing a mustard yellow hoodie, grey shorts, and white sneakers, facing away from the camera. A character with dark hair, wearing a white shirt under a dark vest and dark trousers, standing in the background facing the camera.\nObjects: A light brown wooden box with visible wood grain texture and corner reinforcements. A grey utility pickup truck with a flatbed, facing away from the camera.\nAction timeline: From 0.00 to 0.97 s: The protagonist steps up to the crate and places both hands on it. From 0.97 to 4.07 s: The protagonist pushes the crate forward. From 4.07 to 5.00 s: The protagonist lets go of the crate and it stays where it stopped."
+   }
+  },
+  "dv200-123-indoor-sit": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 17,
+      "startSeconds": 0.0,
+      "endSeconds": 0.5666666666666667,
+      "description": "The protagonist walks up to the chair. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "sit-down",
+      "startFrame": 17,
+      "endFrameExclusive": 44,
+      "startSeconds": 0.5666666666666667,
+      "endSeconds": 1.4666666666666666,
+      "description": "The protagonist lowers onto the seat of the chair. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "seated",
+      "startFrame": 44,
+      "endFrameExclusive": 89,
+      "startSeconds": 1.4666666666666666,
+      "endSeconds": 2.966666666666667,
+      "description": "The protagonist sits on the chair. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "stand-up",
+      "startFrame": 89,
+      "endFrameExclusive": 116,
+      "startSeconds": 2.966666666666667,
+      "endSeconds": 3.8666666666666667,
+      "description": "The protagonist rises from the chair. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "standing",
+      "startFrame": 116,
+      "endFrameExclusive": 150,
+      "startSeconds": 3.8666666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist stands and steps away from the chair. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A fully roofed furnished home with connected rooms, cabinets, chairs and tables. A large, dark interior space with a floor of dark wood planks that reflect the light. The walls are black and feature framed artwork on the left and doorways on the right. Several pendant lights hang from the ceiling, casting focused beams of light onto the floor. There are tables and benches placed against the right wall.\nCompanions: A person standing on the left, wearing a white t-shirt under dark denim overalls and sneakers. A person standing on the right, wearing a maroon hoodie, dark trousers, and white shoes. A person standing in the middle-left, wearing a white chef's uniform and a black cap.\nObjects: A simple empty chair with a dark seat and backrest, supported by thin legs, standing between the viewer and the protagonist. A metal utility cart with four wheels, positioned next to the person in the chef's uniform.\nAction timeline: From 0.00 to 0.57 s: The protagonist walks up to the chair. From 0.57 to 1.47 s: The protagonist lowers onto the seat of the chair. From 1.47 to 2.97 s: The protagonist sits on the chair. From 2.97 to 3.87 s: The protagonist rises from the chair. From 3.87 to 5.00 s: The protagonist stands and steps away from the chair.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "approach",
+      "startFrame": 0,
+      "endFrameExclusive": 17,
+      "startSeconds": 0.0,
+      "endSeconds": 0.5666666666666667,
+      "description": "The protagonist walks up to the chair."
+     },
+     {
+      "phase": "sit-down",
+      "startFrame": 17,
+      "endFrameExclusive": 44,
+      "startSeconds": 0.5666666666666667,
+      "endSeconds": 1.4666666666666666,
+      "description": "The protagonist lowers onto the seat of the chair."
+     },
+     {
+      "phase": "seated",
+      "startFrame": 44,
+      "endFrameExclusive": 89,
+      "startSeconds": 1.4666666666666666,
+      "endSeconds": 2.966666666666667,
+      "description": "The protagonist sits on the chair."
+     },
+     {
+      "phase": "stand-up",
+      "startFrame": 89,
+      "endFrameExclusive": 116,
+      "startSeconds": 2.966666666666667,
+      "endSeconds": 3.8666666666666667,
+      "description": "The protagonist rises from the chair."
+     },
+     {
+      "phase": "standing",
+      "startFrame": 116,
+      "endFrameExclusive": 150,
+      "startSeconds": 3.8666666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist stands and steps away from the chair."
+     }
+    ],
+    "description": "World: A fully roofed furnished home with connected rooms, cabinets, chairs and tables. A large, dark interior space with a floor of dark wood planks that reflect the light. The walls are black and feature framed artwork on the left and doorways on the right. Several pendant lights hang from the ceiling, casting focused beams of light onto the floor. There are tables and benches placed against the right wall.\nProtagonist: A person seen from behind, wearing a dark suit jacket and trousers, standing just beyond an empty chair.\nCompanions: A person standing on the left, wearing a white t-shirt under dark denim overalls and sneakers. A person standing on the right, wearing a maroon hoodie, dark trousers, and white shoes. A person standing in the middle-left, wearing a white chef's uniform and a black cap.\nObjects: A simple empty chair with a dark seat and backrest, supported by thin legs, standing between the viewer and the protagonist. A metal utility cart with four wheels, positioned next to the person in the chef's uniform.\nAction timeline: From 0.00 to 0.57 s: The protagonist walks up to the chair. From 0.57 to 1.47 s: The protagonist lowers onto the seat of the chair. From 1.47 to 2.97 s: The protagonist sits on the chair. From 2.97 to 3.87 s: The protagonist rises from the chair. From 3.87 to 5.00 s: The protagonist stands and steps away from the chair."
+   }
+  },
+  "dv200-126-indoor-stairs": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "climb",
+      "startFrame": 0,
+      "endFrameExclusive": 140,
+      "startSeconds": 0.0,
+      "endSeconds": 4.666666666666667,
+      "description": "The protagonist climbs the stairs step by step. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "upper-landing",
+      "startFrame": 140,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.666666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist reaches the upper landing and walks on. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: An enclosed office with corridors, sliding doors, desks and stairs between floors. A spacious, modern interior with polished grey concrete floors that reflect the surroundings. Large floor-to-ceiling glass windows line both sides, revealing a bright, hazy outdoor landscape with trees and rocks. The center features a raised concrete platform with stairs leading up to it. Wooden benches are placed near the windows on the left and right. The lighting is bright and atmospheric, with long shadows cast across the floor.\nCompanions: A woman with short dark hair, standing on the left side. She wears a white long-sleeved shirt, a dark tie, dark grey trousers, and dark shoes. She is facing forward towards the camera. A man with dark hair, standing on the right side. He wears a dark navy jacket, blue jeans, and dark shoes. He is facing away from the camera, looking towards the window.\nAction timeline: From 0.00 to 4.67 s: The protagonist climbs the stairs step by step. From 4.67 to 5.00 s: The protagonist reaches the upper landing and walks on.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "climb",
+      "startFrame": 0,
+      "endFrameExclusive": 140,
+      "startSeconds": 0.0,
+      "endSeconds": 4.666666666666667,
+      "description": "The protagonist climbs the stairs step by step."
+     },
+     {
+      "phase": "upper-landing",
+      "startFrame": 140,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.666666666666667,
+      "endSeconds": 5.0,
+      "description": "The protagonist reaches the upper landing and walks on."
+     }
+    ],
+    "description": "World: An enclosed office with corridors, sliding doors, desks and stairs between floors. A spacious, modern interior with polished grey concrete floors that reflect the surroundings. Large floor-to-ceiling glass windows line both sides, revealing a bright, hazy outdoor landscape with trees and rocks. The center features a raised concrete platform with stairs leading up to it. Wooden benches are placed near the windows on the left and right. The lighting is bright and atmospheric, with long shadows cast across the floor.\nProtagonist: A male security guard seen from behind, wearing a light grey uniform shirt with shoulder epaulets, black trousers, and black shoes. He has short, buzzed hair and is walking up the central stairs.\nCompanions: A woman with short dark hair, standing on the left side. She wears a white long-sleeved shirt, a dark tie, dark grey trousers, and dark shoes. She is facing forward towards the camera. A man with dark hair, standing on the right side. He wears a dark navy jacket, blue jeans, and dark shoes. He is facing away from the camera, looking towards the window.\nAction timeline: From 0.00 to 4.67 s: The protagonist climbs the stairs step by step. From 4.67 to 5.00 s: The protagonist reaches the upper landing and walks on."
+   }
+  },
+  "dv200-130-indoor-cart": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 29,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9666666666666667,
+      "description": "The protagonist steps up to the handcart and takes hold of its handle. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "push",
+      "startFrame": 29,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.9666666666666667,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist pushes the handcart forward around the gentle bend. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "released",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist lets go of the handle and the handcart stays where it stopped. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A fully enclosed shop with stocked shelves, shopping carts, a counter and automatic doors. A modern supermarket interior with high-gloss dark tiled flooring that reflects the overhead lighting. Tall black shelving units line both sides of the aisle, densely stocked with various packaged goods. The ceiling features rows of bright, cool-toned fluorescent lights. Potted green trees are placed at intervals along the aisle to add greenery.\nCompanions: A woman with shoulder-length grey hair, wearing a maroon long-sleeved sweater, blue jeans, and white sneakers. She is walking towards the camera on the left side of the aisle. A woman with dark hair tied back, wearing a sage green v-neck t-shirt and dark trousers. She is pushing a shopping cart towards the camera, positioned behind participant 1. A person with blonde hair tied in a bun, wearing a white t-shirt under navy blue overalls. They are walking away from the camera on the right side of the aisle.\nObjects: A standard metal wire shopping trolley with black plastic handles and grey wheels, held at its handle by the protagonist. A metal wire shopping trolley with blue plastic accents, being pushed by participant 3.\nAction timeline: From 0.00 to 0.97 s: The protagonist steps up to the handcart and takes hold of its handle. From 0.97 to 4.07 s: The protagonist pushes the handcart forward around the gentle bend. From 4.07 to 5.00 s: The protagonist lets go of the handle and the handcart stays where it stopped.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 29,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9666666666666667,
+      "description": "The protagonist steps up to the handcart and takes hold of its handle."
+     },
+     {
+      "phase": "push",
+      "startFrame": 29,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.9666666666666667,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist pushes the handcart forward around the gentle bend."
+     },
+     {
+      "phase": "released",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist lets go of the handle and the handcart stays where it stopped."
+     }
+    ],
+    "description": "World: A fully enclosed shop with stocked shelves, shopping carts, a counter and automatic doors. A modern supermarket interior with high-gloss dark tiled flooring that reflects the overhead lighting. Tall black shelving units line both sides of the aisle, densely stocked with various packaged goods. The ceiling features rows of bright, cool-toned fluorescent lights. Potted green trees are placed at intervals along the aisle to add greenery.\nProtagonist: A woman with voluminous curly reddish-brown hair, wearing a beige straw hat with a dark band, a salmon-pink patterned short-sleeved blouse, beige shorts, and brown sandals. She is facing away from the camera, holding the handle of a shopping cart.\nCompanions: A woman with shoulder-length grey hair, wearing a maroon long-sleeved sweater, blue jeans, and white sneakers. She is walking towards the camera on the left side of the aisle. A woman with dark hair tied back, wearing a sage green v-neck t-shirt and dark trousers. She is pushing a shopping cart towards the camera, positioned behind participant 1. A person with blonde hair tied in a bun, wearing a white t-shirt under navy blue overalls. They are walking away from the camera on the right side of the aisle.\nObjects: A standard metal wire shopping trolley with black plastic handles and grey wheels, held at its handle by the protagonist. A metal wire shopping trolley with blue plastic accents, being pushed by participant 3.\nAction timeline: From 0.00 to 0.97 s: The protagonist steps up to the handcart and takes hold of its handle. From 0.97 to 4.07 s: The protagonist pushes the handcart forward around the gentle bend. From 4.07 to 5.00 s: The protagonist lets go of the handle and the handcart stays where it stopped."
+   }
+  },
+  "dv200-134-indoor-push": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 29,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9666666666666667,
+      "description": "The protagonist steps up to the crate and places both hands on it. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "push",
+      "startFrame": 29,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.9666666666666667,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist pushes the crate forward. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "released",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist lets go of the crate and it stays where it stopped. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A roofed warehouse with tall stocked racks, wide cross aisles, crates and handcarts. A large, industrial warehouse interior with a concrete floor marked by yellow lines. Tall metal shelving units stocked with cardboard boxes line the left and right sides. Large trees are planted in the aisles between the shelves. The background features a high wall with a row of windows at the top, allowing bright sunlight to stream down in visible beams. The scene has a painterly, flat-shaded aesthetic with heavy shadows.\nCompanions: A man with short brown hair, wearing a white button-down shirt, a maroon tie, dark grey trousers, and black shoes. He stands on the left side, facing forward. A man with short dark hair, wearing a mustard jacket over a white shirt, teal shorts, and white sneakers. He stands in the center-left, holding the handle of a handcart. A person with shoulder-length brown hair, wearing a maroon hoodie and blue jeans. They stand on the right side, facing away from the camera.\nObjects: A black metal handcart with two large spoked wheels, positioned in the center of the aisle.\nAction timeline: From 0.00 to 0.97 s: The protagonist steps up to the crate and places both hands on it. From 0.97 to 4.07 s: The protagonist pushes the crate forward. From 4.07 to 5.00 s: The protagonist lets go of the crate and it stays where it stopped."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 29,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9666666666666667,
+      "description": "The protagonist steps up to the crate and places both hands on it."
+     },
+     {
+      "phase": "push",
+      "startFrame": 29,
+      "endFrameExclusive": 122,
+      "startSeconds": 0.9666666666666667,
+      "endSeconds": 4.066666666666666,
+      "description": "The protagonist pushes the crate forward."
+     },
+     {
+      "phase": "released",
+      "startFrame": 122,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.066666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist lets go of the crate and it stays where it stopped."
+     }
+    ],
+    "description": "World: A roofed warehouse with tall stocked racks, wide cross aisles, crates and handcarts. A large, industrial warehouse interior with a concrete floor marked by yellow lines. Tall metal shelving units stocked with cardboard boxes line the left and right sides. Large trees are planted in the aisles between the shelves. The background features a high wall with a row of windows at the top, allowing bright sunlight to stream down in visible beams. The scene has a painterly, flat-shaded aesthetic with heavy shadows.\nCompanions: A man with short brown hair, wearing a white button-down shirt, a maroon tie, dark grey trousers, and black shoes. He stands on the left side, facing forward. A man with short dark hair, wearing a mustard jacket over a white shirt, teal shorts, and white sneakers. He stands in the center-left, holding the handle of a handcart. A person with shoulder-length brown hair, wearing a maroon hoodie and blue jeans. They stand on the right side, facing away from the camera.\nObjects: A black metal handcart with two large spoked wheels, positioned in the center of the aisle.\nAction timeline: From 0.00 to 0.97 s: The protagonist steps up to the crate and places both hands on it. From 0.97 to 4.07 s: The protagonist pushes the crate forward. From 4.07 to 5.00 s: The protagonist lets go of the crate and it stays where it stopped.",
+    "view_in_dataset": false
+   }
+  },
+  "dv200-138-indoor-carryChair": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 22,
+      "startSeconds": 0.0,
+      "endSeconds": 0.7333333333333333,
+      "description": "The protagonist bends toward the chair and takes hold of it. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "lift",
+      "startFrame": 22,
+      "endFrameExclusive": 44,
+      "startSeconds": 0.7333333333333333,
+      "endSeconds": 1.4666666666666666,
+      "description": "The protagonist lifts the chair off the ground. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "carry",
+      "startFrame": 44,
+      "endFrameExclusive": 119,
+      "startSeconds": 1.4666666666666666,
+      "endSeconds": 3.966666666666667,
+      "description": "The protagonist carries the chair forward. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "place",
+      "startFrame": 119,
+      "endFrameExclusive": 137,
+      "startSeconds": 3.966666666666667,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist lowers the chair to the ground. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "placed",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The chair rests on the ground and the protagonist lets go of it. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: An enclosed public hall with columns, exhibit plinths, theatre steps and seating. A spacious, enclosed public hall with a polished stone floor that reflects the light. Tall, fluted columns line the space, creating a sense of grandeur. In the background, there are large trees or bushes, and a large rock sits on the floor to the right. The lighting is diffuse with shafts of sunlight cutting through the misty atmosphere.\nCompanions: A man with short brown hair, wearing a white button-down shirt, a maroon tie, dark trousers, and black shoes, walking towards the camera. A woman wearing a straw hat, a floral patterned top, and light-coloured shorts, standing near a cart. A woman with blonde hair, wearing a maroon hoodie and blue jeans, walking away from the camera.\nObjects: A metal handcart with wooden slats on the bottom, being pushed by the woman in the floral top.\nAction timeline: From 0.00 to 0.73 s: The protagonist bends toward the chair and takes hold of it. From 0.73 to 1.47 s: The protagonist lifts the chair off the ground. From 1.47 to 3.97 s: The protagonist carries the chair forward. From 3.97 to 4.57 s: The protagonist lowers the chair to the ground. From 4.57 to 5.00 s: The chair rests on the ground and the protagonist lets go of it.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "reach",
+      "startFrame": 0,
+      "endFrameExclusive": 22,
+      "startSeconds": 0.0,
+      "endSeconds": 0.7333333333333333,
+      "description": "The protagonist bends toward the chair and takes hold of it."
+     },
+     {
+      "phase": "lift",
+      "startFrame": 22,
+      "endFrameExclusive": 44,
+      "startSeconds": 0.7333333333333333,
+      "endSeconds": 1.4666666666666666,
+      "description": "The protagonist lifts the chair off the ground."
+     },
+     {
+      "phase": "carry",
+      "startFrame": 44,
+      "endFrameExclusive": 119,
+      "startSeconds": 1.4666666666666666,
+      "endSeconds": 3.966666666666667,
+      "description": "The protagonist carries the chair forward."
+     },
+     {
+      "phase": "place",
+      "startFrame": 119,
+      "endFrameExclusive": 137,
+      "startSeconds": 3.966666666666667,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist lowers the chair to the ground."
+     },
+     {
+      "phase": "placed",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The chair rests on the ground and the protagonist lets go of it."
+     }
+    ],
+    "description": "World: An enclosed public hall with columns, exhibit plinths, theatre steps and seating. A spacious, enclosed public hall with a polished stone floor that reflects the light. Tall, fluted columns line the space, creating a sense of grandeur. In the background, there are large trees or bushes, and a large rock sits on the floor to the right. The lighting is diffuse with shafts of sunlight cutting through the misty atmosphere.\nProtagonist: A man with dark curly hair, wearing a navy jacket, denim jeans, and brown shoes, walking away from the camera.\nCompanions: A man with short brown hair, wearing a white button-down shirt, a maroon tie, dark trousers, and black shoes, walking towards the camera. A woman wearing a straw hat, a floral patterned top, and light-coloured shorts, standing near a cart. A woman with blonde hair, wearing a maroon hoodie and blue jeans, walking away from the camera.\nObjects: A metal handcart with wooden slats on the bottom, being pushed by the woman in the floral top.\nAction timeline: From 0.00 to 0.73 s: The protagonist bends toward the chair and takes hold of it. From 0.73 to 1.47 s: The protagonist lifts the chair off the ground. From 1.47 to 3.97 s: The protagonist carries the chair forward. From 3.97 to 4.57 s: The protagonist lowers the chair to the ground. From 4.57 to 5.00 s: The chair rests on the ground and the protagonist lets go of it."
+   }
+  },
+  "dv200-150-nature-dog-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the dogs trot alongside and turn with it. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the dogs as they stop and look around. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Snow banks, conifers, faceted ice formations and a frozen open path. A frozen landscape covered in deep white snow, featuring a packed, icy path with visible tracks running diagonally from the left. The background is filled with snow-laden coniferous trees and faceted ice formations, fading into a misty, bright horizon with a soft, hazy sky.\nObjects: A small, fluffy dog with a black and tan coat, featuring a bushy tail curled over its back and a purple collar, standing on the snow and looking back over its left shoulder.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the dogs trot alongside and turn with it. From 4.57 to 5.00 s: The protagonist slows down and watches the dogs as they stop and look around."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the dogs trot alongside and turn with it."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the dogs as they stop and look around."
+     }
+    ],
+    "description": "World: Snow banks, conifers, faceted ice formations and a frozen open path. A frozen landscape covered in deep white snow, featuring a packed, icy path with visible tracks running diagonally from the left. The background is filled with snow-laden coniferous trees and faceted ice formations, fading into a misty, bright horizon with a soft, hazy sky.\nObjects: A small, fluffy dog with a black and tan coat, featuring a bushy tail curled over its back and a purple collar, standing on the snow and looking back over its left shoulder.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the dogs trot alongside and turn with it. From 4.57 to 5.00 s: The protagonist slows down and watches the dogs as they stop and look around.",
+    "view_in_dataset": false
+   }
+  },
+  "dv200-152-city-cat-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the cats weave across it and circle round. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the cats as they pause and look back. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A residential street with enclosed courtyards, low houses, front steps and parked cars. A paved asphalt road stretches into the distance, flanked by manicured lawns dusted with frost and trimmed hedges. On the left stands a pastel pink house with white window frames, and on the right is a beige house. Stylized trees with rounded, sculpted canopies line the street. The sky is a soft gradient of sunset orange and pale blue.\nObjects: A small white cat with black ears and a black tail, walking on the left side of the road. A small grey cat walking on the right side of the road. A small orange tabby cat walking further ahead in the center of the road.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the cats weave across it and circle round. From 4.57 to 5.00 s: The protagonist slows down and watches the cats as they pause and look back.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the cats weave across it and circle round."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the cats as they pause and look back."
+     }
+    ],
+    "description": "World: A residential street with enclosed courtyards, low houses, front steps and parked cars. A paved asphalt road stretches into the distance, flanked by manicured lawns dusted with frost and trimmed hedges. On the left stands a pastel pink house with white window frames, and on the right is a beige house. Stylized trees with rounded, sculpted canopies line the street. The sky is a soft gradient of sunset orange and pale blue.\nProtagonist: A young girl with a dark brown bob haircut, wearing a maroon hooded sweatshirt, denim jeans, and white sneakers with red accents, walking away from the camera.\nObjects: A small white cat with black ears and a black tail, walking on the left side of the road. A small grey cat walking on the right side of the road. A small orange tabby cat walking further ahead in the center of the road.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the cats weave across it and circle round. From 4.57 to 5.00 s: The protagonist slows down and watches the cats as they pause and look back."
+   }
+  },
+  "dv200-153-city-cat-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the cats weave across it and circle round. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the cats as they pause and look back. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A landscaped public park with branching paths, benches, trees and a paved plaza. A wide, paved public plaza with large grey stone tiles that are wet and reflective, mirroring the surroundings. The area is lined with manicured trees with rounded canopies and low stone retaining walls. In the background, the park extends into a misty haze with more trees, benches, and distant buildings visible through the fog. The lighting suggests early morning with a soft, diffuse glow.\nObjects: A bicolor cat with white and dark fur, walking on the right side of the path, facing away from the camera. A grey tabby cat walking on the left side of the path, facing away from the camera.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the cats weave across it and circle round. From 4.57 to 5.00 s: The protagonist slows down and watches the cats as they pause and look back.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the cats weave across it and circle round."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the cats as they pause and look back."
+     }
+    ],
+    "description": "World: A landscaped public park with branching paths, benches, trees and a paved plaza. A wide, paved public plaza with large grey stone tiles that are wet and reflective, mirroring the surroundings. The area is lined with manicured trees with rounded canopies and low stone retaining walls. In the background, the park extends into a misty haze with more trees, benches, and distant buildings visible through the fog. The lighting suggests early morning with a soft, diffuse glow.\nProtagonist: A man seen from behind, wearing a wide-brimmed hat, an olive uniform shirt with shoulder epaulets, khaki trousers, and dark shoes. He is walking forward with a relaxed gait.\nObjects: A bicolor cat with white and dark fur, walking on the right side of the path, facing away from the camera. A grey tabby cat walking on the left side of the path, facing away from the camera.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the cats weave across it and circle round. From 4.57 to 5.00 s: The protagonist slows down and watches the cats as they pause and look back."
+   }
+  },
+  "dv200-160-indoor-cat-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the cats weave across it and circle round. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the cats as they pause and look back. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A fully roofed furnished home with connected rooms, cabinets, chairs and tables. A spacious interior room featuring highly polished, glossy hardwood flooring that reflects the natural light. The background contains a living area with a grey sofa, a wooden coffee table, and a large potted plant near a window with sheer curtains. To the right, there are dark wooden double doors with glass panes and a small wooden side table holding a potted plant. The lighting is warm and diffuse, creating soft shadows and a cozy atmosphere.\nObjects: A small cat with a silver and white coat featuring faint tabby stripes, walking away from the camera with its tail held slightly aloft.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the cats weave across it and circle round. From 4.57 to 5.00 s: The protagonist slows down and watches the cats as they pause and look back."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the cats weave across it and circle round."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the cats as they pause and look back."
+     }
+    ],
+    "description": "World: A fully roofed furnished home with connected rooms, cabinets, chairs and tables. A spacious interior room featuring highly polished, glossy hardwood flooring that reflects the natural light. The background contains a living area with a grey sofa, a wooden coffee table, and a large potted plant near a window with sheer curtains. To the right, there are dark wooden double doors with glass panes and a small wooden side table holding a potted plant. The lighting is warm and diffuse, creating soft shadows and a cozy atmosphere.\nObjects: A small cat with a silver and white coat featuring faint tabby stripes, walking away from the camera with its tail held slightly aloft.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the cats weave across it and circle round. From 4.57 to 5.00 s: The protagonist slows down and watches the cats as they pause and look back.",
+    "view_in_dataset": false
+   }
+  },
+  "dv200-164-nature-rabbit-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the rabbits hop alongside in short bounds. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Snow banks, conifers, faceted ice formations and a frozen open path. A snowy landscape with a ground covered in white snow marked by footprints. The background features stylized green coniferous trees with snow-capped tops and grey rocks. The sky is a soft, pale blue.\nObjects: A small white rabbit with long ears, in the snow facing away from the camera. A small tan rabbit with floppy ears, in the snow to the right of the girl, facing away. A small tan rabbit with floppy ears, in the snow to the left of the girl, facing away.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the rabbits hop alongside in short bounds. From 4.57 to 5.00 s: The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the rabbits hop alongside in short bounds."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops."
+     }
+    ],
+    "description": "World: Snow banks, conifers, faceted ice formations and a frozen open path. A snowy landscape with a ground covered in white snow marked by footprints. The background features stylized green coniferous trees with snow-capped tops and grey rocks. The sky is a soft, pale blue.\nProtagonist: A girl with a dark brown bob haircut, wearing a maroon hooded sweatshirt, navy blue jeans, and white sneakers with yellow accents. She is walking away from the camera.\nObjects: A small white rabbit with long ears, in the snow facing away from the camera. A small tan rabbit with floppy ears, in the snow to the right of the girl, facing away. A small tan rabbit with floppy ears, in the snow to the left of the girl, facing away.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the rabbits hop alongside in short bounds. From 4.57 to 5.00 s: The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops."
+   }
+  },
+  "dv200-168-city-rabbit-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the rabbits hop alongside in short bounds. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A landscaped public park with branching paths, benches, trees and a paved plaza. A wide paved plaza composed of large grey stone tiles that reflect the soft morning light. Rows of manicured trees with dark trunks and rounded green canopies line the path, casting long shadows. Dark wooden park benches are spaced along the grassy edges. In the background, a body of water is visible through a thick, glowing mist, with the sun rising low on the horizon creating a hazy, atmospheric backdrop.\nObjects: A small, fluffy white rabbit with upright ears and a short tail, on the pavement and facing slightly to the left.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the rabbits hop alongside in short bounds. From 4.57 to 5.00 s: The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the rabbits hop alongside in short bounds."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops."
+     }
+    ],
+    "description": "World: A landscaped public park with branching paths, benches, trees and a paved plaza. A wide paved plaza composed of large grey stone tiles that reflect the soft morning light. Rows of manicured trees with dark trunks and rounded green canopies line the path, casting long shadows. Dark wooden park benches are spaced along the grassy edges. In the background, a body of water is visible through a thick, glowing mist, with the sun rising low on the horizon creating a hazy, atmospheric backdrop.\nObjects: A small, fluffy white rabbit with upright ears and a short tail, on the pavement and facing slightly to the left.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the rabbits hop alongside in short bounds. From 4.57 to 5.00 s: The protagonist slows down and watches the rabbits as they remain nearby, with intermittent short hops.",
+    "view_in_dataset": false
+   }
+  },
+  "dv200-174-nature-bird-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the birds flap past low overhead in a loose group. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the birds as they wheel round and skim past again. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Open rolling grassland with fenced paddocks, a barn and grazing horses. A damp, grassy field with puddles reflecting the sky, enclosed by wooden post-and-rail fences. To the left stands a large wooden barn structure. Several trees are scattered in the background, fading into a thick, blue-grey morning mist under a pale sky.\nObjects: A seagull with white and grey plumage, wings spread wide in flight, positioned to the right of the center. A seagull with white and grey plumage, wings spread wide in flight, positioned to the left of the center. A seagull with white and grey plumage, wings spread wide in flight, positioned in the center distance.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the birds flap past low overhead in a loose group. From 4.57 to 5.00 s: The protagonist slows down and watches the birds as they wheel round and skim past again.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the birds flap past low overhead in a loose group."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the birds as they wheel round and skim past again."
+     }
+    ],
+    "description": "World: Open rolling grassland with fenced paddocks, a barn and grazing horses. A damp, grassy field with puddles reflecting the sky, enclosed by wooden post-and-rail fences. To the left stands a large wooden barn structure. Several trees are scattered in the background, fading into a thick, blue-grey morning mist under a pale sky.\nProtagonist: A person wearing a ranger uniform consisting of an olive short-sleeved shirt, khaki trousers, and a wide-brimmed campaign hat, walking away from the camera.\nObjects: A seagull with white and grey plumage, wings spread wide in flight, positioned to the right of the center. A seagull with white and grey plumage, wings spread wide in flight, positioned to the left of the center. A seagull with white and grey plumage, wings spread wide in flight, positioned in the center distance.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the birds flap past low overhead in a loose group. From 4.57 to 5.00 s: The protagonist slows down and watches the birds as they wheel round and skim past again."
+   }
+  },
+  "dv200-181-city-duck-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the ducks waddle alongside in a line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the ducks as they turn together and waddle on. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A landscaped public park with branching paths, benches, trees and a paved plaza. A wide, paved plaza made of large grey stone slabs that are wet and reflective, indicating rain. The plaza is lined with manicured trees featuring rounded, cloud-like canopies and grey stone benches. In the background, a grassy lawn leads to a body of water and a line of tall, slender trees fading into a misty, grey sky.\nObjects: A male mallard duck with a glossy green head, white neck ring, and grey body, standing on the wet pavement. A female mallard duck with mottled brown plumage, standing on the wet pavement.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the ducks waddle alongside in a line. From 4.57 to 5.00 s: The protagonist slows down and watches the ducks as they turn together and waddle on.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the ducks waddle alongside in a line."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the ducks as they turn together and waddle on."
+     }
+    ],
+    "description": "World: A landscaped public park with branching paths, benches, trees and a paved plaza. A wide, paved plaza made of large grey stone slabs that are wet and reflective, indicating rain. The plaza is lined with manicured trees featuring rounded, cloud-like canopies and grey stone benches. In the background, a grassy lawn leads to a body of water and a line of tall, slender trees fading into a misty, grey sky.\nProtagonist: A person with shoulder-length brown hair, wearing a maroon hooded sweatshirt, blue denim jeans, and white sneakers, walking away from the camera.\nObjects: A male mallard duck with a glossy green head, white neck ring, and grey body, standing on the wet pavement. A female mallard duck with mottled brown plumage, standing on the wet pavement.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the ducks waddle alongside in a line. From 4.57 to 5.00 s: The protagonist slows down and watches the ducks as they turn together and waddle on."
+   }
+  },
+  "dv200-184-city-duck-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the ducks waddle alongside in a line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the ducks as they turn together and waddle on. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A residential street with enclosed courtyards, low houses, front steps and parked cars. A residential street paved with dark, reflective asphalt that mirrors the figures and surroundings. The sky is overcast with grey clouds and rain is falling. On the left, there are houses with blue and purple siding, white window frames, and tall green hedges. On the right, a blue house with a front porch and steps sits behind a green lawn and trees. The scene is rendered with flat colors and clean lines.\nObjects: A white duck with orange feet, walking on the right side of the street. A duck with grey and white feathers and a green head, walking in the middle of the street. A duck with black and white feathers, walking on the left side of the street.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the ducks waddle alongside in a line. From 4.57 to 5.00 s: The protagonist slows down and watches the ducks as they turn together and waddle on.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the ducks waddle alongside in a line."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the ducks as they turn together and waddle on."
+     }
+    ],
+    "description": "World: A residential street with enclosed courtyards, low houses, front steps and parked cars. A residential street paved with dark, reflective asphalt that mirrors the figures and surroundings. The sky is overcast with grey clouds and rain is falling. On the left, there are houses with blue and purple siding, white window frames, and tall green hedges. On the right, a blue house with a front porch and steps sits behind a green lawn and trees. The scene is rendered with flat colors and clean lines.\nProtagonist: A man seen from behind, wearing a mustard jacket, grey shorts, white socks, and white sneakers. He has short black hair and is walking forward.\nObjects: A white duck with orange feet, walking on the right side of the street. A duck with grey and white feathers and a green head, walking in the middle of the street. A duck with black and white feathers, walking on the left side of the street.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the ducks waddle alongside in a line. From 4.57 to 5.00 s: The protagonist slows down and watches the ducks as they turn together and waddle on."
+   }
+  },
+  "dv200-186-city-duck-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the ducks waddle alongside in a line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the ducks as they turn together and waddle on. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A landscaped public park with branching paths, benches, trees and a paved plaza. A paved public plaza with a glossy, wet asphalt surface in the foreground that reflects the ambient light, transitioning to a brick-paved area in the mid-ground. The setting is a landscaped park with manicured trees featuring dark trunks and rounded, emerald green canopies. Several dark grey stone benches are arranged in the background. The distance is obscured by a thick, bright morning mist that diffuses the sunlight, creating a soft, hazy atmosphere.\nObjects: A male mallard duck with a glossy, iridescent emerald green head, a white neck ring, and a chestnut brown chest. Its body is covered in textured grey and tan feathers, with a distinct blue speculum patch bordered by white on the folded wing. It has a bright yellow beak and orange webbed feet, standing in a profile pose.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the ducks waddle alongside in a line. From 4.57 to 5.00 s: The protagonist slows down and watches the ducks as they turn together and waddle on."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the ducks waddle alongside in a line."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the ducks as they turn together and waddle on."
+     }
+    ],
+    "description": "World: A landscaped public park with branching paths, benches, trees and a paved plaza. A paved public plaza with a glossy, wet asphalt surface in the foreground that reflects the ambient light, transitioning to a brick-paved area in the mid-ground. The setting is a landscaped park with manicured trees featuring dark trunks and rounded, emerald green canopies. Several dark grey stone benches are arranged in the background. The distance is obscured by a thick, bright morning mist that diffuses the sunlight, creating a soft, hazy atmosphere.\nObjects: A male mallard duck with a glossy, iridescent emerald green head, a white neck ring, and a chestnut brown chest. Its body is covered in textured grey and tan feathers, with a distinct blue speculum patch bordered by white on the folded wing. It has a bright yellow beak and orange webbed feet, standing in a profile pose.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the ducks waddle alongside in a line. From 4.57 to 5.00 s: The protagonist slows down and watches the ducks as they turn together and waddle on.",
+    "view_in_dataset": false
+   }
+  },
+  "dv200-187-nature-duck-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the ducks waddle alongside in a line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the ducks as they turn together and waddle on. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Open rolling grassland with fenced paddocks, a barn and grazing horses. The setting is a rural landscape at twilight, rendered in painterly grey washes. The ground is uneven grassland with tufts of dark grass and scattered grey stones. A wooden post-and-rail fence runs horizontally across the mid-ground. Behind the fence stands a weathered wooden barn with glowing yellow lights in the windows. The background features rolling hills fading into a misty, pale sky.\nObjects: A mallard duck with an emerald green head, a white neck ring, a chestnut-brown chest, and grey-brown wings with a blue speculum patch. It has a yellow beak and orange webbed feet, standing in profile facing left.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the ducks waddle alongside in a line. From 4.57 to 5.00 s: The protagonist slows down and watches the ducks as they turn together and waddle on."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the ducks waddle alongside in a line."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the ducks as they turn together and waddle on."
+     }
+    ],
+    "description": "World: Open rolling grassland with fenced paddocks, a barn and grazing horses. The setting is a rural landscape at twilight, rendered in painterly grey washes. The ground is uneven grassland with tufts of dark grass and scattered grey stones. A wooden post-and-rail fence runs horizontally across the mid-ground. Behind the fence stands a weathered wooden barn with glowing yellow lights in the windows. The background features rolling hills fading into a misty, pale sky.\nObjects: A mallard duck with an emerald green head, a white neck ring, a chestnut-brown chest, and grey-brown wings with a blue speculum patch. It has a yellow beak and orange webbed feet, standing in profile facing left.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the ducks waddle alongside in a line. From 4.57 to 5.00 s: The protagonist slows down and watches the ducks as they turn together and waddle on.",
+    "view_in_dataset": false
+   }
+  },
+  "dv200-190-nature-duck-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the ducks waddle alongside in a line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the ducks as they turn together and waddle on. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Snow banks, conifers, faceted ice formations and a frozen open path. A snowy landscape with a ground covered in white snow marked by footprints. The background features stylized coniferous trees with snow-capped branches and faceted grey rocks. The sky is a deep teal blue with falling snow particles.\nObjects: A white duck with orange feet, standing on the snow to the left of the person. A brown duck with a green head and orange feet, standing on the snow to the right of the person. A brown duck with a green head and orange feet, standing on the snow to the left of the person, further back than the white duck.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the ducks waddle alongside in a line. From 4.57 to 5.00 s: The protagonist slows down and watches the ducks as they turn together and waddle on.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist walks along the route while the ducks waddle alongside in a line."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the ducks as they turn together and waddle on."
+     }
+    ],
+    "description": "World: Snow banks, conifers, faceted ice formations and a frozen open path. A snowy landscape with a ground covered in white snow marked by footprints. The background features stylized coniferous trees with snow-capped branches and faceted grey rocks. The sky is a deep teal blue with falling snow particles.\nProtagonist: A person with short dark hair, wearing an olive puffer jacket, dark grey trousers, and tan boots, walking away from the camera.\nObjects: A white duck with orange feet, standing on the snow to the left of the person. A brown duck with a green head and orange feet, standing on the snow to the right of the person. A brown duck with a green head and orange feet, standing on the snow to the left of the person, further back than the white duck.\nAction timeline: From 0.00 to 4.57 s: The protagonist walks along the route while the ducks waddle alongside in a line. From 4.57 to 5.00 s: The protagonist slows down and watches the ducks as they turn together and waddle on."
+   }
+  },
+  "dv200-199-underwater-fish-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist swims forward along the route while the fish swim alongside with beating tails. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the fish as the shoal turns together. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: An underwater reef with branching coral, submerged rocks and an enclosed shipwreck. The scene is an underwater environment with a sandy seabed marked by ripples. In the foreground, there are scattered rocks and branching coral structures. In the background, a large, moss-covered shipwreck rests on the sand, partially obscured by the blue water and atmospheric haze. Sunlight rays penetrate the water surface from above.\nObjects: A fish with a white body and a bright yellow tail and dorsal fin, swimming to the right. A fish with a white body and a bright yellow tail and dorsal fin, swimming to the left.\nAction timeline: From 0.00 to 4.57 s: The protagonist swims forward along the route while the fish swim alongside with beating tails. From 4.57 to 5.00 s: The protagonist slows down and watches the fish as the shoal turns together.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist swims forward along the route while the fish swim alongside with beating tails."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the fish as the shoal turns together."
+     }
+    ],
+    "description": "World: An underwater reef with branching coral, submerged rocks and an enclosed shipwreck. The scene is an underwater environment with a sandy seabed marked by ripples. In the foreground, there are scattered rocks and branching coral structures. In the background, a large, moss-covered shipwreck rests on the sand, partially obscured by the blue water and atmospheric haze. Sunlight rays penetrate the water surface from above.\nProtagonist: A person wearing a full-body black wetsuit and large grey swim fins, swimming forward with arms extended.\nObjects: A fish with a white body and a bright yellow tail and dorsal fin, swimming to the right. A fish with a white body and a bright yellow tail and dorsal fin, swimming to the left.\nAction timeline: From 0.00 to 4.57 s: The protagonist swims forward along the route while the fish swim alongside with beating tails. From 4.57 to 5.00 s: The protagonist slows down and watches the fish as the shoal turns together."
+   }
+  },
+  "dv200-200-underwater-fish-encounter": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist swims forward along the route while the fish swim alongside with beating tails. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the fish as the shoal turns together. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: An underwater reef with branching coral, submerged rocks and an enclosed shipwreck. An underwater seascape with a sandy ocean floor textured with ink washes. Tall stalks of kelp with ochre and olive leaves rise on the left and right sides. Dark, jagged rocks and coral formations are scattered across the seabed. The water is a gradient of teal and azure, with shafts of sunlight piercing the surface from above.\nObjects: A fish with orange and white vertical stripes swimming to the left of the diver. A small yellow fish swimming near the diver's head. A fish with yellow and black vertical stripes swimming to the right of the diver.\nAction timeline: From 0.00 to 4.57 s: The protagonist swims forward along the route while the fish swim alongside with beating tails. From 4.57 to 5.00 s: The protagonist slows down and watches the fish as the shoal turns together.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "accompany",
+      "startFrame": 0,
+      "endFrameExclusive": 137,
+      "startSeconds": 0.0,
+      "endSeconds": 4.566666666666666,
+      "description": "The protagonist swims forward along the route while the fish swim alongside with beating tails."
+     },
+     {
+      "phase": "observe",
+      "startFrame": 137,
+      "endFrameExclusive": 150,
+      "startSeconds": 4.566666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist slows down and watches the fish as the shoal turns together."
+     }
+    ],
+    "description": "World: An underwater reef with branching coral, submerged rocks and an enclosed shipwreck. An underwater seascape with a sandy ocean floor textured with ink washes. Tall stalks of kelp with ochre and olive leaves rise on the left and right sides. Dark, jagged rocks and coral formations are scattered across the seabed. The water is a gradient of teal and azure, with shafts of sunlight piercing the surface from above.\nProtagonist: A scuba diver viewed from behind, wearing a black wetsuit, a white oxygen tank, and large black fins. The diver is in a swimming pose with arms extended and legs kicking, moving away from the viewer.\nObjects: A fish with orange and white vertical stripes swimming to the left of the diver. A small yellow fish swimming near the diver's head. A fish with yellow and black vertical stripes swimming to the right of the diver.\nAction timeline: From 0.00 to 4.57 s: The protagonist swims forward along the route while the fish swim alongside with beating tails. From 4.57 to 5.00 s: The protagonist slows down and watches the fish as the shoal turns together."
+   }
+  }
+ }
+}

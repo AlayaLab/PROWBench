@@ -1,0 +1,7 @@
+# Tracking (SAM 3 / SAM 2) and the VLM judge, installed together with requirements.txt. Versions are those used for the
+# reported scores. Install the CUDA 12.8 build of PyTorch first (USAGE section 1).
+torch==2.10.0
+torchvision==0.25.0
+transformers==5.17.0
+accelerate==1.15.0
+openai

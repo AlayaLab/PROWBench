@@ -1,0 +1,16 @@
+# Visual quality (VBench imaging / aesthetic / motion smoothness), Warp error (RAFT from VBench) and CLIP-Score.
+# Install in a separate environment: VBench 0.1.5 needs an older Transformers / NumPy than the tracker and judge
+# environment of requirements-models.txt. Versions are those used for the reported scores. Install the CUDA 12.8
+# build of PyTorch first (USAGE section 1).
+vbench==0.1.5
+openai-clip==1.0.1
+torch==2.11.0
+torchvision==0.26.0
+numpy==1.26.4
+transformers==4.33.2
+opencv-python==4.11.0.86
+decord==0.6.0
+pyiqa==0.1.10
+timm==1.0.12
+scipy==1.17.1
+pillow==12.3.0

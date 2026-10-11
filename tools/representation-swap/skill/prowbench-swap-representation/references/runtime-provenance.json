@@ -1,0 +1,38 @@
+{
+  "engine_commit": "fb4d114dbf822a6ed3a05da5be3f6a0cebd39d1e",
+  "files": {
+    "assets/runtime/replay.js": {
+      "source": "src/benchmark/runtime/replay.js",
+      "sha256": "5622d1bc23d61d9c2dd897a38d11ca78370ea737ae1391e0f062fb8e023b963f"
+    },
+    "assets/runtime/camera-data.js": {
+      "source": "src/benchmark/runtime/camera-data.js",
+      "sha256": "2633b12a0f7309c1c2aa12aedbcae242d8b1065339d4b5a1140b6c6e03d533cf"
+    },
+    "assets/runtime/camera-restore.js": {
+      "source": "src/benchmark/runtime/camera-restore.js",
+      "sha256": "d3ca7cef6d6d791a80becec357cb01857b77433a634720428022631dda8f6d64"
+    },
+    "assets/runtime/reference-style.js": {
+      "source": "src/benchmark/runtime/reference-style.js",
+      "sha256": "edca00c89b7c78775f4d2f137b216d998a4eb3c0f1338e4841ceaf7c804766a7"
+    },
+    "assets/runtime/renderer-info.js": {
+      "source": "src/benchmark/runtime/renderer-info.js",
+      "sha256": "101b78bf3d580ee0d33c9ba6f7394c24a1246029cd3e64a519c316460f3c8bef"
+    },
+    "assets/gpu/nvidia-vulkan.json": {
+      "source": "tools/benchmark/gpu/nvidia-vulkan.json",
+      "sha256": "8f6f48d52498df82f34deb586cf2846ebd3d190550a1c146293e39680f694af2"
+    },
+    "assets/gpu/nvidia-egl.json": {
+      "source": "tools/benchmark/gpu/nvidia-egl.json",
+      "sha256": "b007d23230b6289d28445a0047301101c21ba735b58ad8b2409504639b3fd535"
+    },
+    "scripts/render-backend.mjs": {
+      "source": "tools/benchmark/render-backend.mjs",
+      "modification": "Imports and GPU manifest locations adapted to the skill layout; uses the standard Playwright browser cache or explicit PLAYWRIGHT_BROWSERS_PATH, independently of the skill location."
+    }
+  },
+  "engine_project": "coastal-scene-benchmark"
+}

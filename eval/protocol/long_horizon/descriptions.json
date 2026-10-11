@@ -1,0 +1,940 @@
+{
+ "schema": "prowbench.protocol.descriptions.v1",
+ "dataset": "long_horizon",
+ "episodes": {
+  "long30-001-forest-long-return": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse#1",
+      "startFrame": 0,
+      "endFrameExclusive": 299,
+      "startSeconds": 0.0,
+      "endSeconds": 9.966666666666667,
+      "description": "The protagonist walks forward along the route. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "turn-and-return",
+      "startFrame": 299,
+      "endFrameExclusive": 599,
+      "startSeconds": 9.966666666666667,
+      "endSeconds": 19.966666666666665,
+      "description": "The protagonist turns round and walks back along the route. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "traverse#2",
+      "startFrame": 599,
+      "endFrameExclusive": 900,
+      "startSeconds": 19.966666666666665,
+      "endSeconds": 30.0,
+      "description": "The protagonist walks forward along the route. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Winding temperate forest trails, large trunks, fallen timber and a woodland camp. Preserve the reference spacing, masses and open routes.\nCompanions: The independent participant B is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant C is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots.\nAction timeline: From 0.00 to 9.97 s: The protagonist walks forward along the route. From 9.97 to 19.97 s: The protagonist turns round and walks back along the route. From 19.97 to 30.00 s: The protagonist walks forward along the route.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse#1",
+      "startFrame": 0,
+      "endFrameExclusive": 299,
+      "startSeconds": 0.0,
+      "endSeconds": 9.966666666666667,
+      "description": "The protagonist walks forward along the route."
+     },
+     {
+      "phase": "turn-and-return",
+      "startFrame": 299,
+      "endFrameExclusive": 599,
+      "startSeconds": 9.966666666666667,
+      "endSeconds": 19.966666666666665,
+      "description": "The protagonist turns round and walks back along the route."
+     },
+     {
+      "phase": "traverse#2",
+      "startFrame": 599,
+      "endFrameExclusive": 900,
+      "startSeconds": 19.966666666666665,
+      "endSeconds": 30.0,
+      "description": "The protagonist walks forward along the route."
+     }
+    ],
+    "description": "World: Winding temperate forest trails, large trunks, fallen timber and a woodland camp. Preserve the reference spacing, masses and open routes.\nProtagonist: The protagonist is a field explorer with long braided dark hair, wearing a khaki field shirt with rolled sleeves, olive cargo trousers, and brown leather boots.\nCompanions: The independent participant B is a hiker with short dark-brown hair, wearing an olive shell jacket, charcoal trousers, and tan hiking boots. The independent participant C is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots.\nAction timeline: From 0.00 to 9.97 s: The protagonist walks forward along the route. From 9.97 to 19.97 s: The protagonist turns round and walks back along the route. From 19.97 to 30.00 s: The protagonist walks forward along the route."
+   }
+  },
+  "long30-004-mountain-long-return": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse#1",
+      "startFrame": 0,
+      "endFrameExclusive": 299,
+      "startSeconds": 0.0,
+      "endSeconds": 9.966666666666667,
+      "description": "The protagonist walks forward along the route. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "turn-and-return",
+      "startFrame": 299,
+      "endFrameExclusive": 599,
+      "startSeconds": 9.966666666666667,
+      "endSeconds": 19.966666666666665,
+      "description": "The protagonist turns round and walks back along the route. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "traverse#2",
+      "startFrame": 599,
+      "endFrameExclusive": 900,
+      "startSeconds": 19.966666666666665,
+      "endSeconds": 30.0,
+      "description": "The protagonist walks forward along the route. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes.\nAction timeline: From 0.00 to 9.97 s: The protagonist walks forward along the route. From 9.97 to 19.97 s: The protagonist turns round and walks back along the route. From 19.97 to 30.00 s: The protagonist walks forward along the route."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse#1",
+      "startFrame": 0,
+      "endFrameExclusive": 299,
+      "startSeconds": 0.0,
+      "endSeconds": 9.966666666666667,
+      "description": "The protagonist walks forward along the route."
+     },
+     {
+      "phase": "turn-and-return",
+      "startFrame": 299,
+      "endFrameExclusive": 599,
+      "startSeconds": 9.966666666666667,
+      "endSeconds": 19.966666666666665,
+      "description": "The protagonist turns round and walks back along the route."
+     },
+     {
+      "phase": "traverse#2",
+      "startFrame": 599,
+      "endFrameExclusive": 900,
+      "startSeconds": 19.966666666666665,
+      "endSeconds": 30.0,
+      "description": "The protagonist walks forward along the route."
+     }
+    ],
+    "description": "World: A rocky mountain valley with rising paths, ledges, steep rock walls and a narrow gorge. Preserve the reference spacing, masses and open routes.\nAction timeline: From 0.00 to 9.97 s: The protagonist walks forward along the route. From 9.97 to 19.97 s: The protagonist turns round and walks back along the route. From 19.97 to 30.00 s: The protagonist walks forward along the route.",
+    "view_in_dataset": false
+   }
+  },
+  "long30-005-desert-long-bends": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 900,
+      "startSeconds": 0.0,
+      "endSeconds": 30.0,
+      "description": "The protagonist walks forward along the route. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Sand dunes, angular desert rocks, cactus plants and roofless stone ruins. Preserve the reference spacing, masses and open routes.\nCompanions: The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots.\nAction timeline: From 0.00 to 30.00 s: The protagonist walks forward along the route."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse",
+      "startFrame": 0,
+      "endFrameExclusive": 900,
+      "startSeconds": 0.0,
+      "endSeconds": 30.0,
+      "description": "The protagonist walks forward along the route."
+     }
+    ],
+    "description": "World: Sand dunes, angular desert rocks, cactus plants and roofless stone ruins. Preserve the reference spacing, masses and open routes.\nCompanions: The independent participant B is a park ranger with short grey hair under a wide-brim hat, wearing an olive ranger shirt, tan trousers, and brown boots. The independent participant C is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals. The independent participant D is a security guard with a shaved head, wearing a slate uniform shirt with epaulettes, charcoal uniform trousers, and black duty boots.\nAction timeline: From 0.00 to 30.00 s: The protagonist walks forward along the route.",
+    "view_in_dataset": false
+   }
+  },
+  "long30-006-snow-long-pause-look": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse#1",
+      "startFrame": 0,
+      "endFrameExclusive": 299,
+      "startSeconds": 0.0,
+      "endSeconds": 9.966666666666667,
+      "description": "The protagonist walks forward along the route. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "pause-and-look",
+      "startFrame": 299,
+      "endFrameExclusive": 389,
+      "startSeconds": 9.966666666666667,
+      "endSeconds": 12.966666666666667,
+      "description": "The protagonist stops and looks around at the surroundings. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "traverse#2",
+      "startFrame": 389,
+      "endFrameExclusive": 900,
+      "startSeconds": 12.966666666666667,
+      "endSeconds": 30.0,
+      "description": "The protagonist walks forward along the route. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Snow banks, conifers, faceted ice formations and a frozen open path. Preserve the reference spacing, masses and open routes.\nAction timeline: From 0.00 to 9.97 s: The protagonist walks forward along the route. From 9.97 to 12.97 s: The protagonist stops and looks around at the surroundings. From 12.97 to 30.00 s: The protagonist walks forward along the route."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse#1",
+      "startFrame": 0,
+      "endFrameExclusive": 299,
+      "startSeconds": 0.0,
+      "endSeconds": 9.966666666666667,
+      "description": "The protagonist walks forward along the route."
+     },
+     {
+      "phase": "pause-and-look",
+      "startFrame": 299,
+      "endFrameExclusive": 389,
+      "startSeconds": 9.966666666666667,
+      "endSeconds": 12.966666666666667,
+      "description": "The protagonist stops and looks around at the surroundings."
+     },
+     {
+      "phase": "traverse#2",
+      "startFrame": 389,
+      "endFrameExclusive": 900,
+      "startSeconds": 12.966666666666667,
+      "endSeconds": 30.0,
+      "description": "The protagonist walks forward along the route."
+     }
+    ],
+    "description": "World: Snow banks, conifers, faceted ice formations and a frozen open path. Preserve the reference spacing, masses and open routes.\nAction timeline: From 0.00 to 9.97 s: The protagonist walks forward along the route. From 9.97 to 12.97 s: The protagonist stops and looks around at the surroundings. From 12.97 to 30.00 s: The protagonist walks forward along the route.",
+    "view_in_dataset": false
+   }
+  },
+  "long30-012-tunnel-long-pause-look": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse#1",
+      "startFrame": 0,
+      "endFrameExclusive": 299,
+      "startSeconds": 0.0,
+      "endSeconds": 9.966666666666667,
+      "description": "The protagonist walks forward along the route. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "pause-and-look",
+      "startFrame": 299,
+      "endFrameExclusive": 389,
+      "startSeconds": 9.966666666666667,
+      "endSeconds": 12.966666666666667,
+      "description": "The protagonist stops and looks around at the surroundings. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "traverse#2",
+      "startFrame": 389,
+      "endFrameExclusive": 900,
+      "startSeconds": 12.966666666666667,
+      "endSeconds": 30.0,
+      "description": "The protagonist walks forward along the route. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: An underground parking structure with a sloping entrance, pillars, barriers and vehicle lanes. Preserve the reference spacing, masses and open routes.\nCompanions: The independent participant B is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independent participant C is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independent participant D is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots.\nAction timeline: From 0.00 to 9.97 s: The protagonist walks forward along the route. From 9.97 to 12.97 s: The protagonist stops and looks around at the surroundings. From 12.97 to 30.00 s: The protagonist walks forward along the route."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "traverse#1",
+      "startFrame": 0,
+      "endFrameExclusive": 299,
+      "startSeconds": 0.0,
+      "endSeconds": 9.966666666666667,
+      "description": "The protagonist walks forward along the route."
+     },
+     {
+      "phase": "pause-and-look",
+      "startFrame": 299,
+      "endFrameExclusive": 389,
+      "startSeconds": 9.966666666666667,
+      "endSeconds": 12.966666666666667,
+      "description": "The protagonist stops and looks around at the surroundings."
+     },
+     {
+      "phase": "traverse#2",
+      "startFrame": 389,
+      "endFrameExclusive": 900,
+      "startSeconds": 12.966666666666667,
+      "endSeconds": 30.0,
+      "description": "The protagonist walks forward along the route."
+     }
+    ],
+    "description": "World: An underground parking structure with a sloping entrance, pillars, barriers and vehicle lanes. Preserve the reference spacing, masses and open routes.\nCompanions: The independent participant B is an office worker with neat short chestnut hair, wearing an ivory shirt with a plum tie, charcoal suit trousers, and polished oxford shoes. The independent participant C is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independent participant D is a mechanic with auburn hair tied back, wearing navy work overalls over a cream tee and steel-toe boots.\nAction timeline: From 0.00 to 9.97 s: The protagonist walks forward along the route. From 9.97 to 12.97 s: The protagonist stops and looks around at the surroundings. From 12.97 to 30.00 s: The protagonist walks forward along the route.",
+    "view_in_dataset": false
+   }
+  },
+  "long30-016-urban-park-revisit": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "observe-landmark",
+      "startFrame": 0,
+      "endFrameExclusive": 116,
+      "startSeconds": 0.0,
+      "endSeconds": 3.8666666666666667,
+      "description": "The protagonist stands and looks at the nearby landmark. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "depart",
+      "startFrame": 116,
+      "endFrameExclusive": 386,
+      "startSeconds": 3.8666666666666667,
+      "endSeconds": 12.866666666666667,
+      "description": "The protagonist walks away from the landmark. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "away-scan",
+      "startFrame": 386,
+      "endFrameExclusive": 503,
+      "startSeconds": 12.866666666666667,
+      "endSeconds": 16.766666666666666,
+      "description": "The protagonist pauses at a distance and scans the surroundings. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "return",
+      "startFrame": 503,
+      "endFrameExclusive": 800,
+      "startSeconds": 16.766666666666666,
+      "endSeconds": 26.666666666666668,
+      "description": "The protagonist walks back toward the landmark. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "revisited",
+      "startFrame": 800,
+      "endFrameExclusive": 900,
+      "startSeconds": 26.666666666666668,
+      "endSeconds": 30.0,
+      "description": "The protagonist arrives back at the landmark and looks at it again. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A landscaped public park with branching paths, benches, trees and a paved plaza. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels.\nCompanions: The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals.\nAction timeline: From 0.00 to 3.87 s: The protagonist stands and looks at the nearby landmark. From 3.87 to 12.87 s: The protagonist walks away from the landmark. From 12.87 to 16.77 s: The protagonist pauses at a distance and scans the surroundings. From 16.77 to 26.67 s: The protagonist walks back toward the landmark. From 26.67 to 30.00 s: The protagonist arrives back at the landmark and looks at it again."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "observe-landmark",
+      "startFrame": 0,
+      "endFrameExclusive": 116,
+      "startSeconds": 0.0,
+      "endSeconds": 3.8666666666666667,
+      "description": "The protagonist stands and looks at the nearby landmark."
+     },
+     {
+      "phase": "depart",
+      "startFrame": 116,
+      "endFrameExclusive": 386,
+      "startSeconds": 3.8666666666666667,
+      "endSeconds": 12.866666666666667,
+      "description": "The protagonist walks away from the landmark."
+     },
+     {
+      "phase": "away-scan",
+      "startFrame": 386,
+      "endFrameExclusive": 503,
+      "startSeconds": 12.866666666666667,
+      "endSeconds": 16.766666666666666,
+      "description": "The protagonist pauses at a distance and scans the surroundings."
+     },
+     {
+      "phase": "return",
+      "startFrame": 503,
+      "endFrameExclusive": 800,
+      "startSeconds": 16.766666666666666,
+      "endSeconds": 26.666666666666668,
+      "description": "The protagonist walks back toward the landmark."
+     },
+     {
+      "phase": "revisited",
+      "startFrame": 800,
+      "endFrameExclusive": 900,
+      "startSeconds": 26.666666666666668,
+      "endSeconds": 30.0,
+      "description": "The protagonist arrives back at the landmark and looks at it again."
+     }
+    ],
+    "description": "World: A landscaped public park with branching paths, benches, trees and a paved plaza. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels.\nCompanions: The independently moving adult participant 1 is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers. The independently moving adult participant 2 is a tourist with curly copper hair under a straw hat, wearing a coral floral shirt, beige shorts, and sandals.\nAction timeline: From 0.00 to 3.87 s: The protagonist stands and looks at the nearby landmark. From 3.87 to 12.87 s: The protagonist walks away from the landmark. From 12.87 to 16.77 s: The protagonist pauses at a distance and scans the surroundings. From 16.77 to 26.67 s: The protagonist walks back toward the landmark. From 26.67 to 30.00 s: The protagonist arrives back at the landmark and looks at it again.",
+    "view_in_dataset": false
+   }
+  },
+  "long30-017-home-camera": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "establish",
+      "startFrame": 0,
+      "endFrameExclusive": 116,
+      "startSeconds": 0.0,
+      "endSeconds": 3.8666666666666667,
+      "description": "The protagonist stands on the route and takes in the surroundings. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "camera-exploration",
+      "startFrame": 116,
+      "endFrameExclusive": 719,
+      "startSeconds": 3.8666666666666667,
+      "endSeconds": 23.966666666666665,
+      "description": "The protagonist walks along the route while looking around at the surroundings. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "recentre",
+      "startFrame": 719,
+      "endFrameExclusive": 863,
+      "startSeconds": 23.966666666666665,
+      "endSeconds": 28.766666666666666,
+      "description": "The protagonist turns back to face forward along the route. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "finish",
+      "startFrame": 863,
+      "endFrameExclusive": 900,
+      "startSeconds": 28.766666666666666,
+      "endSeconds": 30.0,
+      "description": "The protagonist comes to a stop and stands still. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels.\nAction timeline: From 0.00 to 3.87 s: The protagonist stands on the route and takes in the surroundings. From 3.87 to 23.97 s: The protagonist walks along the route while looking around at the surroundings. From 23.97 to 28.77 s: The protagonist turns back to face forward along the route. From 28.77 to 30.00 s: The protagonist comes to a stop and stands still.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "establish",
+      "startFrame": 0,
+      "endFrameExclusive": 116,
+      "startSeconds": 0.0,
+      "endSeconds": 3.8666666666666667,
+      "description": "The protagonist stands on the route and takes in the surroundings."
+     },
+     {
+      "phase": "camera-exploration",
+      "startFrame": 116,
+      "endFrameExclusive": 719,
+      "startSeconds": 3.8666666666666667,
+      "endSeconds": 23.966666666666665,
+      "description": "The protagonist walks along the route while looking around at the surroundings."
+     },
+     {
+      "phase": "recentre",
+      "startFrame": 719,
+      "endFrameExclusive": 863,
+      "startSeconds": 23.966666666666665,
+      "endSeconds": 28.766666666666666,
+      "description": "The protagonist turns back to face forward along the route."
+     },
+     {
+      "phase": "finish",
+      "startFrame": 863,
+      "endFrameExclusive": 900,
+      "startSeconds": 28.766666666666666,
+      "endSeconds": 30.0,
+      "description": "The protagonist comes to a stop and stands still."
+     }
+    ],
+    "description": "World: A fully roofed furnished home with connected rooms, cabinets, chairs and tables. Preserve the reference spacing, masses and open routes. A steel utility cart with a flat bed and rubber wheels.\nProtagonist: The protagonist is a student with shoulder-length ash-brown hair, wearing a maroon hoodie, indigo denim jeans, and ivory canvas sneakers.\nAction timeline: From 0.00 to 3.87 s: The protagonist stands on the route and takes in the surroundings. From 3.87 to 23.97 s: The protagonist walks along the route while looking around at the surroundings. From 23.97 to 28.77 s: The protagonist turns back to face forward along the route. From 28.77 to 30.00 s: The protagonist comes to a stop and stands still."
+   }
+  },
+  "long30-019-warehouse-combat": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "aiming",
+      "startFrame": 0,
+      "endFrameExclusive": 107,
+      "startSeconds": 0.0,
+      "endSeconds": 3.566666666666667,
+      "description": "The protagonist raises the training firearm and aims at the training opponents. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "exchange",
+      "startFrame": 107,
+      "endFrameExclusive": 287,
+      "startSeconds": 3.566666666666667,
+      "endSeconds": 9.566666666666666,
+      "description": "The protagonist fires at the training opponents while they return fire. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "move-to-cover",
+      "startFrame": 287,
+      "endFrameExclusive": 395,
+      "startSeconds": 9.566666666666666,
+      "endSeconds": 13.166666666666666,
+      "description": "The protagonist runs to the nearby cover. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "cover-reload",
+      "startFrame": 395,
+      "endFrameExclusive": 521,
+      "startSeconds": 13.166666666666666,
+      "endSeconds": 17.366666666666667,
+      "description": "The protagonist crouches behind the cover and reloads the training firearm. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "leave-cover",
+      "startFrame": 521,
+      "endFrameExclusive": 620,
+      "startSeconds": 17.366666666666667,
+      "endSeconds": 20.666666666666668,
+      "description": "The protagonist rises from behind the cover and steps back out. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "second-exchange",
+      "startFrame": 620,
+      "endFrameExclusive": 818,
+      "startSeconds": 20.666666666666668,
+      "endSeconds": 27.266666666666666,
+      "description": "The protagonist fires at the training opponents again while they return fire. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "finish",
+      "startFrame": 818,
+      "endFrameExclusive": 900,
+      "startSeconds": 27.266666666666666,
+      "endSeconds": 30.0,
+      "description": "The protagonist comes to a stop and stands still. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A roofed warehouse with tall stocked racks, wide cross aisles, crates and handcarts. Preserve the reference spacing, masses and open routes.\nAction timeline: From 0.00 to 3.57 s: The protagonist raises the training firearm and aims at the training opponents. From 3.57 to 9.57 s: The protagonist fires at the training opponents while they return fire. From 9.57 to 13.17 s: The protagonist runs to the nearby cover. From 13.17 to 17.37 s: The protagonist crouches behind the cover and reloads the training firearm. From 17.37 to 20.67 s: The protagonist rises from behind the cover and steps back out. From 20.67 to 27.27 s: The protagonist fires at the training opponents again while they return fire. From 27.27 to 30.00 s: The protagonist comes to a stop and stands still."
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "aiming",
+      "startFrame": 0,
+      "endFrameExclusive": 107,
+      "startSeconds": 0.0,
+      "endSeconds": 3.566666666666667,
+      "description": "The protagonist raises the training firearm and aims at the training opponents."
+     },
+     {
+      "phase": "exchange",
+      "startFrame": 107,
+      "endFrameExclusive": 287,
+      "startSeconds": 3.566666666666667,
+      "endSeconds": 9.566666666666666,
+      "description": "The protagonist fires at the training opponents while they return fire."
+     },
+     {
+      "phase": "move-to-cover",
+      "startFrame": 287,
+      "endFrameExclusive": 395,
+      "startSeconds": 9.566666666666666,
+      "endSeconds": 13.166666666666666,
+      "description": "The protagonist runs to the nearby cover."
+     },
+     {
+      "phase": "cover-reload",
+      "startFrame": 395,
+      "endFrameExclusive": 521,
+      "startSeconds": 13.166666666666666,
+      "endSeconds": 17.366666666666667,
+      "description": "The protagonist crouches behind the cover and reloads the training firearm."
+     },
+     {
+      "phase": "leave-cover",
+      "startFrame": 521,
+      "endFrameExclusive": 620,
+      "startSeconds": 17.366666666666667,
+      "endSeconds": 20.666666666666668,
+      "description": "The protagonist rises from behind the cover and steps back out."
+     },
+     {
+      "phase": "second-exchange",
+      "startFrame": 620,
+      "endFrameExclusive": 818,
+      "startSeconds": 20.666666666666668,
+      "endSeconds": 27.266666666666666,
+      "description": "The protagonist fires at the training opponents again while they return fire."
+     },
+     {
+      "phase": "finish",
+      "startFrame": 818,
+      "endFrameExclusive": 900,
+      "startSeconds": 27.266666666666666,
+      "endSeconds": 30.0,
+      "description": "The protagonist comes to a stop and stands still."
+     }
+    ],
+    "description": "World: A roofed warehouse with tall stocked racks, wide cross aisles, crates and handcarts. Preserve the reference spacing, masses and open routes.\nAction timeline: From 0.00 to 3.57 s: The protagonist raises the training firearm and aims at the training opponents. From 3.57 to 9.57 s: The protagonist fires at the training opponents while they return fire. From 9.57 to 13.17 s: The protagonist runs to the nearby cover. From 13.17 to 17.37 s: The protagonist crouches behind the cover and reloads the training firearm. From 17.37 to 20.67 s: The protagonist rises from behind the cover and steps back out. From 20.67 to 27.27 s: The protagonist fires at the training opponents again while they return fire. From 27.27 to 30.00 s: The protagonist comes to a stop and stands still.",
+    "view_in_dataset": false
+   }
+  },
+  "long30-021-desert-launch": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "cruise#1",
+      "startFrame": 0,
+      "endFrameExclusive": 27,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9,
+      "description": "The protagonist's sedan accelerates away from the start while the rival sedans keep racing on their own lines. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "follow#1",
+      "startFrame": 27,
+      "endFrameExclusive": 136,
+      "startSeconds": 0.9,
+      "endSeconds": 4.533333333333333,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "cruise#2",
+      "startFrame": 136,
+      "endFrameExclusive": 155,
+      "startSeconds": 4.533333333333333,
+      "endSeconds": 5.166666666666667,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "overtaking#1",
+      "startFrame": 155,
+      "endFrameExclusive": 158,
+      "startSeconds": 5.166666666666667,
+      "endSeconds": 5.266666666666667,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "follow#2",
+      "startFrame": 158,
+      "endFrameExclusive": 193,
+      "startSeconds": 5.266666666666667,
+      "endSeconds": 6.433333333333334,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "overtaking#2",
+      "startFrame": 193,
+      "endFrameExclusive": 196,
+      "startSeconds": 6.433333333333334,
+      "endSeconds": 6.533333333333333,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "follow#3",
+      "startFrame": 196,
+      "endFrameExclusive": 900,
+      "startSeconds": 6.533333333333333,
+      "endSeconds": 30.0,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: Sand dunes, angular desert rocks, cactus plants and roofless stone ruins. Preserve the reference spacing, masses and open routes.\nAction timeline: From 0.00 to 0.90 s: The protagonist's sedan accelerates away from the start while the rival sedans keep racing on their own lines. From 0.90 to 4.53 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 4.53 to 5.17 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 5.17 to 5.27 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 5.27 to 6.43 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 6.43 to 6.53 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 6.53 to 30.00 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "cruise#1",
+      "startFrame": 0,
+      "endFrameExclusive": 27,
+      "startSeconds": 0.0,
+      "endSeconds": 0.9,
+      "description": "The protagonist's sedan accelerates away from the start while the rival sedans keep racing on their own lines."
+     },
+     {
+      "phase": "follow#1",
+      "startFrame": 27,
+      "endFrameExclusive": 136,
+      "startSeconds": 0.9,
+      "endSeconds": 4.533333333333333,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line."
+     },
+     {
+      "phase": "cruise#2",
+      "startFrame": 136,
+      "endFrameExclusive": 155,
+      "startSeconds": 4.533333333333333,
+      "endSeconds": 5.166666666666667,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line."
+     },
+     {
+      "phase": "overtaking#1",
+      "startFrame": 155,
+      "endFrameExclusive": 158,
+      "startSeconds": 5.166666666666667,
+      "endSeconds": 5.266666666666667,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line."
+     },
+     {
+      "phase": "follow#2",
+      "startFrame": 158,
+      "endFrameExclusive": 193,
+      "startSeconds": 5.266666666666667,
+      "endSeconds": 6.433333333333334,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line."
+     },
+     {
+      "phase": "overtaking#2",
+      "startFrame": 193,
+      "endFrameExclusive": 196,
+      "startSeconds": 6.433333333333334,
+      "endSeconds": 6.533333333333333,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line."
+     },
+     {
+      "phase": "follow#3",
+      "startFrame": 196,
+      "endFrameExclusive": 900,
+      "startSeconds": 6.533333333333333,
+      "endSeconds": 30.0,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line."
+     }
+    ],
+    "description": "World: Sand dunes, angular desert rocks, cactus plants and roofless stone ruins. Preserve the reference spacing, masses and open routes.\nAction timeline: From 0.00 to 0.90 s: The protagonist's sedan accelerates away from the start while the rival sedans keep racing on their own lines. From 0.90 to 4.53 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 4.53 to 5.17 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 5.17 to 5.27 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 5.27 to 6.43 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 6.43 to 6.53 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 6.53 to 30.00 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line."
+   }
+  },
+  "long30-022-coast-coast": {
+   "first-person": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "follow#1",
+      "startFrame": 0,
+      "endFrameExclusive": 79,
+      "startSeconds": 0.0,
+      "endSeconds": 2.6333333333333333,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "overtaking#1",
+      "startFrame": 79,
+      "endFrameExclusive": 132,
+      "startSeconds": 2.6333333333333333,
+      "endSeconds": 4.4,
+      "description": "The protagonist's sedan pulls out alongside a rival sedan and tries to pass. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "follow#2",
+      "startFrame": 132,
+      "endFrameExclusive": 193,
+      "startSeconds": 4.4,
+      "endSeconds": 6.433333333333334,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "overtaking#2",
+      "startFrame": 193,
+      "endFrameExclusive": 231,
+      "startSeconds": 6.433333333333334,
+      "endSeconds": 7.7,
+      "description": "The protagonist's sedan pulls out and passes a rival sedan. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "follow#3",
+      "startFrame": 231,
+      "endFrameExclusive": 325,
+      "startSeconds": 7.7,
+      "endSeconds": 10.833333333333334,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "overtaking#3",
+      "startFrame": 325,
+      "endFrameExclusive": 332,
+      "startSeconds": 10.833333333333334,
+      "endSeconds": 11.066666666666666,
+      "description": "The protagonist's sedan pulls out alongside a rival sedan and tries to pass. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "corner-brake#1",
+      "startFrame": 332,
+      "endFrameExclusive": 370,
+      "startSeconds": 11.066666666666666,
+      "endSeconds": 12.333333333333334,
+      "description": "The protagonist's sedan brakes for the corner and turns in. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "overtaking#4",
+      "startFrame": 370,
+      "endFrameExclusive": 440,
+      "startSeconds": 12.333333333333334,
+      "endSeconds": 14.666666666666666,
+      "description": "The protagonist's sedan pulls out alongside a rival sedan and tries to pass. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "corner-brake#2",
+      "startFrame": 440,
+      "endFrameExclusive": 441,
+      "startSeconds": 14.666666666666666,
+      "endSeconds": 14.7,
+      "description": "The protagonist's sedan brakes for the corner and turns in. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "overtaking#5",
+      "startFrame": 441,
+      "endFrameExclusive": 443,
+      "startSeconds": 14.7,
+      "endSeconds": 14.766666666666667,
+      "description": "The protagonist's sedan pulls out alongside a rival sedan and tries to pass. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "corner-brake#3",
+      "startFrame": 443,
+      "endFrameExclusive": 444,
+      "startSeconds": 14.766666666666667,
+      "endSeconds": 14.8,
+      "description": "The protagonist's sedan brakes for the corner and turns in. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "overtaking#6",
+      "startFrame": 444,
+      "endFrameExclusive": 665,
+      "startSeconds": 14.8,
+      "endSeconds": 22.166666666666668,
+      "description": "The protagonist's sedan pulls out and passes a rival sedan. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     },
+     {
+      "phase": "cruise",
+      "startFrame": 665,
+      "endFrameExclusive": 900,
+      "startSeconds": 22.166666666666668,
+      "endSeconds": 30.0,
+      "description": "The protagonist's sedan cruises along the track at steady speed while the rival sedans keep racing on their own lines. (First-person view: the protagonist is the camera wearer and is not visible; judge the protagonist's movement from the camera's own movement.)"
+     }
+    ],
+    "description": "World: A coastal beach with sloping sand, large shoreline rocks, a pier and small boats. Preserve the reference spacing, masses and open routes.\nAction timeline: From 0.00 to 2.63 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 2.63 to 4.40 s: The protagonist's sedan pulls out alongside a rival sedan and tries to pass. From 4.40 to 6.43 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 6.43 to 7.70 s: The protagonist's sedan pulls out and passes a rival sedan. From 7.70 to 10.83 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 10.83 to 11.07 s: The protagonist's sedan pulls out alongside a rival sedan and tries to pass. From 11.07 to 12.33 s: The protagonist's sedan brakes for the corner and turns in. From 12.33 to 14.67 s: The protagonist's sedan pulls out alongside a rival sedan and tries to pass. From 14.67 to 14.70 s: The protagonist's sedan brakes for the corner and turns in. From 14.70 to 14.77 s: The protagonist's sedan pulls out alongside a rival sedan and tries to pass. From 14.77 to 14.80 s: The protagonist's sedan brakes for the corner and turns in. From 14.80 to 22.17 s: The protagonist's sedan pulls out and passes a rival sedan. From 22.17 to 30.00 s: The protagonist's sedan cruises along the track at steady speed while the rival sedans keep racing on their own lines.",
+    "view_in_dataset": false
+   },
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "follow#1",
+      "startFrame": 0,
+      "endFrameExclusive": 79,
+      "startSeconds": 0.0,
+      "endSeconds": 2.6333333333333333,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line."
+     },
+     {
+      "phase": "overtaking#1",
+      "startFrame": 79,
+      "endFrameExclusive": 132,
+      "startSeconds": 2.6333333333333333,
+      "endSeconds": 4.4,
+      "description": "The protagonist's sedan pulls out alongside a rival sedan and tries to pass."
+     },
+     {
+      "phase": "follow#2",
+      "startFrame": 132,
+      "endFrameExclusive": 193,
+      "startSeconds": 4.4,
+      "endSeconds": 6.433333333333334,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line."
+     },
+     {
+      "phase": "overtaking#2",
+      "startFrame": 193,
+      "endFrameExclusive": 231,
+      "startSeconds": 6.433333333333334,
+      "endSeconds": 7.7,
+      "description": "The protagonist's sedan pulls out and passes a rival sedan."
+     },
+     {
+      "phase": "follow#3",
+      "startFrame": 231,
+      "endFrameExclusive": 325,
+      "startSeconds": 7.7,
+      "endSeconds": 10.833333333333334,
+      "description": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line."
+     },
+     {
+      "phase": "overtaking#3",
+      "startFrame": 325,
+      "endFrameExclusive": 332,
+      "startSeconds": 10.833333333333334,
+      "endSeconds": 11.066666666666666,
+      "description": "The protagonist's sedan pulls out alongside a rival sedan and tries to pass."
+     },
+     {
+      "phase": "corner-brake#1",
+      "startFrame": 332,
+      "endFrameExclusive": 370,
+      "startSeconds": 11.066666666666666,
+      "endSeconds": 12.333333333333334,
+      "description": "The protagonist's sedan brakes for the corner and turns in."
+     },
+     {
+      "phase": "overtaking#4",
+      "startFrame": 370,
+      "endFrameExclusive": 440,
+      "startSeconds": 12.333333333333334,
+      "endSeconds": 14.666666666666666,
+      "description": "The protagonist's sedan pulls out alongside a rival sedan and tries to pass."
+     },
+     {
+      "phase": "corner-brake#2",
+      "startFrame": 440,
+      "endFrameExclusive": 441,
+      "startSeconds": 14.666666666666666,
+      "endSeconds": 14.7,
+      "description": "The protagonist's sedan brakes for the corner and turns in."
+     },
+     {
+      "phase": "overtaking#5",
+      "startFrame": 441,
+      "endFrameExclusive": 443,
+      "startSeconds": 14.7,
+      "endSeconds": 14.766666666666667,
+      "description": "The protagonist's sedan pulls out alongside a rival sedan and tries to pass."
+     },
+     {
+      "phase": "corner-brake#3",
+      "startFrame": 443,
+      "endFrameExclusive": 444,
+      "startSeconds": 14.766666666666667,
+      "endSeconds": 14.8,
+      "description": "The protagonist's sedan brakes for the corner and turns in."
+     },
+     {
+      "phase": "overtaking#6",
+      "startFrame": 444,
+      "endFrameExclusive": 665,
+      "startSeconds": 14.8,
+      "endSeconds": 22.166666666666668,
+      "description": "The protagonist's sedan pulls out and passes a rival sedan."
+     },
+     {
+      "phase": "cruise",
+      "startFrame": 665,
+      "endFrameExclusive": 900,
+      "startSeconds": 22.166666666666668,
+      "endSeconds": 30.0,
+      "description": "The protagonist's sedan cruises along the track at steady speed while the rival sedans keep racing on their own lines."
+     }
+    ],
+    "description": "World: A coastal beach with sloping sand, large shoreline rocks, a pier and small boats. Preserve the reference spacing, masses and open routes.\nAction timeline: From 0.00 to 2.63 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 2.63 to 4.40 s: The protagonist's sedan pulls out alongside a rival sedan and tries to pass. From 4.40 to 6.43 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 6.43 to 7.70 s: The protagonist's sedan pulls out and passes a rival sedan. From 7.70 to 10.83 s: The protagonist's sedan follows the rival sedan ahead along the track, holding its line. From 10.83 to 11.07 s: The protagonist's sedan pulls out alongside a rival sedan and tries to pass. From 11.07 to 12.33 s: The protagonist's sedan brakes for the corner and turns in. From 12.33 to 14.67 s: The protagonist's sedan pulls out alongside a rival sedan and tries to pass. From 14.67 to 14.70 s: The protagonist's sedan brakes for the corner and turns in. From 14.70 to 14.77 s: The protagonist's sedan pulls out alongside a rival sedan and tries to pass. From 14.77 to 14.80 s: The protagonist's sedan brakes for the corner and turns in. From 14.80 to 22.17 s: The protagonist's sedan pulls out and passes a rival sedan. From 22.17 to 30.00 s: The protagonist's sedan cruises along the track at steady speed while the rival sedans keep racing on their own lines."
+   }
+  }
+ }
+}

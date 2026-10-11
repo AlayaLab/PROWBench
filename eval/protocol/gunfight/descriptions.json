@@ -1,0 +1,486 @@
+{
+ "schema": "prowbench.protocol.descriptions.v1",
+ "dataset": "gunfight",
+ "episodes": {
+  "ndm-01-cam-dynamic_obj-static-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide paved airport apron with yellow taxiway markings, large grey industrial hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges under an overcast sky.\nProtagonist: A man with short hair, wearing a black tactical vest over a black long-sleeved shirt, olive cargo trousers and tan boots, holding a handgun with both hands in a firing stance.\nCompanions: A man with dark hair and a beard, wearing a sage bomber jacket, a white t-shirt, blue jeans and white sneakers, holding a handgun with both hands in a firing stance. A man with dark hair, wearing a grey hoodie, black track pants with white stripes and grey sneakers, holding a handgun with both hands in a firing stance.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-02-cam-dynamic_obj-static-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide concrete airport apron marked with yellow taxiway lines and moss-toned painted safety zones. To the left is a large industrial hangar with segmented metal doors. In the background, there is a tall control tower with a glazed observation deck, stacks of shipping containers in rust and navy, and parked passenger aircraft. Distant mountain ridges are visible under an overcast sky.\nProtagonist: A bald adult male seen from behind, wearing a grey quilted tactical vest over a black long-sleeved shirt, camouflage trousers, and black boots. He stands with a relaxed posture, facing away from the camera.\nCompanions: A man with dark hair and a beard, wearing a brown leather jacket, a white shirt, khaki trousers, and dark shoes. He stands facing the camera, holding a handgun with both hands at chest level. A man with dark hair, wearing a navy blazer, a white shirt, dark trousers, and black shoes. He stands facing the camera, holding a handgun with both hands at chest level.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-02-cam-static_obj-dynamic-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide paved airport apron with yellow taxiway markings and embedded blue lights, surrounded by large industrial hangars with segmented doors, a tall control tower with a glazed observation cabin, stacked cargo containers, and floodlight masts, set against distant mountain ridges under an overcast sky.\nProtagonist: A man with short dark hair and a beard, wearing an olive jacket, black cargo trousers, and brown boots, standing with his back to the camera and aiming a handgun forward.\nCompanions: A man with dark hair and a beard, wearing a black sleeveless shirt, dark trousers, and black shoes, standing in a defensive stance and aiming a handgun. A man with dark hair, wearing a maroon plaid shirt, blue jeans, and brown boots, standing in a defensive stance and aiming a handgun.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-02-cam-static_obj-enter-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 98,
+      "startSeconds": 0.0,
+      "endSeconds": 3.2666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they fire back while another armed person walks into view."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 98,
+      "endFrameExclusive": 150,
+      "startSeconds": 3.2666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 3, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide paved airport apron with yellow taxiway markings and tire tracks, flanked by a large industrial hangar with segmented doors on the left and a concrete control tower with a glazed observation cabin on the right. A white passenger aircraft is parked near the hangar, and stacked cargo containers sit near the tower. Distant mountain ridges are visible under an overcast sky.\nProtagonist: A man with short dark hair, wearing an olive jacket, black trousers, and brown boots, standing with his back to the camera and holding a handgun with both hands.\nCompanions: A man with short dark hair, wearing a grey hoodie, black track pants with white stripes, and sneakers, standing in the middle distance facing the camera and holding a handgun. A man with short dark hair, wearing a brown leather jacket, tan trousers, and dark shoes, standing in the middle distance facing the camera and holding a handgun.\nAction timeline: From 0.00 to 3.27 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they fire back while another armed person walks into view. From 3.27 to 5.00 s: The protagonist shoots armed person 3, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-03-cam-dynamic_obj-dynamic-death-composite-forward-turn-v1": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they move slowly across the open ground and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide concrete airport apron marked with yellow taxiway lines. The background features large industrial hangars with segmented metal doors, a control tower with a glazed observation deck, stacked cargo containers in rust and navy hues, and a parked passenger aircraft. Distant mountain ridges are visible under an overcast sky.\nProtagonist: A male figure seen from behind, wearing a black tactical vest, olive drab trousers, and tan boots, holding a firearm in a ready stance.\nCompanions: A man with dark hair and a beard, wearing a navy long-sleeved shirt and dark trousers, aiming a handgun with both hands. A man wearing a crimson plaid shirt and grey jeans, aiming a handgun with both hands. A man with a shaved head and beard, wearing a black sleeveless shirt and dark trousers, aiming a handgun with both hands.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they move slowly across the open ground and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-03-cam-static_obj-dynamic-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they move slowly across the open ground and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide, cracked concrete tarmac marked with yellow taxiway lines. The background features large, grey corrugated metal hangars with segmented roll-up doors. To the left, there are stacked cargo containers in rust-red and white. A tall floodlight mast stands centrally between the buildings. In the far distance, hazy mountain ridges rise against a bright, overcast sky. A passenger aircraft is partially visible on the far right.\nProtagonist: A male figure seen from behind, wearing a black tactical vest over a black long-sleeved shirt, olive cargo trousers, and tan work boots. He stands with a relaxed posture, facing the group of men.\nCompanions: A man with dark hair and a beard, wearing an olive bomber jacket over a grey t-shirt, dark denim jeans, and white sneakers. He holds a handgun with both hands, aiming it forward. A man with short hair, wearing a brown leather jacket, dark trousers, and dark shoes. He stands slightly behind the others, holding a handgun with both hands. A man with dark hair and a beard, wearing a grey hoodie, black track pants with a white stripe down the side, and grey sneakers. He holds a handgun with both hands, aiming it forward.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they move slowly across the open ground and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-04-cam-dynamic_obj-static-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide paved airport apron with yellow taxiway markings and moss-toned painted zones, surrounded by large concrete hangars with segmented doors, a control tower with a glazed observation cabin, stacked cargo containers, and parked passenger aircraft under a sunset sky with distant mountains.\nProtagonist: A man with short dark hair, wearing an olive jacket and black trousers, standing with his back to the camera facing the group.\nCompanions: A man with dark hair and a beard, wearing a crimson plaid shirt and blue jeans, holding a handgun with both hands. A man with dark hair and a beard, wearing a black sleeveless vest and dark trousers, holding a handgun. A man with dark hair, wearing a moss-toned jacket over a white shirt and blue jeans, holding a handgun.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-05-cam-dynamic_obj-dynamic-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they move slowly across the open ground and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A paved industrial loading yard with lane markings, industrial warehouses, a loading gantry, an observation tower, stacked cargo containers and floodlight masts, with distant mountain ridges. A cracked concrete tarmac surface marked with mustard painted lines. The background features large corrugated metal warehouses with roll-up doors, a tall concrete observation tower, and stacked shipping containers in rust and navy hues. Distant mountains are visible under a bright, overcast sky.\nProtagonist: A person seen from behind wearing an olive jacket, black trousers, and brown boots, holding a handgun with both hands in a firing stance.\nCompanions: A man with short dark hair wearing a brown leather jacket, khaki trousers, and black boots, holding a handgun with both hands. A man with dark hair wearing a grey hoodie, black track pants with white stripes, and grey sneakers, holding a handgun with both hands. A man with dark hair wearing a navy jacket, black trousers, and black sneakers, holding a handgun with both hands.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they move slowly across the open ground and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-05-cam-static_obj-dynamic-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they move slowly across the open ground and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A paved industrial loading yard with lane markings, industrial warehouses, a loading gantry, an observation tower, stacked cargo containers and floodlight masts, with distant mountain ridges. A cracked concrete tarmac surface marked with mustard painted lines. The background features large industrial warehouses with corrugated metal siding and roll-up doors, a tall concrete observation tower, stacked shipping containers in rust and navy blue, and distant mountain ridges under a bright overcast sky.\nProtagonist: A male figure seen from behind, wearing a black tactical vest over a dark shirt, olive cargo trousers, and tan boots, standing in a ready stance.\nCompanions: A male figure in the middle distance wearing a grey hoodie, black trousers, and white sneakers, holding a handgun with both hands. A male figure in the middle distance wearing a moss-toned jacket over a white shirt, blue jeans, and white sneakers, holding a handgun. A male figure to the left wearing a brown leather jacket, khaki trousers, and dark boots, holding a handgun.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they move slowly across the open ground and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-05-cam-static_obj-enter-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 98,
+      "startSeconds": 0.0,
+      "endSeconds": 3.2666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they fire back while another armed person walks into view."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 98,
+      "endFrameExclusive": 150,
+      "startSeconds": 3.2666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 4, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A paved industrial loading yard with lane markings, industrial warehouses, a loading gantry, an observation tower, stacked cargo containers and floodlight masts, with distant mountain ridges. A vast, cracked asphalt tarmac marked with mustard painted lines. The background features large corrugated metal industrial warehouses with roll-up doors, a central loading gantry, and a tall concrete observation tower. To the right, stacks of blue and rust-coloured shipping containers sit near a building. Distant grey mountain ridges rise against a pale, overcast sky.\nProtagonist: A male figure seen from behind, wearing a black tactical vest over a dark shirt, olive cargo trousers, and tan work boots. He stands in a ready stance facing the group ahead.\nCompanions: A man with dark hair wearing a grey hoodie, black track pants with white side stripes, and white sneakers. He stands in the middle distance holding a handgun with both hands. A man with dark hair wearing a sage jacket over a grey shirt, blue jeans, and white sneakers. He stands to the right, aiming a handgun forward. A man with dark hair wearing a maroon t-shirt, khaki trousers, and dark shoes. He stands further back to the left, holding a handgun.\nAction timeline: From 0.00 to 3.27 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they fire back while another armed person walks into view. From 3.27 to 5.00 s: The protagonist shoots armed person 4, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-06-cam-static_obj-dynamic-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges under an overcast sky. Realize every recorded structure, vehicle and container with plausible materials appropriate to this setting. A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges under an overcast sky. Realize every recorded structure, vehicle and container with plausible materials appropriate to this setting.\nProtagonist: A bald man viewed from behind, wearing a grey tactical vest over a black long-sleeved shirt, camouflage trousers and black boots, standing with arms slightly raised.\nCompanions: A man with short brown hair and a beard, wearing a brown leather jacket, khaki trousers and dark shoes, holding a handgun with both hands in a firing stance. A man with dark hair and a beard, wearing a navy blazer over a white shirt, dark trousers and grey sneakers, holding a handgun with both hands in a firing stance.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-06-cam-static_obj-static-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide, cracked concrete tarmac marked with yellow taxiway lines. The background features three large, grey corrugated metal hangars with segmented doors; the central hangar has a glazed control tower structure on its roof. Parked passenger aircraft are visible near the hangars, along with stacked cargo containers and tall floodlight masts. Distant mountain ridges rise under an overcast sky.\nProtagonist: A man with a shaved head, viewed from behind. He wears a black tactical vest over a dark shirt, olive cargo trousers, and tan boots. He stands facing forward, aiming a handgun at the other two men.\nCompanions: A man with short dark hair and a beard, wearing a navy blazer over a white shirt, black trousers, and black shoes. He stands in a three-quarter pose facing right, holding a handgun with both hands. A man with dark hair and a beard, wearing a red plaid flannel shirt, grey jeans, and tan boots. He stands facing left, holding a handgun with both hands.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-07-cam-dynamic_obj-dynamic-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide, weathered concrete apron with visible cracks and weeds growing in the seams, marked with yellow taxiway lines. The background features large industrial hangars with segmented metal doors, a control tower with a glazed observation deck, stacked brown cargo containers, and a parked passenger aircraft. Distant mountain ridges are visible under an overcast sky.\nProtagonist: A man with short dark hair, viewed from behind, wearing an olive jacket and dark cargo trousers, holding a handgun with both hands in a firing stance.\nCompanions: A man with dark hair and a beard, wearing a grey hooded sweatshirt and black track pants with white stripes down the sides, holding a handgun with both hands in a firing stance. A man with short hair, wearing a brown leather jacket and tan trousers, holding a handgun with both hands in a firing stance.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-08-cam-dynamic_obj-dynamic-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A paved industrial loading yard with lane markings, industrial warehouses, a loading gantry, an observation tower, stacked cargo containers and floodlight masts, with distant mountain ridges. A vast paved asphalt lot marked with mustard painted lines and cross-hatching. The background features large industrial warehouses with corrugated metal siding and roll-up doors. A central loading gantry structure stands between buildings. To the right, stacked shipping containers in forest green and rust red are visible. Distant mountain ridges fade into a hazy, overcast sky.\nProtagonist: A bald adult male seen from behind, wearing a grey tactical bulletproof vest over a black long-sleeved shirt, camouflage cargo trousers, and black combat boots. He is holding a handgun with both hands, aiming forward.\nCompanions: A man with short brown hair, wearing a brown leather jacket, khaki trousers, and dark shoes. He is holding a handgun with both hands, aiming towards the protagonist. A man with dark hair, wearing a navy blazer over a dark shirt, black trousers, and black sneakers. He is holding a handgun with both hands, aiming towards the protagonist.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-08-cam-static_obj-dynamic-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A paved industrial loading yard with lane markings, industrial warehouses, a loading gantry, an observation tower, stacked cargo containers and floodlight masts, with distant mountain ridges. A paved asphalt surface marked with yellow parking lines and white directional arrows. The background features large industrial warehouses with corrugated metal siding and concrete bases. To the left, a stack of green and rust-red shipping containers sits against a building. In the center distance, a large open bay reveals an orange loading gantry. To the right, a warehouse with a closed roll-up door stands near a tall floodlight mast. Distant mountains are visible under a hazy sky.\nProtagonist: A man with short dark hair, wearing an olive jacket, black cargo trousers, and brown boots. He is viewed from behind, aiming a handgun forward.\nCompanions: A man with short dark hair, wearing a grey zip-up hoodie, black track pants with white side stripes, and white sneakers. He stands in a defensive stance, holding a handgun with both hands. A man with short dark hair, wearing a brown leather jacket, khaki trousers, and brown boots. He stands aiming a handgun forward.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-08-cam-static_obj-static-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A paved industrial loading yard with lane markings, industrial warehouses, a loading gantry, an observation tower, stacked cargo containers and floodlight masts, with distant mountain ridges. A cracked asphalt surface marked with mustard painted lines, surrounded by large corrugated metal warehouses with roll-up doors and small windows. A tall metal floodlight mast stands centrally, with a loading gantry visible in the background. Stacked shipping containers in rust and dark blue sit to the right, and distant mountains are visible under a hazy sky.\nProtagonist: A man with a shaved head, wearing a black tactical vest over a dark shirt, olive cargo trousers, and tan work boots, holding a handgun with both hands.\nCompanions: A man with short dark hair and a beard, wearing a sage jacket over a white shirt, dark denim jeans, and white sneakers, holding a handgun with both hands. A man with short dark hair, wearing a light grey hoodie, black track pants with a white stripe, and grey sneakers, holding a handgun with both hands.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they hold their positions and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-09-cam-dynamic_obj-dynamic-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide paved airport apron with yellow taxiway markings and tire tracks, flanked by large beige corrugated metal hangars with segmented sliding doors and a central building with a row of windows. A tall floodlight mast stands between the buildings. In the background, distant mountain ridges are visible under a sunset sky with soft clouds. A passenger aircraft is partially visible on the far right.\nProtagonist: A man with short dark hair, wearing an olive jacket and black cargo trousers, holding a handgun with both hands in a firing stance.\nCompanions: A man with dark hair and a beard, wearing a grey hoodie and black track pants with white stripes down the sides, holding a handgun with both hands in a firing stance. A man with dark hair and a beard, wearing a brown leather jacket and khaki trousers, holding a handgun with both hands in a firing stance.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-09-cam-static_obj-enter-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 98,
+      "startSeconds": 0.0,
+      "endSeconds": 3.2666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they fire back while another armed person walks into view."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 98,
+      "endFrameExclusive": 150,
+      "startSeconds": 3.2666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 3, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide paved airport apron with yellow taxiway markings and visible cracks, flanked by large corrugated metal hangars with segmented doors and small windows. A tall floodlight mast stands between the buildings, and distant mountain ridges are visible under a soft sunset sky.\nProtagonist: A man with a shaved head wearing a black tactical vest over a dark shirt, olive cargo trousers and tan work boots, holding a handgun with both hands in a firing stance.\nCompanions: A man with dark hair wearing a forest bomber jacket, a white t-shirt, blue jeans and white sneakers, holding a handgun with both hands in a firing stance. A man with a shaved head wearing a grey hoodie, black trousers and grey sneakers, holding a handgun with both hands in a firing stance.\nAction timeline: From 0.00 to 3.27 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; they fire back while another armed person walks into view. From 3.27 to 5.00 s: The protagonist shoots armed person 3, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-10-cam-dynamic_obj-dynamic-death-composite-forward-back-v1": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide, grey concrete airport apron marked with yellow taxiway lines, featuring visible puddles reflecting the overcast sky. The background consists of large, industrial hangars with segmented metal doors and small rectangular windows. Tall floodlight masts stand between the buildings, and distant mountain ridges are visible through the mist and rain.\nProtagonist: A male figure seen from behind, wearing an olive jacket, black trousers, and brown boots, holding a firearm with both hands in a ready stance.\nCompanions: A male figure facing the camera, wearing a grey hoodie, black track pants with a white stripe, and grey sneakers, holding a firearm with both hands. A male figure facing the camera, wearing a brown jacket, khaki trousers, and black shoes, holding a firearm with both hands.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  },
+  "ndm-10-cam-static_obj-dynamic-death": {
+   "follow": {
+    "fps": 30,
+    "timeline": [
+     {
+      "phase": "source-motion",
+      "startFrame": 0,
+      "endFrameExclusive": 83,
+      "startSeconds": 0.0,
+      "endSeconds": 2.7666666666666666,
+      "description": "The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back."
+     },
+     {
+      "phase": "death-and-persistence",
+      "startFrame": 83,
+      "endFrameExclusive": 150,
+      "startSeconds": 2.7666666666666666,
+      "endSeconds": 5.0,
+      "description": "The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+     }
+    ],
+    "description": "World: A wide paved airport apron with taxiway markings, hangars with segmented doors, a control tower with a glazed observation cabin, parked passenger aircraft, stacked cargo containers and floodlight masts, with distant mountain ridges. A wide paved airport apron with yellow taxiway markings, wet concrete ground reflecting the sky, large grey hangars with segmented doors, a control tower with a glazed observation cabin, stacked cargo containers in navy, emerald and amber, floodlight masts, and distant mountain ridges under a rainy sky.\nProtagonist: A bald adult male wearing a grey camouflage tactical vest over a black long-sleeved shirt, grey camouflage trousers and black boots, standing with his back to the camera.\nCompanions: A man with dark hair and a beard wearing a black t-shirt, dark trousers and black shoes, holding a handgun with both hands in a firing stance. A man with dark hair wearing a dark moss-toned jacket, blue jeans and white sneakers, holding a handgun with both hands in a firing stance.\nAction timeline: From 0.00 to 2.77 s: The protagonist keeps a handgun raised in both hands, aimed at the armed people in front of them, and fires at them; some of them move slowly across the open ground and fire back. From 2.77 to 5.00 s: The protagonist shoots armed person 1, who collapses to the ground within about half a second, then lies motionless for the rest of the shot; everyone else stays on their feet, the protagonist keeps the handgun raised and the other armed people keep firing back."
+   }
+  }
+ }
+}

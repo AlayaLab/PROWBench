@@ -1,0 +1,307 @@
+{
+ "schema": "prowbench.protocol.events.v1",
+ "dataset": "multi4",
+ "window_pad_seconds": 0.15,
+ "episodes": {
+  "multi4-001-forest-staggered-follow": [
+   {
+    "name": "staggered-follow",
+    "phases": [
+     "staggered-follow"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "Participants A and C walk one behind the other along one side of the trail while participants B and D walk one behind the other along the other side, C ahead of A and D ahead of B, the two lines offset so that nobody moves directly abreast; everyone keeps the same steady pace.",
+    "outcome": "at the end of the segment this has just happened or is happening: Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged."
+   },
+   {
+    "name": "staggered-follow-continued",
+    "phases": [
+     "staggered-follow-continued"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged.",
+    "outcome": "at the end of the segment this has just happened or is happening: Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged."
+   }
+  ],
+  "multi4-002-jungle-opposing-pairs": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "Participants A and B wade out of the shallow stream one behind the other, B ahead of A, and walk on along one lane while participants C and D walk the opposite way along a parallel lane, D ahead of C, so the two pairs close in on each other; B and D pass each other with lateral clearance near the end of this span.",
+    "outcome": "at the end of the segment this has just happened or is happening: The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - while D steps down into the shallow stream as the pairs move apart."
+   },
+   {
+    "name": "pass",
+    "phases": [
+     "pass"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - while D steps down into the shallow stream as the pairs move apart.",
+    "outcome": "at the end of the segment this has just happened or is happening: The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - while D steps down into the shallow stream as the pairs move apart."
+   }
+  ],
+  "multi4-003-grassland-crossroads": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "The participants walk toward an open patch of pasture along offset straight routes from different directions - participant A heading north, B south, C east and D west - so their routes converge on the crossing.",
+    "outcome": "at the end of the segment this has just happened or is happening: They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart."
+   },
+   {
+    "name": "cross",
+    "phases": [
+     "cross"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart.",
+    "outcome": "at the end of the segment this has just happened or is happening: They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart."
+   }
+  ],
+  "multi4-006-snow-parallel-turn": [
+   {
+    "name": "parallel-turn",
+    "phases": [
+     "parallel-turn"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "The participants walk downhill forward in two parallel lines along the snow slope, C ahead of A on one side and D ahead of B on the other, all angled slightly the same way at the same steady pace.",
+    "outcome": "at the end of the segment this has just happened or is happening: Together they ease out of the slight turn and keep walking downhill straight ahead in parallel, holding their spacing."
+   },
+   {
+    "name": "parallel-straighten",
+    "phases": [
+     "parallel-straighten"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "Together they ease out of the slight turn and keep walking downhill straight ahead in parallel, holding their spacing.",
+    "outcome": "at the end of the segment this has just happened or is happening: Together they ease out of the slight turn and keep walking downhill straight ahead in parallel, holding their spacing."
+   }
+  ],
+  "multi4-010-underwater-converge-turn": [
+   {
+    "name": "converge",
+    "phases": [
+     "converge"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "Participants A and C swim forward one behind the other on one side of the reef while participants B and D swim forward one behind the other on the other side, C ahead of A and D ahead of B, the two lines angling gently toward each other.",
+    "outcome": "at the end of the segment this has just happened or is happening: A and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace."
+   },
+   {
+    "name": "converge-continued",
+    "phases": [
+     "converge-continued"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "A and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace.",
+    "outcome": "at the end of the segment this has just happened or is happening: A and C keep turning gently inward while B and D straighten out, so the two lines end closer together, still with clear space between them, everyone swimming at the same steady pace."
+   }
+  ],
+  "multi4-013-old-town-staggered-follow": [
+   {
+    "name": "staggered-follow",
+    "phases": [
+     "staggered-follow"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "Participants A and C walk one behind the other along one side of the market lane while participants B and D walk one behind the other along the other side, C ahead of A and D ahead of B, the two lines offset so that nobody moves directly abreast; everyone keeps the same steady pace.",
+    "outcome": "at the end of the segment this has just happened or is happening: Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged."
+   },
+   {
+    "name": "staggered-follow-continued",
+    "phases": [
+     "staggered-follow-continued"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged.",
+    "outcome": "at the end of the segment this has just happened or is happening: Everyone keeps walking forward at the same steady pace, holding their places in the two offset lines with the spacing unchanged."
+   }
+  ],
+  "multi4-017-home-overtake": [
+   {
+    "name": "overtake",
+    "phases": [
+     "overtake"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "Participants A and C walk forward slowly one behind the other along the rooms while participants B and D start level with them on a parallel lane - B beside A, D beside C - and walk much faster, pulling ahead of A and C.",
+    "outcome": "at the end of the segment this has just happened or is happening: B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace."
+   },
+   {
+    "name": "overtake-continued",
+    "phases": [
+     "overtake-continued"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace.",
+    "outcome": "at the end of the segment this has just happened or is happening: B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace."
+   }
+  ],
+  "multi4-020-warehouse-opposing-pairs": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "Participants A and B walk one way along one lane of the aisle, B ahead of A, while participants C and D walk the opposite way along a parallel lane, D ahead of C, so the two pairs close in on each other; B and D pass each other with lateral clearance near the end of this span.",
+    "outcome": "at the end of the segment this has just happened or is happening: The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - before moving apart in their own directions."
+   },
+   {
+    "name": "pass",
+    "phases": [
+     "pass"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - before moving apart in their own directions.",
+    "outcome": "at the end of the segment this has just happened or is happening: The pairs keep walking without stopping or turning and pass one another with lateral clearance - A and D and B and C at about the same moment, then A and C - before moving apart in their own directions."
+   }
+  ],
+  "multi4-021-transit-crossroads": [
+   {
+    "name": "approach",
+    "phases": [
+     "approach"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "The participants walk toward the middle of the concourse along offset straight routes from different directions - participant A heading north, B south, C east and D west - so their routes converge on the crossing.",
+    "outcome": "at the end of the segment this has just happened or is happening: They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart."
+   },
+   {
+    "name": "cross",
+    "phases": [
+     "cross"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart.",
+    "outcome": "at the end of the segment this has just happened or is happening: They cross through the middle with clearance, A passing closest to D and B passing closest to C, and each keeps walking straight on along their own direction, moving apart."
+   }
+  ],
+  "multi4-023-cave-overtake": [
+   {
+    "name": "overtake",
+    "phases": [
+     "overtake"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "Participants A and C walk uphill forward slowly one behind the other along the cave floor while participants B and D start level with them on a parallel lane - B beside A, D beside C - and walk uphill much faster, pulling ahead of A and C.",
+    "outcome": "at the end of the segment this has just happened or is happening: B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace."
+   },
+   {
+    "name": "overtake-continued",
+    "phases": [
+     "overtake-continued"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace.",
+    "outcome": "at the end of the segment this has just happened or is happening: B moves past C, and both faster participants keep pulling further ahead while A and C continue at their slow, steady pace."
+   }
+  ]
+ }
+}

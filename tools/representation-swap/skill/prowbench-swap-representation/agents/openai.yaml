@@ -1,0 +1,4 @@
+interface:
+  display_name: "PROWBench 表示替换"
+  short_description: "固定相机和运动记录，替换 PROWBench 可见代理并核验逐帧一致性"
+  default_prompt: "用 $prowbench-swap-representation 替换一个 PROWBench 样本的可见表示，输出同轨迹对照视频和验证记录。"

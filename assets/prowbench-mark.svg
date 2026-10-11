@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">PROWBench mark</title>
+  <rect x="2" y="2" width="92" height="92" rx="23" fill="#11161c"/>
+  <rect x="2.5" y="2.5" width="91" height="91" rx="22.5" fill="none" stroke="#37404b"/>
+  <path d="M40 29 21 48l19 19M56 29l19 19-19 19" fill="none" stroke="#e1b976" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="48" cy="48" r="5" fill="#88cec1"/>
+</svg>

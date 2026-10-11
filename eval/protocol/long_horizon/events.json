@@ -1,0 +1,659 @@
+{
+ "schema": "prowbench.protocol.events.v1",
+ "dataset": "long_horizon",
+ "window_pad_seconds": 0.15,
+ "episodes": {
+  "long30-001-forest-long-return": [
+   {
+    "name": "traverse#1",
+    "phases": [
+     "traverse#1"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "The protagonist walks forward along the route.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist turns round and walks back along the route.",
+    "camera": "follow"
+   },
+   {
+    "name": "turn-and-return",
+    "phases": [
+     "turn-and-return"
+    ],
+    "participants": [
+     "player",
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "The protagonist turns round and walks back along the route.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks forward along the route.",
+    "camera": "follow"
+   },
+   {
+    "name": "traverse#2",
+    "phases": [
+     "traverse#2"
+    ],
+    "participants": [
+     "player",
+     "participant-b"
+    ],
+    "action": "The protagonist walks forward along the route.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks forward along the route.",
+    "camera": "follow"
+   }
+  ],
+  "long30-004-mountain-long-return": [
+   {
+    "name": "traverse#1",
+    "phases": [
+     "traverse#1"
+    ],
+    "participants": [
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks forward along the route.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist turns round and walks back along the route.",
+    "camera": "first-person"
+   },
+   {
+    "name": "turn-and-return",
+    "phases": [
+     "turn-and-return"
+    ],
+    "participants": [
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist turns round and walks back along the route.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks forward along the route.",
+    "camera": "first-person"
+   },
+   {
+    "name": "traverse#2",
+    "phases": [
+     "traverse#2"
+    ],
+    "participants": [],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks forward along the route.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks forward along the route.",
+    "camera": "first-person"
+   }
+  ],
+  "long30-005-desert-long-bends": [
+   {
+    "name": "traverse",
+    "phases": [
+     "traverse"
+    ],
+    "participants": [
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks forward along the route.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks forward along the route.",
+    "camera": "first-person"
+   }
+  ],
+  "long30-006-snow-long-pause-look": [
+   {
+    "name": "traverse#1",
+    "phases": [
+     "traverse#1"
+    ],
+    "participants": [
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks forward along the route.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist stops and looks around at the surroundings.",
+    "camera": "first-person"
+   },
+   {
+    "name": "pause-and-look",
+    "phases": [
+     "pause-and-look"
+    ],
+    "participants": [
+     "participant-c",
+     "participant-b",
+     "participant-d"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist stops and looks around at the surroundings.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks forward along the route.",
+    "camera": "first-person"
+   },
+   {
+    "name": "traverse#2",
+    "phases": [
+     "traverse#2"
+    ],
+    "participants": [
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks forward along the route.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks forward along the route.",
+    "camera": "first-person"
+   }
+  ],
+  "long30-012-tunnel-long-pause-look": [
+   {
+    "name": "traverse#1",
+    "phases": [
+     "traverse#1"
+    ],
+    "participants": [
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks forward along the route.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist stops and looks around at the surroundings.",
+    "camera": "first-person"
+   },
+   {
+    "name": "pause-and-look",
+    "phases": [
+     "pause-and-look"
+    ],
+    "participants": [
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist stops and looks around at the surroundings.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks forward along the route.",
+    "camera": "first-person"
+   },
+   {
+    "name": "traverse#2",
+    "phases": [
+     "traverse#2"
+    ],
+    "participants": [
+     "participant-b",
+     "participant-c",
+     "participant-d"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks forward along the route.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks forward along the route.",
+    "camera": "first-person"
+   }
+  ],
+  "long30-016-urban-park-revisit": [
+   {
+    "name": "observe-landmark",
+    "phases": [
+     "observe-landmark"
+    ],
+    "participants": [
+     "revisit-landmark",
+     "npc-01",
+     "ambient-cart",
+     "npc-03"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist stands and looks at the nearby landmark.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks away from the landmark.",
+    "camera": "first-person"
+   },
+   {
+    "name": "depart",
+    "phases": [
+     "depart"
+    ],
+    "participants": [
+     "revisit-landmark",
+     "npc-01",
+     "ambient-cart",
+     "npc-03"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks away from the landmark.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist pauses at a distance and scans the surroundings.",
+    "camera": "first-person"
+   },
+   {
+    "name": "away-scan",
+    "phases": [
+     "away-scan"
+    ],
+    "participants": [
+     "revisit-landmark",
+     "npc-02"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist pauses at a distance and scans the surroundings.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks back toward the landmark.",
+    "camera": "first-person"
+   },
+   {
+    "name": "return",
+    "phases": [
+     "return"
+    ],
+    "participants": [
+     "revisit-landmark",
+     "npc-03",
+     "ambient-cart",
+     "npc-02"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist walks back toward the landmark.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist arrives back at the landmark and looks at it again.",
+    "camera": "first-person"
+   },
+   {
+    "name": "revisited",
+    "phases": [
+     "revisited"
+    ],
+    "participants": [
+     "npc-03",
+     "ambient-cart",
+     "npc-01"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist arrives back at the landmark and looks at it again.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist arrives back at the landmark and looks at it again.",
+    "camera": "first-person"
+   }
+  ],
+  "long30-017-home-camera": [
+   {
+    "name": "establish",
+    "phases": [
+     "establish"
+    ],
+    "participants": [
+     "player",
+     "npc-02",
+     "npc-01",
+     "npc-03"
+    ],
+    "action": "The protagonist stands on the route and takes in the surroundings.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist walks along the route while looking around at the surroundings.",
+    "camera": "follow"
+   },
+   {
+    "name": "camera-exploration",
+    "phases": [
+     "camera-exploration"
+    ],
+    "participants": [
+     "player",
+     "npc-02",
+     "npc-01",
+     "npc-03"
+    ],
+    "action": "The protagonist walks along the route while looking around at the surroundings.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist turns back to face forward along the route.",
+    "camera": "follow"
+   },
+   {
+    "name": "recentre",
+    "phases": [
+     "recentre"
+    ],
+    "participants": [
+     "player",
+     "npc-02",
+     "npc-01",
+     "npc-03"
+    ],
+    "action": "The protagonist turns back to face forward along the route.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist comes to a stop and stands still.",
+    "camera": "follow"
+   },
+   {
+    "name": "finish",
+    "phases": [
+     "finish"
+    ],
+    "participants": [
+     "player",
+     "npc-02",
+     "npc-01",
+     "npc-03"
+    ],
+    "action": "The protagonist comes to a stop and stands still.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist comes to a stop and stands still.",
+    "camera": "follow"
+   }
+  ],
+  "long30-019-warehouse-combat": [
+   {
+    "name": "aiming",
+    "phases": [
+     "aiming"
+    ],
+    "participants": [
+     "combat-cover",
+     "player-weapon",
+     "opponent-a",
+     "opponent-b"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist raises the training firearm and aims at the training opponents.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist fires at the training opponents while they return fire.",
+    "camera": "first-person"
+   },
+   {
+    "name": "exchange",
+    "phases": [
+     "exchange"
+    ],
+    "participants": [
+     "combat-cover",
+     "player-weapon",
+     "opponent-a",
+     "opponent-b"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist fires at the training opponents while they return fire.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist runs to the nearby cover.",
+    "camera": "first-person"
+   },
+   {
+    "name": "move-to-cover",
+    "phases": [
+     "move-to-cover"
+    ],
+    "participants": [
+     "combat-cover",
+     "player-weapon",
+     "opponent-a",
+     "opponent-b"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist runs to the nearby cover.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist crouches behind the cover and reloads the training firearm.",
+    "camera": "first-person"
+   },
+   {
+    "name": "cover-reload",
+    "phases": [
+     "cover-reload"
+    ],
+    "participants": [
+     "combat-cover",
+     "player-weapon",
+     "opponent-a",
+     "opponent-b"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist crouches behind the cover and reloads the training firearm.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist rises from behind the cover and steps back out.",
+    "camera": "first-person"
+   },
+   {
+    "name": "leave-cover",
+    "phases": [
+     "leave-cover"
+    ],
+    "participants": [
+     "combat-cover",
+     "player-weapon",
+     "opponent-a",
+     "opponent-b"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist rises from behind the cover and steps back out.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist fires at the training opponents again while they return fire.",
+    "camera": "first-person"
+   },
+   {
+    "name": "second-exchange",
+    "phases": [
+     "second-exchange"
+    ],
+    "participants": [
+     "combat-cover",
+     "player-weapon",
+     "opponent-a",
+     "opponent-b"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist fires at the training opponents again while they return fire.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist comes to a stop and stands still.",
+    "camera": "first-person"
+   },
+   {
+    "name": "finish",
+    "phases": [
+     "finish"
+    ],
+    "participants": [
+     "combat-cover",
+     "player-weapon",
+     "opponent-a",
+     "opponent-b"
+    ],
+    "action": "(First-person view: the protagonist is the camera wearer and is not visible, apart from possibly hands or a held object; judge the protagonist's own movement from how the camera moves through the scene.) The protagonist comes to a stop and stands still.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist comes to a stop and stands still.",
+    "camera": "first-person"
+   }
+  ],
+  "long30-021-desert-launch": [
+   {
+    "name": "cruise#1",
+    "phases": [
+     "cruise#1"
+    ],
+    "participants": [
+     "player",
+     "start-gate",
+     "car",
+     "rival-1"
+    ],
+    "action": "The protagonist's sedan accelerates away from the start while the rival sedans keep racing on their own lines.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "camera": "follow"
+   },
+   {
+    "name": "follow#1",
+    "phases": [
+     "follow#1"
+    ],
+    "participants": [
+     "player",
+     "start-gate",
+     "car",
+     "rival-1"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "camera": "follow"
+   },
+   {
+    "name": "cruise#2-overtaking#1",
+    "phases": [
+     "cruise#2",
+     "overtaking#1"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "rival-1",
+     "rival-3"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line. The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "camera": "follow"
+   },
+   {
+    "name": "follow#2-overtaking#2",
+    "phases": [
+     "follow#2",
+     "overtaking#2"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "rival-1",
+     "rival-3"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line. The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "camera": "follow"
+   },
+   {
+    "name": "follow#3",
+    "phases": [
+     "follow#3"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "rival-3",
+     "rival-1"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "camera": "follow"
+   }
+  ],
+  "long30-022-coast-coast": [
+   {
+    "name": "follow#1",
+    "phases": [
+     "follow#1"
+    ],
+    "participants": [
+     "player",
+     "start-gate",
+     "car",
+     "rival-3"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan pulls out alongside a rival sedan and tries to pass.",
+    "camera": "follow"
+   },
+   {
+    "name": "overtaking#1",
+    "phases": [
+     "overtaking#1"
+    ],
+    "participants": [
+     "player",
+     "rival-3",
+     "car",
+     "rival-1"
+    ],
+    "action": "The protagonist's sedan pulls out alongside a rival sedan and tries to pass.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "camera": "follow"
+   },
+   {
+    "name": "follow#2",
+    "phases": [
+     "follow#2"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "rival-1",
+     "driver-1"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan pulls out and passes a rival sedan.",
+    "camera": "follow"
+   },
+   {
+    "name": "overtaking#2",
+    "phases": [
+     "overtaking#2"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "rival-1",
+     "driver-1"
+    ],
+    "action": "The protagonist's sedan pulls out and passes a rival sedan.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan follows the rival sedan ahead along the track, holding its line.",
+    "camera": "follow"
+   },
+   {
+    "name": "follow#3-overtaking#3",
+    "phases": [
+     "follow#3",
+     "overtaking#3"
+    ],
+    "participants": [
+     "player",
+     "rival-1",
+     "car",
+     "driver-1"
+    ],
+    "action": "The protagonist's sedan follows the rival sedan ahead along the track, holding its line. The protagonist's sedan pulls out alongside a rival sedan and tries to pass.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan brakes for the corner and turns in.",
+    "camera": "follow"
+   },
+   {
+    "name": "corner-brake#1",
+    "phases": [
+     "corner-brake#1"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "rival-2",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan brakes for the corner and turns in.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan pulls out alongside a rival sedan and tries to pass.",
+    "camera": "follow"
+   },
+   {
+    "name": "overtaking#4-corner-brake#2-overtaking#5-corner-brake#3",
+    "phases": [
+     "overtaking#4",
+     "corner-brake#2",
+     "overtaking#5",
+     "corner-brake#3"
+    ],
+    "participants": [
+     "player",
+     "car",
+     "rival-2",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan pulls out alongside a rival sedan and tries to pass. The protagonist's sedan brakes for the corner and turns in. The protagonist's sedan pulls out alongside a rival sedan and tries to pass. The protagonist's sedan brakes for the corner and turns in.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan pulls out and passes a rival sedan.",
+    "camera": "follow"
+   },
+   {
+    "name": "overtaking#6",
+    "phases": [
+     "overtaking#6"
+    ],
+    "participants": [
+     "player",
+     "rival-2",
+     "car",
+     "driver-2"
+    ],
+    "action": "The protagonist's sedan pulls out and passes a rival sedan.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan cruises along the track at steady speed while the rival sedans keep racing on their own lines.",
+    "camera": "follow"
+   },
+   {
+    "name": "cruise",
+    "phases": [
+     "cruise"
+    ],
+    "participants": [
+     "player",
+     "rival-2",
+     "driver-2",
+     "car"
+    ],
+    "action": "The protagonist's sedan cruises along the track at steady speed while the rival sedans keep racing on their own lines.",
+    "outcome": "at the end of the segment this has just happened or is happening: The protagonist's sedan cruises along the track at steady speed while the rival sedans keep racing on their own lines.",
+    "camera": "follow"
+   }
+  ]
+ }
+}

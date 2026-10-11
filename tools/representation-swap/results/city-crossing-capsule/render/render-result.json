@@ -1,0 +1,132 @@
+{
+  "status": "completed",
+  "mode": "full-video",
+  "completedAt": "2026-10-10T01:32:18.168Z",
+  "frames": 150,
+  "loaded": {
+    "sceneId": "dv200-001-city-crossing",
+    "frames": 150,
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "setup": {
+      "baseline": "mixed",
+      "replacement": "capsule-example",
+      "entity": "player",
+      "adapterName": "example-yellow-capsule",
+      "height": 1.78,
+      "radius": 0.26,
+      "color": "#ffcc22"
+    },
+    "assetHashes": {
+      "manifest": "24b89979edf609a7807ce1db19118fc71a7f5b6152a3a2b2a9094bf3e1549cff",
+      "states": "480dfd714759c9719b18249f93eaca2b6739f90b1364cfcd6590182906b51592",
+      "geometry": "2ce4349d65d3ae95b86534eff9b26093aad9d59b0d92cd14fb658e585fae8dc8",
+      "cameras": "d746fccc0449fae268a487d90ba5ea4da29c4ec5392e1c42a4fc4003bcacb045"
+    },
+    "renderer": {
+      "vendor": "Google Inc. (NVIDIA)",
+      "renderer": "ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA H200 (0x00002335)), NVIDIA)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "shadingLanguageVersion": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+      "contextAttributes": {
+        "alpha": true,
+        "antialias": true,
+        "depth": true,
+        "desynchronized": false,
+        "failIfMajorPerformanceCaveat": false,
+        "powerPreference": "high-performance",
+        "premultipliedAlpha": true,
+        "preserveDrawingBuffer": true,
+        "stencil": false,
+        "xrCompatible": false
+      },
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "maxima": {
+    "maxPositionError": 0,
+    "maxQuaternionError": 7.884953353001448e-8,
+    "maxMatrixError": 0,
+    "maxJointPositionError": 0,
+    "maxContactError": 1.2290081839637012e-15,
+    "cameraWorldError": 0,
+    "cameraProjectionError": 0,
+    "proxyMatrixError": 0
+  },
+  "sourceStateUnchanged": true,
+  "replacementGeometryUnchanged": true,
+  "renderAndPipeMs": 6879.674890000001,
+  "elapsedMs": 13233.049611,
+  "browserProbeMs": 4818.143325999999,
+  "timingNote": "Elapsed includes server/browser startup, loading, two representations, readback, encoding and checks; excludes source preparation, development and downstream video verification.",
+  "encoders": [
+    {
+      "path": "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/results/city-crossing-capsule/render/mixed/video.mp4",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-n",
+        "-f",
+        "image2pipe",
+        "-vcodec",
+        "mjpeg",
+        "-framerate",
+        "30",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "18",
+        "-pix_fmt",
+        "yuv420p",
+        "-threads",
+        "2",
+        "-movflags",
+        "+faststart",
+        "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/results/city-crossing-capsule/render/mixed/video.mp4"
+      ]
+    },
+    {
+      "path": "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/results/city-crossing-capsule/render/capsule-example/video.mp4",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-n",
+        "-f",
+        "image2pipe",
+        "-vcodec",
+        "mjpeg",
+        "-framerate",
+        "30",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "18",
+        "-pix_fmt",
+        "yuv420p",
+        "-threads",
+        "2",
+        "-movflags",
+        "+faststart",
+        "/mnt/workspace/hzh/PROWBench-representation-example/examples/representation-swap/results/city-crossing-capsule/render/capsule-example/video.mp4"
+      ]
+    }
+  ]
+}

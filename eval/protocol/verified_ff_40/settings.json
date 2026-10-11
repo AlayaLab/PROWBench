@@ -1,0 +1,78 @@
+{
+  "dataset": "verified_ff_40",
+  "files": {
+    "events": "events.json",
+    "descriptions": "descriptions.json"
+  },
+  "ground_truth": {
+    "first_person_filter": "auto"
+  },
+  "judge": {
+    "model": "Qwen/Qwen3.6-27B",
+    "dtype": "bfloat16",
+    "device": "cuda:0",
+    "decoding": "greedy",
+    "max_new_tokens": 2048,
+    "enable_thinking": false
+  },
+  "interaction": {
+    "frames": 8,
+    "crop_margin": 0.35,
+    "prompt": "interaction_windowed.PROMPT"
+  },
+  "alignment": {
+    "frames": 12,
+    "window_pad": 0.3,
+    "crop_margin": 0.35,
+    "end_state_frames": 4,
+    "end_state_seconds": 0.5,
+    "static_frames": 12,
+    "max_static_facts": 8,
+    "seed": 0,
+    "foil": "distinct_timeline",
+    "foil_offset": 20,
+    "prompts": [
+      "alignment_windowed.DYNAMIC_PROMPT",
+      "alignment_windowed.END_STATE_PROMPT",
+      "alignment_windowed.STATIC_PROMPT"
+    ]
+  },
+  "detector": {
+    "tracker": "sam3",
+    "model": "facebook/sam3",
+    "sam3_score_thresh": 0.2,
+    "sam3_prompts": {
+      "obstacle": "barricade",
+      "cable": "tow cable",
+      "weapon": "rifle"
+    },
+    "sam3_fallback": "sam2",
+    "sam2_model": "facebook/sam2.1-hiera-large",
+    "grid_hz": 8,
+    "sam3_fallback_engine_renders": "sam2_unmatched"
+  },
+  "camera": {
+    "estimator": "vipe",
+    "vipe_version": "1.2.0",
+    "vipe_pipeline": "pose_only",
+    "seed": 0,
+    "protocol": "cami2v",
+    "grid_hz": 8
+  },
+  "quality": {
+    "vbench": "0.1.5",
+    "vbench_mode": "custom_input",
+    "vbench_dimensions": [
+      "imaging_quality",
+      "aesthetic_quality"
+    ],
+    "vbench_motion_dimensions": [
+      "motion_smoothness"
+    ],
+    "warp_size": "672x384",
+    "raft_iters": 20,
+    "raft_checkpoint": "raft-things.pth",
+    "clip_model": "ViT-B/32",
+    "clip_frames_per_second": 8.0
+  }
+}

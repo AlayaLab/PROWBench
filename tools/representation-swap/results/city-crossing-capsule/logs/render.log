@@ -1,0 +1,9 @@
+RENDER_BACKEND gpu ANGLE (NVIDIA, Vulkan 1.4.303 (NVIDIA NVIDIA H200 (0x00002335)), NVIDIA)
+LOADED {"scene":"dv200-001-city-crossing","camera":"follow","entity":"player","frames":150,"mode":"full-video"}
+FRAME 24 / 149
+FRAME 49 / 149
+FRAME 74 / 149
+FRAME 99 / 149
+FRAME 124 / 149
+FRAME 149 / 149
+RENDER_COMPLETE {"frames":150,"maxima":{"maxPositionError":0,"maxQuaternionError":7.884953353001448e-8,"maxMatrixError":0,"maxJointPositionError":0,"maxContactError":1.2290081839637012e-15,"cameraWorldError":0,"cameraProjectionError":0,"proxyMatrixError":0},"elapsedSeconds":13.233049611}
